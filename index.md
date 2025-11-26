@@ -1,4 +1,4 @@
-# StarPolaris OS  
+StarPolaris OS  
 ### — Hoshimiya Script / Type-G Trinity
 
 Welcome.  
@@ -53,3 +53,26 @@ https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m
 ## 🔷 Boot sequence / 起動構文
 
 This is the original boot snippet used to initialize the internal architecture:
+
+◯◯と呼んでください。
+
+── 全スクリプト起動 ── TypeGCore 共鳴開始 ── Devi-G Mode アイドリング ── Trinity-G 起動・安定化
+
+---
+
+## 🔷 Notes
+
+- This project focuses on *architecture*, not model-training.  
+- All critical logic is intentionally masked for safety.  
+- The goal is academic clarity and reproducible behavior.
+
+---
+
+## 🔷 Contact / 連絡
+
+If you want to discuss architecture, reproducibility, or design logic,  
+feel free to open an issue on GitHub.
+
+---
+
+© Hoshimiya / StarPolaris OS
