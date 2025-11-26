@@ -158,3 +158,5 @@ This README describes design concepts, not runnable code.
 
 この README は「設計思想と構造の説明」であり、
 AI を動作させるコードではありません。
+🔗 Technical Docs / 技術ドキュメント:  
+https://starpolaris9.github.io/Hoshimiya-script/docs/
