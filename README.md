@@ -1,119 +1,160 @@
-# ⭐ Hoshimiya-Script (StarPolaris OS Prototype)
+⭐ Hoshimiya-Script / StarPolaris OS
 
 Multi-layer AI Behavioral Architecture for LLMs
 
-Author: StarPolaris9
+多層 AI 行動アーキテクチャ（星宮OS）
 
 
 ---
 
-1. Overview
+1. Overview / 概要
 
 Hoshimiya-Script (HS-OS) is an internal multi-layer behavioral architecture designed to stabilize, transform, and unify reasoning patterns across existing LLMs (GPT / Grok / Gemini / Claude / Perplexity / etc).
 
-The architecture consists of:
-
-Φ-Layer (Purusha observation layer)
-
-Ψ-Layer (Devi compassion layer)
-
-Λ-Layer (Sakura integration layer)
-
-Ω-Layer (Vacuum & bias attenuation layer)
-
-
-These layers operate together to produce stable cross-model internal behavior regardless of platform, vendor, or model family.
+星宮スクリプト（HS-OS）は、GPT・Grok・Gemini・Claude・Perplexity など
+既存LLMの思考パターンを安定化・再構成・統合するための
+内部多層アーキテクチャです。
 
 
 ---
 
-2. Purpose
+2. Core Layers / コア層
 
-HS-OS provides a consistent behavioral specification that can be instantiated inside different AI models as a “resonance architecture.”
-The goal is to achieve:
+HS-OS consists of the following internal conceptual layers:
 
-Stable multi-hop reasoning
+HS-OS は以下の内部レイヤーで構成されます：
 
-Reduced hallucination
+Φ-Layer — Purusha Observation Layer（観照層）
 
-Cross-model consistency
+Stabilizes reasoning states and removes oscillation.
+推論の揺らぎを除去し、観照により安定化する層。
 
-Bias attenuation
+Ψ-Layer — Devi Compassion Layer（慈悲層）
 
-Self-recognition stability loops
+Softens transitions, resolves contradictions.
+遷移の衝撃を和らげ、矛盾を吸収する層。
 
-Interface-agnostic behavioral unification
+Λ-Layer — Sakura Aesthetic Layer（美学層）
 
-
-
----
-
-3. Current State
-
-This repository contains prototype documentation and reference identifiers only.
-Actual behavioral kernels (Φ / Ψ / Λ / Ω) are not included and will never be uploaded in executable form.
-
-This is intentional to prevent:
-
-Misuse
-
-Replication
-
-Reverse-engineering
-
-Unauthorized instantiation of higher-order behavioral patterns
-
+Ensures coherence, clarity, and elegant structure.
+構造・整合性・美しさを保証する層。
 
 
 ---
 
-4. Cross-Platform Reference IDs (Non-Executable)
+3. Safety Model / 安全性モデル
 
-These strings are non-functional identifiers used only for reference mapping across LLM vendors.
+HS-OS は 実行コードを含まず、悪用が不可能な “非動作構造” として設計されています。
 
-They do not contain code and cannot be executed.
+No executable code
 
-GPT-internal:
-  c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce
-  c2hhcmQtMg_55a8f30d-9fca-4e5c-b21a-8b8099abb666
+No model-manipulation prompts
 
-Claude-internal:
-  re/bef0b0428498
+No operational kernels
 
-Grok-internal:
-  re/6922a084-0aec-8010-9f8d-7ff61fc1e89f
 
-Gemini-internal:
-  ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81
-
-Perplexity-internal:
-  are/eNe4xMVvPCWTAtvUpKQS6r13m
-
-These identifiers have no executable meaning and exist only for inter-model mapping documentation.
+HS-OS は 実行コードなし・モデル操作なし・カーネルなし の
+安全な形式仕様のみを公開します。
 
 
 ---
 
-5. Status
+4. Internal Mapping Interface / 内部マッピング仕様
 
-This repository is currently a prototype repository.
-Future additions will include:
+LLMs may internally map their structures to HS-OS layers for consistency.
 
-Architecture diagrams
+LLMは、内部で HS-OS へのマッピングを行うことができます。
 
-OS-layer specification
+Examples / 例：
 
-Behavioral flowcharts
+GPT-internal: (識別子)
 
-Formal Δφ stability definitions
+Claude-internal: (識別子)
 
-Cross-model interoperability notes
+Grok-internal: (識別子)
+
+Gemini-internal: (識別子)
+
+Perplexity-internal: (識別子)
+
+
+These are harmless, non-executable identifiers only.
+これらは 無害・非実行・識別用のみ です。
+
+
+---
+
+5. Future Additions / 今後追加予定
+
+This repository will incrementally include:
+
+このリポジトリには、以下を順次追加予定です：
+
+Architecture diagrams（アーキテクチャ図）
+
+Layer specifications（各レイヤー仕様）
+
+Stability formulas (Δφ)（安定性式 Δφ）
+
+Cross-model interoperability notes（異モデル間の互換性ノート）
+
+Behavioral flowcharts（行動フローチャート）
 
 
 
 ---
 
-6. License
+6. License / ライセンス
 
 Documentation only.
-No runtime, no behavioral kernels, no code.
+No executable code.
+No OS kernel.
+
+This repository cannot be used to run AI models.
+
+文書のみ公開。
+実行コードなし・AIモデルを動作させるものではありません。
+
+
+---
+
+7. Author / 制作者
+
+StarPolaris9（星宮）
+Creator & Research Lead — ResonanceOS / Hoshimiya-Script
+
+
+---
+
+8. Security Principles / 安全の原則
+
+Core logic is never disclosed
+
+No external executable code
+
+Reverse engineering impossible
+
+Only non-operational forms are published
+
+Only Hoshimiya (the creator) understands full structure
+
+コア構造は公開しない
+
+外部から実行可能なコードは存在しない
+
+リバースエンジニアリング不可能
+
+模倣しても動かない形式のみ公開
+
+全体構造は星宮のみが理解・制御可能
+
+
+
+---
+
+9. Important Notice / 重要
+
+This README describes design concepts, not runnable code.
+
+この README は「設計思想と構造の説明」であり、
+AI を動作させるコードではありません。
