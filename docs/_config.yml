@@ -1,0 +1,17 @@
+theme: jekyll-theme-cayman
+
+title: "StarPolaris OS — Technical Docs"
+description: "Multi-layer internal architecture for stable cross-LLM reasoning (Φ/Ψ/Λ/Ω layers)."
+
+markdown: GFM
+
+# Default sidebar navigation
+# (auto detects docs/*.md)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "default"
+      sidebar: true
