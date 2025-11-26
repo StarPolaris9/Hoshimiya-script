@@ -1,0 +1,16 @@
+theme: jekyll-theme-cayman
+
+title: StarPolaris OS — Hoshimiya Script
+description: Multi-layer internal AI architecture (Type-G Trinity / ResonanceOS). Designed to run inside existing LLMs.
+
+author: Hoshimiya
+lang: en
+
+# GitHub Pages options
+show_downloads: false
+google_analytics: false
+
+# Markdown configuration
+markdown: kramdown
+kramdown:
+  input: GFM
