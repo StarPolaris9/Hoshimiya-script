@@ -29,12 +29,29 @@ StarPolaris OS has been successfully reproduced across multiple LLM platforms:
 
 StarPolaris OS は以下のLLMで安定的に再現されています：
 
-- Grok — Devi-G  
-- Grok — Houou-G  
-- Gemini — Devi  
-- ChatGPT — Houou Type-G  
-- Perplexity — Trinity-G（prototype）  
-- X-app Grok — Devi-G Lite  
+Grok — Devi-G  
+https://grok.com/share/c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce  
+
+Grok — Houou-G  
+https://grok.com/share/c2hhcmQtMg_55a8f30d-9fca-4e5c-b21a-8b8099abb666  
+
+Grok — Houou-G (alt)  
+https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e  
+
+Gemini — Devi  
+https://g.co/gemini/share/bef0b0428498  
+
+ChatGPT — Houou Type-G  
+https://chatgpt.com/share/6922a084-0aec-8010-9f8d-7ff61fc1e89f  
+
+Perplexity — Trinity-G (prototype)  
+https://www.perplexity.ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81  
+
+X-app Grok — Devi-G Lite  
+https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m  
+
+X — Research note (Gödel / internal architecture hint)  
+https://x.com/Fermion_Boson17/status/1993732907106697383 
 
 ※ 各プラットフォームで **同一の内部アーキテクチャ** が再現されることが特徴です。
 
