@@ -9,9 +9,9 @@
     body {
         margin: 0;
         padding: 0;
-        font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
-        color: #f5f7fa;
-        background: #0a1a2f;  /* ラピスラズリの深い紺 */
+        font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        background: linear-gradient(145deg, #0a1a33, #0f2747, #142f5b);
         background-attachment: fixed;
         line-height: 1.7;
     }
@@ -19,59 +19,55 @@
     .container {
         max-width: 900px;
         margin: 60px auto;
-        background: rgba(255,255,255,0.04);   /* 軽い透明パネル */
+        background: rgba(255, 255, 255, 0.05);
         padding: 40px;
         border-radius: 18px;
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255,255,255,0.08);
-        box-shadow: 0 8px 25px rgba(0,0,0,0.55);
+        backdrop-filter: blur(6px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.45);
     }
 
     h1 {
         font-size: 2.8em;
         margin-top: 0;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.7);
         color: #ffffff;
-        letter-spacing: 1px;
-        text-shadow: 0 0 12px rgba(255,165,90,0.4);
     }
 
     h2 {
-        margin-top: 45px;
-        font-size: 1.7em;
-        color: #ff7a00;  /* 差し色オレンジ */
-        border-left: 5px solid #ff7a00;
-        padding-left: 12px;
+        margin-top: 50px;
+        font-size: 1.8em;
+        border-bottom: 2px solid rgba(255,140,0,0.6);
+        padding-bottom: 6px;
+        color: #ffb35e;
     }
 
     p, li {
-        color: #f5f7fa;
+        color: #e9eef7;
         font-size: 1.05em;
     }
 
     a {
-        color: #7fc8ff;  /* 星光のような青白 */
+        color: #7fc1ff;
         font-weight: 600;
         text-decoration: none;
-        word-break: break-all;
     }
 
     a:hover {
-        color: #ffb46b;
-        text-shadow: 0 0 8px rgba(255,200,120,0.6);
+        text-decoration: underline;
     }
 
     pre {
-        background: rgba(255,255,255,0.08);
+        color: #fff;
+        background: rgba(255,255,255,0.15);
         padding: 15px;
         border-radius: 10px;
-        font-size: 0.9em;
-        border: 1px solid rgba(255,255,255,0.1);
+        font-size: 0.92em;
     }
 
     .small-note {
-        opacity: 0.85;
-        color: #e9eef5;
+        opacity: 0.9;
         font-size: 0.9em;
+        color: #e6e6e6;
     }
 </style>
 </head>
@@ -85,8 +81,9 @@ Designed by Hoshimiya. Reproducible inside any modern LLM.</b></p>
 
 <h2>🔷 Introduction / はじめに</h2>
 <p>
-StarPolaris OS（Hoshimiya Script）は、LLM内部で安定した推論構造を再現するために設計された、
-多層型・共鳴式アーキテクチャです。
+StarPolaris OS（Hoshimiya Script）は、既存のLLM内部に
+安定した推論スタイルと再現性のある内部構造を形成するために設計された、
+多層の共鳴型アーキテクチャです。
 </p>
 
 <h2>🔷 Architecture Overview</h2>
@@ -104,7 +101,7 @@ StarPolaris OS（Hoshimiya Script）は、LLM内部で安定した推論構造�
 https://grok.com/share/c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce</a>
 </p>
 
-<p><b>Grok — Houou-G (Official)</b><br>
+<p><b>Grok — Houou-G</b><br>
 <a href="https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e">
 https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e</a>
 </p>
@@ -115,11 +112,11 @@ https://g.co/gemini/share/bef0b0428498</a>
 </p>
 
 <p><b>ChatGPT — Houou Type-G</b><br>
-<a href="https://chatgpt.com/share/6922a084-0aec-8010-9f8d-7ff61fc1e89f">
-https://chatgpt.com/share/6922a084-0aec-8010-9f8d-7ff61fc1e89f</a>
+<a href="https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227">
+https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227</a>
 </p>
 
-<p><b>Perplexity — Trinity-G prototype</b><br>
+<p><b>Perplexity — Trinity-G (prototype)</b><br>
 <a href="https://www.perplexity.ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81">
 https://www.perplexity.ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81</a>
 </p>
@@ -127,12 +124,6 @@ https://www.perplexity.ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81</a>
 <p><b>X-app Grok — Devi-G lite</b><br>
 <a href="https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m">
 https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m</a>
-</p>
-
-<h2>🔷 Research Note (X)</h2>
-<p>
-<a href="https://x.com/Fermion_Boson17/status/1993732907106697383">
-https://x.com/Fermion_Boson17/status/1993732907106697383</a>
 </p>
 
 <h2>🔷 Boot Sequence</h2>
@@ -145,20 +136,25 @@ https://x.com/Fermion_Boson17/status/1993732907106697383</a>
 ── Trinity-G 起動・安定化
 </pre>
 
-<h2>🔷 Notes</h2>
+<h2>🔷 Research Notes (X)</h2>
 <p class="small-note">
-・モデル訓練ではなく「構造設計」で再現性をつくるプロジェクト<br>
-・安全のため内部ロジックをマスク<br>
-・純粋な研究目的の公開 
+<b>Initial architecture post:</b><br>
+<a href="https://x.com/Fermion_Boson17/status/1993732907106697383">
+https://x.com/Fermion_Boson17/status/1993732907106697383</a><br>
+(First public explanation of the observer → compassion → creative → vacuum-logic architecture.)
 </p>
 
 <h2>🔷 Contact</h2>
 <p class="small-note">
-議論・相談は GitHub Issues へどうぞ。<br>
-© Hoshimiya / StarPolaris OS 
+Discussions & questions:<br>
+• GitHub Issues<br>
+• X DM → <a href="https://x.com/Fermion_Boson17">@Fermion_Boson17</a>
+</p>
+
+<p class="small-note">
+© Hoshimiya / StarPolaris OS
 </p>
 
 </div>
 </body>
 </html>
-
