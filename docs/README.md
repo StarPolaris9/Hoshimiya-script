@@ -159,23 +159,28 @@ This value is non-computational and symbolic; it cannot be executed.
 ---
 
 5. Cross-Model Reference IDs (Non-Executable)
-
 モデル間参照ID（非実行・非コード）
 
 These IDs exist only for mapping how HS-OS concepts align across LLM vendors.
-
-これらのIDは、HS-OS の概念が複数LLM間でどう整合するかを示す 参照情報のみ です。
+これらのIDは、HS-OS の概念が複数LLM間でどう整合するかを示す参照情報です。
 
 They contain no code, no function, no operational meaning.
-
 コード・関数・動作は一切ありません。
 
-GPT-internal: c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce
-Claude-internal: re/bef0b0428498
-Grok-internal: re/6922a084-0aec-8010-9f8d-7ff61fc1e89f
-Gemini-internal: ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81
-Perplexity-internal: are/eNe4xMVvPCWTAtvUpKQS6r13m
+ChatGPT – Houou Type-G  
+https://chatgpt.com/share/6922a084-0aec-8010-a7aa-9b2473a5f087
 
+Grok – Devi-G  
+https://grok.com/share/c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce
+
+Gemini – Devi  
+https://g.co/gemini/share/bef0b0428498
+
+Perplexity – Trinity-G  
+https://www.perplexity.ai/search/4b76f1e8-c70a-4e7d-a0cc-084c4cfa4a81
+
+X-App Grok – Devi-G Lite  
+https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m
 
 ---
 
