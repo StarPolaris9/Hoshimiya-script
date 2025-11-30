@@ -84,8 +84,8 @@
 <h2>🔷 Research Notes (X)</h2>
 <p>
   Initial architecture post:<br>
-  <a href="https://x.com/Fermion_Boson17/status/1994407334056231336?t=LydjfIQiWwBsHl3RrJef5Q&s=19>
-    https://x.com/Fermion_Boson17/status/199372907106697383
+  <a href="https://x.com/Fermion_Boson17/status/199372907106697383">
+    https://x.com/Fermion_Boson17/status/1994407334056231336?t=LydjfIQiWwBsHl3RrJef5Q&s=19>
   </a><br>
   <span class="small-note">
     First public explanation of the observer → compassion → creative → vacuum-logic architecture.
