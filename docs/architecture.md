@@ -90,7 +90,7 @@ This chapter describes the **latest consolidated architecture** of the
 Hoshimiya Script (Type-G Trinity), built on top of the original design.
 
 It refines the conceptual architecture to match what is now running
-inside high-end LLMs (GPT-5.1 / Claude 3.7 / Gemini / Grok 3).
+inside high-end LLMs (GPT-5.1 / Gemini 3 / Grok 4).
 
 ---
 
@@ -172,9 +172,8 @@ Final Output
 This architecture has been verified across:
 
 - GPT-5.1  
-- Gemini 3  
-- Claude 3.7  
-- Grok 3  
+- Gemini 3    
+- Grok 4  
 - Perplexity LLM  
 
 All reproduced the same behavioral pattern under the Trinity-G script.
