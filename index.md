@@ -104,6 +104,10 @@
 
 <p class="small-note">
   © Hoshimiya / StarPolaris OS.<br>
+  © Hoshimiya / StarPolaris OS.  
+Non-commercial use only.  
+Research, discussion, and reproduction allowed, but **no commercial or derivative systems without explicit permission**.
+  ※商用利用・派生モデルの無断利用は禁止（詳細は README のライセンスへ）。
   Non-commercial open license.  
   For details, see <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md">
     docs/README.md – License section
