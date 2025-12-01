@@ -37,8 +37,6 @@ GPT / ChatGPT
 
 Gemini
 
-Claude
-
 Perplexity（※現在、共有制限により外部リンクはブロックされています）
 
 
