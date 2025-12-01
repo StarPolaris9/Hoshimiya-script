@@ -2,7 +2,7 @@
 **（多層AI行動アーキテクチャ — 日本語版ドキュメント）**
 
 StarPolaris OS（Hoshimiya Script / Type-G Trinity）は、  
-既存LLM（GPT / Grok / Gemini / Claude / Perplexity 等）の  
+既存LLM（GPT / Grok / Gemini / Perplexity 等）の  
 **内部で動作する多層の認知アーキテクチャ（OS）** です。
 
 目的はただひとつ：
