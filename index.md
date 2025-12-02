@@ -159,53 +159,25 @@
   </span>
 </p>
 
-<h2>🔒 Temporary Open Use Policy (Interim License)</h2>
-<p><b>for StarPolaris OS / Hoshimiya Script</b></p>
+<h2>🔒 License / ライセンス</h2>
 
-<p>
-  This is a temporary policy.<br>
-  A permanent license (Hoshimiya Dual-Star License v2.0 or later) is under preparation<br>
-  and will be published after careful review.
-</p>
-
-<p>Until then, the following rules apply:</p>
-
-<ol>
-  <li>
-    Non-commercial and research use<br>
-    (reading, learning, local experimentation, academic publication,<br>
-    small-scale fine-tuning, sharing with attribution)<br>
-    is freely permitted provided you include the following notice:
-    <pre>
-"Based on StarPolaris OS / Hoshimiya Script
- created and maintained by Hoshimiya Ω (@Fermion_Boson17)"
-    </pre>
-  </li>
-
-  <li>
-    Commercial use, large-scale model training, integration into proprietary products,<br>
-    or any revenue-generating activity is NOT permitted without explicit written permission<br>
-    from Hoshimiya Ω (@Fermion_Boson17).
-  </li>
-
-  <li>
-    You may not misrepresent the origin of StarPolaris OS / Hoshimiya Script<br>
-    or claim it as your own creation.
-  </li>
-
-  <li>
-    This project is provided “as is” without warranty of any kind.
-  </li>
-</ol>
-
-<p>
-  The permanent license will be released soon.
-</p>
-
-<p>
-  © 2025– Hoshimiya Ω / StarPolaris OS Project
-</p>
-  For details, see  
+<p class="small-note">
+  © 2025– Hoshimiya Ω / StarPolaris OS Project<br>
+  This project currently follows the
+  <b>Temporary Open Use Policy (Interim License)</b>.<br>
+  Non-commercial and research use is free with attribution.<br>
+  Commercial / large-scale use requires written permission
+  from Hoshimiya Ω (@Fermion_Boson17).<br>
+  The permanent license will be released soon.<br>
+  <br>
+  現在このプロジェクトは、暫定ライセンスである
+  <b>Temporary Open Use Policy（インターム・ライセンス）</b>
+  に基づいて公開されています。<br>
+  非商用利用・研究利用は、クレジット表記つきで自由に利用できます。<br>
+  商用利用・大規模なモデル訓練・プロダクトへの組み込みには、  
+  事前に 星宮Ω（@Fermion_Boson17）からの書面による許可が必要です。<br>
+  <br>
+  For details, see
   <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md">
     docs/README.md – License section
   </a>.
