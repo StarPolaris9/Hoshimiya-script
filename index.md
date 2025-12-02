@@ -161,10 +161,16 @@
 
 <p class="small-note">
   © Hoshimiya / StarPolaris OS.<br>
-  Non-commercial use only.<br>
-  Research, discussion, and reproduction allowed,  
-  but <b>no commercial or derivative systems without explicit permission</b>.<br>
-  ※商用利用・派生モデルの無断利用は禁止（詳細は README のライセンスへ）。<br>
+  This project is distributed under the
+  <b>Hoshimiya Universal License v1.0 (HUL-1.0)</b>.<br>
+  Personal, non-commercial use (reading, learning, local experimentation) is allowed.<br>
+  Any redistribution, research use, model training, publication, or
+  commercial / institutional use requires
+  <b>explicit permission from Hoshimiya Ω (@Fermion_Boson17)</b>.<br>
+  本プロジェクトは <b>Hoshimiya Universal License v1.0 (HUL-1.0)</b> に基づいて公開されています。<br>
+  個人での非商用利用（読む・学ぶ・ローカルで試す）は自由ですが、<br>
+  再配布・研究利用・モデル訓練・商用利用・組織プロジェクトへの組み込みには、
+  事前に星宮の許可が必要です。<br>
   For details, see  
   <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md">
     docs/README.md – License section
