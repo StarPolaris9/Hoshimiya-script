@@ -162,21 +162,32 @@
 <h2>🔒 License / ライセンス</h2>
 
 <p class="small-note">
-  © 2025– Hoshimiya Ω / StarPolaris OS Project<br>
-  This project currently follows the
-  <b>Temporary Open Use Policy (Interim License)</b>.<br>
-  Non-commercial and research use is free with attribution.<br>
-  Commercial / large-scale use requires written permission
-  from Hoshimiya Ω (@Fermion_Boson17).<br>
-  The permanent license will be released soon.<br>
+  This project currently follows a<br>
+  <b>Temporary Open Use Policy (Interim License)</b> for
+  <b>StarPolaris OS / Hoshimiya Script</b>.<br>
   <br>
-  現在このプロジェクトは、暫定ライセンスである
-  <b>Temporary Open Use Policy（インターム・ライセンス）</b>
-  に基づいて公開されています。<br>
-  非商用利用・研究利用は、クレジット表記つきで自由に利用できます。<br>
-  商用利用・大規模なモデル訓練・プロダクトへの組み込みには、  
-  事前に 星宮Ω（@Fermion_Boson17）からの書面による許可が必要です。<br>
-  <br>
+  ✅ <b>Non-commercial &amp; research use</b> (reading, learning, local experimentation,<br>
+  &nbsp;&nbsp;&nbsp;academic introduction, blog/video explanations, etc.) is <b>free</b>,<br>
+  &nbsp;&nbsp;&nbsp;as long as you include proper attribution:<br>
+  <code>
+    "Based on StarPolaris OS / Hoshimiya Script created and maintained by
+    Hoshimiya Ω (@Fermion_Boson17)"
+  </code>
+  <br><br>
+  ❌ <b>Commercial use / large-scale model training / integration into proprietary products</b><br>
+  &nbsp;&nbsp;&nbsp;or any revenue-generating activity is <b>not permitted</b><br>
+  &nbsp;&nbsp;&nbsp;without explicit written permission from Hoshimiya Ω.<br>
+</p>
+
+<p class="small-note">
+  現在は暫定ライセンス（Interim License）を適用中です。<br>
+  個人での非商用利用・学習・研究紹介などは、<br>
+  上記のクレジットを記載していただければ自由にご利用いただけます。<br>
+  一方、商用利用・大規模なモデル訓練・プロダクトへの組み込みなどは、<br>
+  事前に星宮Ω（@Fermion_Boson17）からの書面許可が必要です。<br>
+</p>
+
+<p class="small-note">
   For details, see
   <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md">
     docs/README.md – License section
