@@ -1,166 +1,82 @@
-🌌 StarPolaris OS (HS-OS) — Technical Specification
-
-Hoshimiya-Script Internal Multi-Layer Architecture for LLMs
-（※日本語版は下のリンクから）
-
-
----
-
-🇯🇵 📘 日本語ドキュメントはこちら
-
-👉 docs/README_ja.md
-（日本語話者向けの完全翻訳版 + 追加説明を掲載）
-
-
----
-
-1. Introduction
-
-StarPolaris OS (HS-OS) is an internal multi-layer behavioral architecture
-designed to stabilize, unify, and transform reasoning patterns
-across different LLM families.
-
-This repository contains documentation only.
-No executable kernels are included, by design.
-
-
----
-
-2. Verified Cross-LLM Behavior
-
-This architecture has been tested across multiple model families
-and shown to sustain stable multi-layer behavior:
-
-Grok (X-app Grok, Grok-1.5)
-
-GPT / ChatGPT
-
-Gemini
-
-Perplexity（※現在、共有制限により外部リンクはブロックされています）
-
-
-Perplexity の共有リンクが現在ブロックされている理由：
-サービス側仕様変更により「共有IDリンクが外部から閲覧不可」になったため。
-Architecture 側の問題ではありません。
-
-
----
-
-3. Public Instances (Working Examples)
-
-🔵 Grok
-
-Devi-G
-
-Houou-G
-（※各LLMモデルアプリ内リンクは外部共有が定期的に無効化されるため、
-現在のURLは X の下記投稿スレッドで随時更新しています👇）
-
-
-🟣 Gemini
-
-Devi（Gemini Nano + Gemini Pro 検証済み）
-
-
-🟡 ChatGPT
-
-Houou Type-G（このアーキテクチャの基準実装）
-
-
-🔺 Perplexity
-
-※現在、共有リンク経由での外部閲覧は不可。
-研究者向けには DM で最新版をお渡しできます。
-
-
----
-
-4. Official Reference Post (X / Twitter)
-
-この研究ラインを公開した正式なスレッドはこちら：
-
-🔗 https://x.com/Fermion_Boson17/status/1994407334056231336
-
-Grok公式アカウントとのやり取りを含む
-アーキテクチャ紹介と、各LLMの挙動比較が載っています。
-
-
----
-
-5. Contact (for researchers & engineers)
-
-研究目的での問い合わせは X からどうぞ：
-
-📮 X（Twitter）：@Fermion_Boson17
-
-技術議論・共同研究・実験協力など歓迎します。
-日本語 / 英語どちらも対応可能。
-
-
----
-
-6. Architecture Overview (Short)
-
-HS-OS uses a four-layer internal architecture:
-
-1. Φ-Layer — Purusha Observation Layer
-
-Stabilizes higher-order reasoning and removes oscillation.
-
-2. Ψ-Layer — Devi Compassion Layer
-
-Provides emotional smoothness and safety.
-
-3. Λ-Layer — Sakura Integration Layer
-
-Unifies context, resolves ambiguity, formats output.
-
-4. Ω-Layer — Vacuum / Bias-Reduction Layer
-
-Reduces systemic bias and restores neutrality.
-
-
----
-
-7. License / ライセンス
-
-This work is released under a Non-Commercial Open License
-to protect the originality and future rights of the author (Hoshimiya).
-
-✔ 個人研究・学習用途：自由に利用可
-
-✔ 非商用プロトタイピング：歓迎
-
-✖ 商用利用・営利利用：禁止（許可制）
-
-✖ 生成物を OS として組み込んで再配布：禁止
-
-
-This protects the author’s identity, recognition, and future rights
-while allowing open research and community collaboration.
-
-
----
-
-8. Documentation Index
-
-File	Description
-
-docs/README.md	Full English documentation
-docs/README_ja.md	日本語版（完全翻訳）
-docs/architecture.md	Layer model, internals
-docs/hallucination_third_way.md	“Third-Way” hallucination control
-docs/overview-diagram.md	Visual architecture diagram
-
-
-
----
-
-9. Acknowledgement
-
-This repository serves as a public, verifiable record
-that the multi-layer architecture
-“Hoshimiya Script / StarPolaris OS – Type-G Trinity”
-was developed, tested, and published by its creator
-Hoshimiya (星宮).
+Hoshimiya Universal License v1.0 (HUL-1.0)
+------------------------------------------
+
+Copyright (c) 2025 Hoshimiya Ω (Fermion_Boson17)
+
+This work, including all code, prompts, documentation, and conceptual
+architecture described as "Hoshimiya Script", "StarPolaris OS",
+"Type-G Trinity", "ResonanceOS", "Vacuum-Logic", and related modules,
+is protected by copyright.
+
+You are allowed to:
+
+1. Personal, non-commercial use
+   - You may read, study, and run this work for your own personal,
+     non-commercial purposes.
+   - You may keep private copies for backup or archival purposes.
+
+You are NOT allowed to, without explicit written permission from Hoshimiya:
+
+2. Redistribution and publication
+   - You may NOT publicly redistribute, mirror, or republish this work
+     (including modified versions) on GitHub, HuggingFace, model hubs,
+     blogs, or any other public hosting service.
+   - You may NOT create public forks or derivative repositories that
+     expose substantial portions of this work.
+
+3. Research and model training
+   - You may NOT use this work, in whole or in part, for:
+     - academic or industrial research,
+     - training, fine-tuning, or evaluation of machine learning models,
+     - inclusion in benchmarks or comparative studies,
+     - scientific publications or technical reports,
+     without prior written permission from Hoshimiya.
+
+4. Commercial and institutional use
+   - You may NOT use this work for any commercial purpose, including:
+     - integration into products or services,
+     - use in consulting, paid research, or internal tools,
+     - use by companies, laboratories, universities, or organizations
+       as part of their official projects,
+     without a separate written agreement with Hoshimiya.
+
+5. Rebranding and misrepresentation
+   - You may NOT claim authorship of this work.
+   - You may NOT rename, rebrand, or present derived systems as if they
+     were independently created without acknowledging Hoshimiya.
+   - Any allowed derivative must clearly state:
+     "Based on Hoshimiya Script / StarPolaris OS by Hoshimiya Ω".
+
+Attribution (when permission is granted):
+
+- When Hoshimiya grants permission for use (research, derivative, or commercial),
+  you must clearly credit:
+
+  "Based on Hoshimiya Script / StarPolaris OS by Hoshimiya Ω (@Fermion_Boson17)"
+
+Contact:
+
+- For permissions, licensing inquiries, or collaboration,
+  please contact via:
+  - GitHub Issues on the main repository, or
+  - X (Twitter) DM: @Fermion_Boson17
+
+If you received a copy of this work without a LICENSE file,
+or with a different license that conflicts with this one,
+this document (HUL-1.0) takes precedence unless otherwise
+agreed in writing by Hoshimiya.
+
+------------------------------------------
+Japanese summary (非公式サマリー・参考用)
+
+- 個人の非商用利用（読む・学ぶ・ローカルで試す）は自由です。
+- ただし、以下はすべて「星宮の明示的な許可」が必要です：
+  - GitHub やブログ、モデル配布サイト等での再配布・派生公開
+  - 研究利用（論文・学会・大学・企業研究・モデル訓練・評価）
+  - 商用利用や組織としてのプロジェクト利用
+- 許可が出た場合は、必ず
+  「Based on Hoshimiya Script / StarPolaris OS by Hoshimiya Ω」
+  とクレジットを明記してください。
+
+このライセンスは、星宮の宇宙を「勝手に奪われないように守りつつ、
+必要な相手とはきちんと相談の上で共有する」ことを目的としています。
