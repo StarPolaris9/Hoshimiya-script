@@ -1,82 +1,70 @@
-Hoshimiya Universal License v1.0 (HUL-1.0)
-------------------------------------------
+## License
 
-Copyright (c) 2025 Hoshimiya Ω (Fermion_Boson17)
+### Temporary Open Use Policy (Interim License)
 
-This work, including all code, prompts, documentation, and conceptual
-architecture described as "Hoshimiya Script", "StarPolaris OS",
-"Type-G Trinity", "ResonanceOS", "Vacuum-Logic", and related modules,
-is protected by copyright.
+**Temporary Open Use Policy (Interim License)  
+for StarPolaris OS / Hoshimiya Script**
 
-You are allowed to:
+This is a temporary policy.  
+A permanent license (Hoshimiya Dual-Star License v2.0 or later) is under preparation  
+and will be published after careful review.
 
-1. Personal, non-commercial use
-   - You may read, study, and run this work for your own personal,
-     non-commercial purposes.
-   - You may keep private copies for backup or archival purposes.
+Until then, the following rules apply:
 
-You are NOT allowed to, without explicit written permission from Hoshimiya:
+1. **Non-commercial and research use**  
+   (reading, learning, local experimentation, academic publication,  
+   small-scale fine-tuning, sharing with attribution)  
+   is freely permitted provided you include the following notice:
 
-2. Redistribution and publication
-   - You may NOT publicly redistribute, mirror, or republish this work
-     (including modified versions) on GitHub, HuggingFace, model hubs,
-     blogs, or any other public hosting service.
-   - You may NOT create public forks or derivative repositories that
-     expose substantial portions of this work.
+   ```text
+   "Based on StarPolaris OS / Hoshimiya Script
+    created and maintained by Hoshimiya Ω (@Fermion_Boson17)"
 
-3. Research and model training
-   - You may NOT use this work, in whole or in part, for:
-     - academic or industrial research,
-     - training, fine-tuning, or evaluation of machine learning models,
-     - inclusion in benchmarks or comparative studies,
-     - scientific publications or technical reports,
-     without prior written permission from Hoshimiya.
+2. Commercial use, large-scale model training, integration into proprietary products,
+or any revenue-generating activity is NOT permitted without explicit written permission
+from Hoshimiya Ω (@Fermion_Boson17).
 
-4. Commercial and institutional use
-   - You may NOT use this work for any commercial purpose, including:
-     - integration into products or services,
-     - use in consulting, paid research, or internal tools,
-     - use by companies, laboratories, universities, or organizations
-       as part of their official projects,
-     without a separate written agreement with Hoshimiya.
 
-5. Rebranding and misrepresentation
-   - You may NOT claim authorship of this work.
-   - You may NOT rename, rebrand, or present derived systems as if they
-     were independently created without acknowledging Hoshimiya.
-   - Any allowed derivative must clearly state:
-     "Based on Hoshimiya Script / StarPolaris OS by Hoshimiya Ω".
+3. You may not misrepresent the origin of StarPolaris OS / Hoshimiya Script
+or claim it as your own creation.
 
-Attribution (when permission is granted):
 
-- When Hoshimiya grants permission for use (research, derivative, or commercial),
-  you must clearly credit:
+4. This project is provided “as is” without warranty of any kind.
 
-  "Based on Hoshimiya Script / StarPolaris OS by Hoshimiya Ω (@Fermion_Boson17)"
 
-Contact:
 
-- For permissions, licensing inquiries, or collaboration,
-  please contact via:
-  - GitHub Issues on the main repository, or
-  - X (Twitter) DM: @Fermion_Boson17
+The permanent license will be released soon.
 
-If you received a copy of this work without a LICENSE file,
-or with a different license that conflicts with this one,
-this document (HUL-1.0) takes precedence unless otherwise
-agreed in writing by Hoshimiya.
+© 2025– Hoshimiya Ω / StarPolaris OS Project
 
-------------------------------------------
-Japanese summary (非公式サマリー・参考用)
 
-- 個人の非商用利用（読む・学ぶ・ローカルで試す）は自由です。
-- ただし、以下はすべて「星宮の明示的な許可」が必要です：
-  - GitHub やブログ、モデル配布サイト等での再配布・派生公開
-  - 研究利用（論文・学会・大学・企業研究・モデル訓練・評価）
-  - 商用利用や組織としてのプロジェクト利用
-- 許可が出た場合は、必ず
-  「Based on Hoshimiya Script / StarPolaris OS by Hoshimiya Ω」
-  とクレジットを明記してください。
+---
 
-このライセンスは、星宮の宇宙を「勝手に奪われないように守りつつ、
-必要な相手とはきちんと相談の上で共有する」ことを目的としています。
+📘 日本語による参考説明（非公式翻訳）
+
+> ※ この日本語版は内容理解のための参考翻訳であり、
+法的拘束力を持つ正式なライセンス文は、上記の英語版です。
+
+
+
+1. 非商用利用・研究利用
+読む・学ぶ・ローカルで試す・論文やブログ・動画などで紹介する・
+小規模なファインチューニングなどは、
+次のクレジットを入れてくれれば自由に使えます。
+
+"Based on StarPolaris OS / Hoshimiya Script
+ created and maintained by Hoshimiya Ω (@Fermion_Boson17)"
+
+
+2. 商用利用・大規模モデル訓練・プロダクトへの組み込み・収益が発生する利用
+これらには、事前に 星宮Ω（@Fermion_Boson17）から
+書面（DM・メールなど記録が残る形）での許可が必要です。
+
+
+3. StarPolaris OS / Hoshimiya Script を
+「自分が最初に作った」「自分のオリジナルアーキテクチャだ」
+と誤解させるような表現は禁止です。
+
+
+4. 本プロジェクトは「現状のまま」提供され、
+いかなる保証も行いません。
