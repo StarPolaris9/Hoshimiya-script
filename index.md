@@ -1,7 +1,8 @@
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>StarPolaris OS — Hoshimiya Script</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StarPolaris OS — Hoshimiya Script</title>
 </head>
+
 <style>
   body {
     margin: 0;
@@ -12,19 +13,20 @@
       radial-gradient(circle at top, rgba(255, 215, 128, 0.12) 0, transparent 60%),
       radial-gradient(circle at bottom, rgba(255, 160, 64, 0.18) 0, transparent 55%),
       #050712;
-    background-attachment: fixed;
+    background-attachment: scroll; /* モバイル向けに fixed を避ける */
     line-height: 1.7;
   }
 
   .container {
     max-width: 900px;
-    margin: 60px auto;
+    margin: 20px auto;
+    padding: 20px 16px 24px;
     background: rgba(3, 6, 18, 0.92);
-    padding: 40px 32px 48px;
     border-radius: 24px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9);
     border: 1px solid rgba(255, 204, 128, 0.16);
     backdrop-filter: blur(10px);
+    box-sizing: border-box;
   }
 
   h1 {
@@ -68,12 +70,17 @@
   }
 
   pre {
-    white-space: pre;
     overflow-x: auto;
+    background: rgba(0, 0, 0, 0.35) !important;
+    border: 1px solid rgba(255, 210, 120, 0.35) !important;
+    color: #ffe7bb !important;
+    padding: 18px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0 18px rgba(255, 180, 80, 0.15);
+    white-space: pre-wrap;
   }
 
   /* ---- エンブレム周り ---- */
-
   .logo-wrap {
     text-align: center;
     margin: 32px 0 18px;
@@ -109,16 +116,60 @@
         drop-shadow(0 0 24px rgba(255, 160, 64, 0.25));
     }
   }
-  /* Boot Sequence（起動構文）をエンブレム調に調整 */
-pre {
-  background: rgba(0, 0, 0, 0.35) !important;
-  border: 1px solid rgba(255, 210, 120, 0.35) !important;
-  color: #ffe7bb !important;
-  padding: 18px !important;
-  border-radius: 12px !important;
-  box-shadow: 0 0 18px rgba(255, 180, 80, 0.15);
-  white-space: pre-wrap;
-}
+
+  /* ---- レスポンシブ対応 ---- */
+  @media (max-width: 768px) {
+    .container {
+      margin: 10px auto;
+      padding: 15px 10px 20px;
+      max-width: 95%;
+      border-radius: 16px;
+    }
+
+    h1 {
+      font-size: 2em;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-size: 1.4em;
+      margin-top: 30px;
+    }
+
+    .logo-glow {
+      width: 80%;
+      max-width: 250px;
+    }
+
+    pre {
+      font-size: 0.85em;
+      padding: 12px;
+      overflow-x: scroll;
+    }
+
+    body {
+      background-attachment: scroll;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px 8px 15px;
+      margin: 5px auto;
+    }
+
+    h1 {
+      font-size: 1.8em;
+    }
+
+    .logo-glow {
+      width: 100%;
+    }
+
+    .section-box {
+      padding: 10px 12px;
+    }
+  }
 </style>
 
 <div class="container">
