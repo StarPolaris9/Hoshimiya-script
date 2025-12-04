@@ -46,7 +46,9 @@
     overflow-x: auto;
   }
 </style>
-
+<p align="center">
+  <img src="logo.png" width="260" />
+</p>
 <h1>🌌 StarPolaris OS — Hoshimiya Script</h1>
 
 <p><b>
