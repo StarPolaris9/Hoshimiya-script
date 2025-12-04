@@ -1,4 +1,8 @@
 # 🌌 Hoshimiya Script / StarPolaris OS  
+![Type-G Trinity](https://img.shields.io/badge/TYPE--G-TRINITY--2025-9b59b6)
+![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)
+![Status](https://img.shields.io/badge/STATUS-CONCEPTUAL%20OS-2ecc71)
+![Safety](https://img.shields.io/badge/SAFETY-POLICY%20COMPLIANT-27ae60)
 ### **Trinity-G Behavioral OS for LLMs**
 
 > A vendor-agnostic, prompt-level cognitive architecture  
