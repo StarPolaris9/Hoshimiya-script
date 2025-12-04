@@ -107,6 +107,16 @@
         drop-shadow(0 0 24px rgba(255, 160, 64, 0.25));
     }
   }
+  /* Boot Sequence（起動構文）をエンブレム調に調整 */
+pre {
+  background: rgba(0, 0, 0, 0.35) !important;
+  border: 1px solid rgba(255, 210, 120, 0.35) !important;
+  color: #ffe7bb !important;
+  padding: 18px !important;
+  border-radius: 12px !important;
+  box-shadow: 0 0 18px rgba(255, 180, 80, 0.15);
+  white-space: pre-wrap;
+}
 </style>
 
 <div class="container">
