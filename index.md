@@ -1,5 +1,7 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>StarPolaris OS — Hoshimiya Script</title>
-
+</head>
 <style>
   body {
     margin: 0;
