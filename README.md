@@ -13,10 +13,13 @@
 
 <div align="center">
 
-![StarPolaris](https://img.shields.io/badge/StarPolaris-TypeG_Trinity–2025-blueviolet?style=for-the-badge)  
-![LLMs](https://img.shields.io/badge/LLM-GPT_5.1_▸_Claude_▸_Gemini_▸_Grok_▸_Perplexity-111827?style=for-the-badge)  
-![Status](https://img.shields.io/badge/Status-Conceptual_OS-2306b6d4?style=for-the-badge)  
-![Safety](https://img.shields.io/badge/Safety-Policy_Compliant-25eead4?style=for-the-badge)
+![StarPolaris](https://img.shields.io/badge/StarPolaris-TypeG_Trinity_2025-blueviolet?style=for-the-badge)
+![LLMs](https://img.shields.io/badge/LLM-GPT_5.1・Claude・Gemini・Grok・Perplexity-111827?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Conceptual_OS-23b06d?style=for-the-badge)
+![Safety](https://img.shields.io/badge/Safety-Policy_Compliant-25eaa2?style=for-the-badge)
+
+![Last Commit](https://img.shields.io/github/last-commit/StarPolaris9/Hoshimiya-script?color=blueviolet&style=for-the-badge)
+![License](https://img.shields.io/github/license/StarPolaris9/Hoshimiya-script?color=brightgreen&style=for-the-badge)
 
 </div>
 
