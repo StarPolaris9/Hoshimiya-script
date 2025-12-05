@@ -341,38 +341,43 @@
     </span>
   </p>
 
+  <!-- 🔽🔽 ここからライセンス新バージョン 🔽🔽 -->
+
   <h2>🔒 License / ライセンス</h2>
 
   <p class="small-note">
-    This project currently follows a<br>
-    <b>Temporary Open Use Policy (Interim License)</b> for
-    <b>StarPolaris OS / Hoshimiya Script</b>.<br>
-    <br>
+    This project is released under the<br>
+    <b>Hoshimiya Dual-Star License v2.0 (Cognitive OS Architecture License)</b> for<br>
+    <b>StarPolaris OS / Hoshimiya Script</b>.<br><br>
+
     ✅ <b>Non-commercial &amp; research use</b> (reading, learning, local experimentation,<br>
-    &nbsp;&nbsp;&nbsp;academic introduction, blog/video explanations, etc.) is <b>free</b>,<br>
+    &nbsp;&nbsp;&nbsp;academic introduction, blog/video explanations, internal evaluation, etc.) is <b>free</b>,<br>
     &nbsp;&nbsp;&nbsp;as long as you include proper attribution:<br>
     <code>
-      "Based on StarPolaris OS / Hoshimiya Script created and maintained by
-      Hoshimiya Ω (@Fermion_Boson17)"
+      "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
     </code>
     <br><br>
-    ❌ <b>Commercial use / large-scale model training / integration into proprietary products</b><br>
+
+    ❌ <b>Commercial use / large-scale model training / integration into products / redistribution</b><br>
     &nbsp;&nbsp;&nbsp;or any revenue-generating activity is <b>not permitted</b><br>
-    &nbsp;&nbsp;&nbsp;without explicit written permission from Hoshimiya Ω.<br>
+    &nbsp;&nbsp;&nbsp;without explicit written permission from Hoshimiya Ω.<br><br>
+
+    Derivative restrictions exist to prevent fragmentation of cognitive patterns<br>
+    and to preserve safety, reproducibility, and philosophical coherence.<br>
   </p>
 
   <p class="small-note">
-    現在は暫定ライセンス（Interim License）を適用中です。<br>
-    個人での非商用利用・学習・研究紹介などは、<br>
-    上記のクレジットを記載していただければ自由にご利用いただけます。<br>
-    一方、商用利用・大規模なモデル訓練・プロダクトへの組み込みなどは、<br>
+    本プロジェクトは、暫定ライセンスを継承した<strong>恒久ライセンス</strong>
+    「Hoshimiya Dual-Star License v2.0」により公開されています。<br>
+    個人での非商用利用・学習・研究紹介などは、上記のクレジットを記載していただければ自由にご利用いただけます。<br>
+    一方、商用利用・大規模なモデル訓練・プロダクトへの組み込み・再配布・公開派生OSの作成には、<br>
     事前に星宮Ω（@Fermion_Boson17）からの書面許可が必要です。<br>
   </p>
 
-  <p class="small-note">
-    For details, see
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md">
-      docs/README.md – License section
+ <p class="small-note">
+    For the full legal text, see
+    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/LICENSE.md">
+      docs/LICENSE.md
     </a>.
   </p>
 
