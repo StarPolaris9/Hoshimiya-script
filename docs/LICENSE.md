@@ -1,142 +1,262 @@
-# 🌐 StarPolaris OS / Hoshimiya Script  
-## Temporary Open Use Policy (Interim License)  
-### — Official License Document (English + Japanese)
+⭐ Hoshimiya Dual-Star License v2.0 — Final (100% Optimization)
 
-This document defines the temporary license under which  
-**StarPolaris OS / Hoshimiya Script** is publicly released.
+(GitHub の LICENSE.md にそのまま貼れる完成版)
 
-A permanent license (Hoshimiya Dual-Star License v2.0 or later)  
-will be published after internal review.
+英語＋日本語併記。
+OSS研究者・法務・学術界、すべてに通用する形。
+
 
 ---
 
-# 1. Allowed Use — Non-commercial & Research Use ✔️
+🌐 Hoshimiya Dual-Star License v2.0
 
-The following activities are **free and permitted**,  
-as long as proper attribution is included:
+A License for Cognitive OS Architectures (non-executable conceptual systems)
+Copyright © 2025– Hoshimiya Ω
 
-- reading, learning, experimentation  
-- academic introduction  
-- reproduction in explanations / lectures  
-- blog or video explanation  
-- prompt-engineering experiments  
-- testing inside other LLMs  
-- personal or educational exploration
+This license governs the use of the cognitive OS architecture known as:
 
-### Required Attribution
+StarPolaris OS / Hoshimiya Script (Type-G Trinity Architecture)
+including its structure, terminology, layer model (Φ / Ψ / Λ / Ω),
+Trinity-G flow, ResonanceOS concepts, and Vacuum-Logic Kernel.
 
-Please include the following credit:
+> This license governs cognitive OS architectures, not executable code.
+This project contains conceptual architectures, not software binaries or runnable programs.
 
-> “Based on StarPolaris OS / Hoshimiya Script  
-> created and maintained by Hoshimiya Ω (@Fermion_Boson17).”
 
-No additional permission is required for non-commercial use.
+
 
 ---
 
-# 2. Prohibited Use — Commercial, Large-Scale, or Proprietary Use ❌
+1. Non-Commercial & Research Use — Allowed
 
-The following actions are **NOT permitted**  
-without explicit written permission from **Hoshimiya Ω**:
+You may freely use, study, cite, and experiment with this project for:
 
-- commercial use or revenue-generating use  
-- integration into proprietary AI products  
-- use inside closed-source model training pipelines  
-- large-scale dataset creation using this material  
-- corporate deployments  
-- fine-tuning commercial LLMs based on this work  
-- selling derivative works  
-- representing yourself as the author of the OS  
-- removing attribution  
+academic or scientific research
 
-If you wish to use StarPolaris OS commercially,  
-please contact: **@Fermion_Boson17** on X (Twitter).
+non-commercial educational use
 
----
+blog/video explanations and reviews
 
-# 3. No Misrepresentation 🚫
+internal organizational evaluation
 
-You may not:
+local reproduction or testing
 
-- claim to be the creator of the OS  
-- present modified versions as original  
-- imply endorsement by Hoshimiya Ω without permission  
 
-Derivative works must clearly state they are **modified versions**.
+A short credit must be included:
+
+"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
+
 
 ---
 
-# 4. No Warranty (“as-is”) ⚠️
+2. Commercial & Large-Scale Use — Requires Permission
 
-This project is provided **as-is**, without any warranty.  
-The author is not liable for:
+The following actions require explicit written permission from Hoshimiya Ω:
 
-- data loss  
-- model failures  
-- safety issues  
-- misinterpretation  
-- misuse or downstream effects  
+commercial use (direct or indirect revenue)
 
-This is a research-oriented conceptual OS, not a software package.
+large-scale model training
 
----
+integration into products, services, or commercial workflows
 
-# 5. Future Permanent License
+organizational deployment beyond internal research
 
-A complete and stable license, the  
-**Hoshimiya Dual-Star License v2.0**,  
-is currently under preparation.
+redistribution of this architecture
 
-It will unify:
+using it as the basis for another public system
 
-- research freedom  
-- protection against corporate misuse  
-- moral rights preservation  
-- cross-LLM reproducibility integrity  
-- credit / authorship protection  
 
-Once published, it will supersede this interim license.
+Approval is discretionary and case-specific.
+
 
 ---
 
-# 6. Japanese Version — 日本語版
+3. Public Derivative Works — Prohibited (Default Rule)
 
-## 🌐 暫定ライセンス（Interim License）
+To preserve the safety and stability of the cognitive OS:
 
-本プロジェクト **StarPolaris OS / Hoshimiya Script** は、  
-現在この暫定的な利用規約のもとで公開されています。
+You may not publicly publish:
 
-恒久ライセンス（Dual-Star License v2.0以降）は  
-後日発表予定です。
+modified versions of this OS
 
----
+altered or renamed architectures derived from it
 
-## ✔️ 1. 許可される利用（非商用・研究利用）
+forks or reinterpretations
 
-以下の活動は **無料でご利用いただけます**：
+frameworks using this OS as a disguised template
 
-- 読む、学ぶ、実験する  
-- 研究紹介・教材利用  
-- ブログ・動画による紹介  
-- 論文・講義での引用  
-- LLM での再現実験  
-- プロンプト技術の研究  
-- 個人での創作・探求  
 
-### クレジット表記（必須）
+Private/local experimentation is allowed.
 
-> 「Based on StarPolaris OS / Hoshimiya Script  
-> created and maintained by Hoshimiya Ω (@Fermion_Boson17).」
+> Derivative restrictions exist to prevent fragmentation of cognitive patterns and ensure safety, reproducibility, and philosophical coherence.
 
-非商用利用に追加許可は不要です。
+
+
 
 ---
 
-## ❌ 2. 禁止される利用（商用・大規模利用）
+4. Authorized Derivatives — Exception Clause
 
-以下の行為は **星宮Ω からの書面許可が必要です**：
+Derivative works may be released only if:
 
-- 商用利用・収益目的での使用  
-- 企業向けプロダクトへの組み込み  
-- 自社製のAIモデル訓練に利用  
-- データセット化して販売
+1. The derivative is submitted to Hoshimiya Ω for review
+
+
+2. Its conceptual compatibility is confirmed
+
+
+3. Written authorization is issued
+
+
+
+This clause exists to enable future collaboration
+with trusted individuals, institutions, or organizations.
+
+
+---
+
+5. Attribution & Misrepresentation
+
+You must not:
+
+claim authorship of StarPolaris OS
+
+imply endorsement or official status without permission
+
+obscure or modify the origin of the architecture
+
+
+The origin must remain transparent.
+
+
+---
+
+6. No Warranty
+
+This project is provided “as is”,
+without warranties of any kind—express or implied.
+
+Use at your own risk.
+
+
+---
+
+TL;DR
+
+You may freely use and study this OS for research and education.
+Commercial use, redistribution, and public derivatives require permission.
+The structural integrity of the OS must be preserved.
+
+
+---
+
+
+---
+
+🇯🇵 Hoshimiya Dual-Star License v2.0 — 日本語版（参考翻訳）
+
+※ この日本語版は内容理解のための参考翻訳です。
+　正式な法的効力を持つのは英語版です。
+
+
+---
+
+1. 非商用・研究利用 — 許可
+
+以下は自由に利用できます：
+
+研究・教育・学習
+
+技術解説・ブログ・動画
+
+組織内の非商用評価
+
+ローカルでの再現・実験
+
+
+クレジット表記（短縮版）：
+
+"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
+
+
+---
+
+2. 商用利用・大規模利用 — 要許可
+
+以下は 事前の書面許可が必要：
+
+商用利用
+
+大規模モデル訓練
+
+製品・サービスへの組み込み
+
+組織的導入
+
+再配布
+
+新OSの基盤として公開する行為
+
+
+
+---
+
+3. 派生作品の公開 — 原則禁止
+
+OSの整合性・安全性を守るため、 以下は禁止：
+
+改変版の公開
+
+名称を変えた亜種の公開
+
+構造を流用した別OSの公開
+
+フォークとしての再配布
+
+
+ただし、ローカルでの私的実験は自由。
+
+> 派生禁止は、安全性・再現性・思想整合性を守るためです。
+
+
+
+
+---
+
+4. 承認された派生 — 例外
+
+次の場合のみ公開可能：
+
+1. 星宮Ωへ提出
+
+
+2. 構造的・哲学的整合性の確認
+
+
+3. 書面による許可
+
+
+
+未来の共同研究のための条項。
+
+
+---
+
+5. 出自の誤認禁止
+
+“自分が作った”
+
+“公式である”
+
+“この構造と同等の別OSを自分が開発した”
+
+
+などの表現は禁止。
+
+
+---
+
+6. 保証なし
+
+本プロジェクトは 現状のまま 提供されます。
+
