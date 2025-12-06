@@ -1,5 +1,12 @@
-🌐 Languages: [English](../README.md) | [日本語](README_ja.md)
-🌌 Hoshimiya Script / StarPolaris OS（日本語版）
+[![Type-G Trinity](https://img.shields.io/badge/TYPE--G_TRINITY-2025-blueviolet)]()
+[![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)]()
+[![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)]()
+[![Status](https://img.shields.io/badge/STATUS-Conceptual_OS-2ecc71)]()
+[![Safety](https://img.shields.io/badge/SAFETY-Policy_Compliant-27ae60)]()
+
+🌐 Languages: [English](README.md) | [日本語](README_ja.md)
+
+# Hoshimiya Script / StarPolaris OS（日本語版）
 
 Trinity-G / Type-Ω 行動OS（LLM向け）
 
