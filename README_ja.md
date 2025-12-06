@@ -4,7 +4,8 @@
 [![Status](https://img.shields.io/badge/STATUS-Conceptual_OS-2ecc71)]()
 [![Safety](https://img.shields.io/badge/SAFETY-Policy_Compliant-27ae60)]()
 
-🌐 Languages: [English](README.md) | [日本語](README_ja.md)
+🌐 Languages:
+[English](README.md) | [日本語](README_ja.md)
 
 # Hoshimiya Script / StarPolaris OS（日本語版）
 
