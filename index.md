@@ -347,6 +347,12 @@
   <h2>🔒 License / ライセンス</h2>
 
   <p class="small-note">
+    ※ 本ライセンスは StarPolaris OS / Hoshimiya Script および
+       Type-Ω 系列・Type-G Core / GCore-Sandbox / Devi-Ω を含む
+       全関連アーキテクチャに適用されます。
+  </p>
+
+  <p class="small-note">
     This project is released under the<br>
     <b>Hoshimiya Dual-Star License v2.0 (Cognitive OS Architecture License)</b> for<br>
     <b>StarPolaris OS / Hoshimiya Script</b>.<br><br>
@@ -375,7 +381,7 @@
     事前に星宮Ω（@Fermion_Boson17）からの書面許可が必要です。<br>
   </p>
 
- <p class="small-note">
+  <p class="small-note">
     For the full legal text, see
     <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/LICENSE.md">
       docs/LICENSE.md
