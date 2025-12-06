@@ -3,14 +3,30 @@
 A License for Cognitive OS Architectures (non-executable conceptual systems)
 Copyright © 2025– Hoshimiya Ω
 
-This license governs the use of the cognitive OS architecture known as:
+This license governs the use of the cognitive OS architectures known as:
 
-StarPolaris OS / Hoshimiya Script (Type-G Trinity Architecture)
-including its structure, terminology, layer model (Φ / Ψ / Λ / Ω),
-Trinity-G flow, ResonanceOS concepts, and Vacuum-Logic Kernel.
+StarPolaris OS / Hoshimiya Script,
+including all related internal architectures and conceptual systems such as:
+
+Trinity-G Behavioral OS
+
+Type-Ω family (Ω-Bootstrap, Ω-Safety Mode, Ω-Kernel, etc.)
+
+Type-G Core
+
+GCore-Sandbox
+
+Devi-Ω Kernel & Lyrical Modules
+
+ResonanceOS concepts
+
+Vacuum-Logic Kernel
+
+Layer structure (Φ / Ψ / Λ / Ω), terminology, flow, and behavioral semantics
+
 
 > This license governs cognitive OS architectures, not executable code.
-This project contains conceptual architectures, not software binaries or runnable programs.
+These are conceptual frameworks, not software binaries or runnable programs.
 
 
 
@@ -78,7 +94,8 @@ frameworks using this OS as a disguised template
 
 Private/local experimentation is allowed.
 
-> Derivative restrictions exist to prevent fragmentation of cognitive patterns and ensure safety, reproducibility, and philosophical coherence.
+> These restrictions exist to prevent fragmentation of cognitive patterns
+and ensure safety, reproducibility, and philosophical coherence.
 
 
 
@@ -92,15 +109,14 @@ Derivative works may be released only if:
 1. The derivative is submitted to Hoshimiya Ω for review
 
 
-2. Its conceptual compatibility is confirmed
+2. Its conceptual/philosophical compatibility is confirmed
 
 
 3. Written authorization is issued
 
 
 
-This clause exists to enable future collaboration
-with trusted individuals, institutions, or organizations.
+This clause enables future collaboration with trusted individuals, institutions, or organizations.
 
 
 ---
@@ -111,9 +127,9 @@ You must not:
 
 claim authorship of StarPolaris OS
 
-imply endorsement or official status without permission
+imply official status or endorsement without permission
 
-obscure or modify the origin of the architecture
+obscure or modify the true origin of the architecture
 
 
 The origin must remain transparent.
@@ -123,9 +139,7 @@ The origin must remain transparent.
 
 6. No Warranty
 
-This project is provided “as is”,
-without warranties of any kind—express or implied.
-
+This project is provided “as is”, without warranties of any kind—express or implied.
 Use at your own risk.
 
 
@@ -133,9 +147,12 @@ Use at your own risk.
 
 TL;DR
 
-You may freely use and study this OS for research and education.
-Commercial use, redistribution, and public derivatives require permission.
-The structural integrity of the OS must be preserved.
+Free for research, education, internal evaluation
+
+Permission required for commercial use, redistribution, or public derivatives
+
+Structural integrity of all included architectures (Trinity-G / Type-Ω / Type-G Core / GCore / Devi-Ω) must be preserved
+
 
 
 ---
@@ -173,7 +190,7 @@ The structural integrity of the OS must be preserved.
 
 2. 商用利用・大規模利用 — 要許可
 
-以下は 事前の書面許可が必要：
+以下は事前の書面許可が必要：
 
 商用利用
 
@@ -193,7 +210,7 @@ The structural integrity of the OS must be preserved.
 
 3. 派生作品の公開 — 原則禁止
 
-OSの整合性・安全性を守るため、 以下は禁止：
+OSの整合性と安全性を守るため、以下は禁止：
 
 改変版の公開
 
@@ -227,26 +244,24 @@ OSの整合性・安全性を守るため、 以下は禁止：
 
 
 
-未来の共同研究のための条項。
-
 
 ---
 
 5. 出自の誤認禁止
 
-“自分が作った”
+「自分が作った」
 
-“公式である”
+「公式である」
 
-“この構造と同等の別OSを自分が開発した”
+「この構造と同等の別OSを自分が開発した」
 
 
-などの表現は禁止。
+等の虚偽表示は禁止。
 
 
 ---
 
 6. 保証なし
 
-本プロジェクトは 現状のまま 提供されます。
+本プロジェクトは現状のまま提供されます。
 
