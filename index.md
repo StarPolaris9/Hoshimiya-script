@@ -1,5 +1,3 @@
-🌐 Languages: [English](README.md) | [日本語](README_ja.md)
-
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>StarPolaris OS — Hoshimiya Script</title>
@@ -243,7 +241,22 @@
     <a href="docs/README.md">docs/README.md</a><br>
     📘 日本語ドキュメント:
     <a href="docs/README_ja.md">docs/README_ja.md</a>
+
   </div>
+
+<p style="
+  text-align:center;
+  margin:6px 0 14px;
+  font-size:0.9em;
+  background:rgba(255,220,150,0.12);
+  padding:6px 12px;
+  border-radius:6px;
+  display:inline-block;
+">
+🌐 Languages:
+<a href="README.md" style="color:#ffd27f;">English</a> /
+<a href="README_ja.md" style="color:#ffd27f;">日本語</a>
+</p>
 
   <h2>📘 Documentation / ドキュメント</h2>
   <ul>
