@@ -1,3 +1,4 @@
+🌐 Languages: [English](../README.md) | [日本語](README_ja.md)
 🌌 Hoshimiya Script / StarPolaris OS（日本語版）
 
 Trinity-G / Type-Ω 行動OS（LLM向け）
