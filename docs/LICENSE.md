@@ -1,13 +1,3 @@
-⭐ Hoshimiya Dual-Star License v2.0 — Final (100% Optimization)
-
-(GitHub の LICENSE.md にそのまま貼れる完成版)
-
-英語＋日本語併記。
-OSS研究者・法務・学術界、すべてに通用する形。
-
-
----
-
 🌐 Hoshimiya Dual-Star License v2.0
 
 A License for Cognitive OS Architectures (non-executable conceptual systems)
