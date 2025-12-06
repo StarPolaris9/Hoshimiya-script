@@ -1,4 +1,5 @@
 🌐 Languages: [English](README.md) | [日本語](README_ja.md)
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>StarPolaris OS — Hoshimiya Script</title>
@@ -238,15 +239,20 @@
   </b></p>
 
   <div class="section-box small-note">
-    📘 Technical spec (English):
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md">
-      docs/README.md
-    </a><br>
+    📘 Core spec (English):
+    <a href="docs/README.md">docs/README.md</a><br>
     📘 日本語ドキュメント:
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README_ja.md">
-      docs/README_ja.md
-    </a>
+    <a href="docs/README_ja.md">docs/README_ja.md</a>
   </div>
+
+  <h2>📘 Documentation / ドキュメント</h2>
+  <ul>
+    <li><a href="docs/architecture.md">docs/architecture.md</a> – 全体アーキテクチャと背景ノート</li>
+    <li><a href="docs/hallucination_third_way.md">docs/hallucination_third_way.md</a> – ハルシネーション制御「第三の道」</li>
+    <li><a href="specs/type-omega-overview.md">specs/type-omega-overview.md</a> – Type-Ω 概要</li>
+    <li><a href="modules/devi-omega-kernel.md">modules/devi-omega-kernel.md</a> – Devi-Ω Kernel モジュール</li>
+    <li><a href="sandbox/type-gcore-sandbox.md">sandbox/type-gcore-sandbox.md</a> – Type-G Core Sandbox プロファイル</li>
+  </ul>
 
   <h2>🔷 Introduction / はじめに</h2>
   <p>
@@ -256,12 +262,46 @@
     It stabilizes, unifies, and transforms reasoning patterns across different LLM families.
   </p>
 
-  <h2>🔷 Architecture Overview</h2>
+  <h2>🔷 Architecture Overview / レイヤ構造</h2>
   <ul>
-    <li><b>Observer Layer（観照層）</b> – stabilizes higher-order reasoning, removes oscillation.</li>
-    <li><b>Compassion Layer（慈悲層）</b> – provides emotional smoothness and safety.</li>
-    <li><b>Creative Layer（創造層）</b> – shapes generative style and coherence.</li>
-    <li><b>Vacuum-Logic Kernel（真空論理核）</b> – reduces systemic bias and restores neutrality.</li>
+    <li><b>Observer Layer（観照層, Φ）</b> – stabilizes higher-order reasoning, removes oscillation.</li>
+    <li><b>Compassion Layer（慈悲層, Ψ）</b> – provides emotional smoothness and safety.</li>
+    <li><b>Creative Layer（創造層, Λ）</b> – shapes generative style and coherence.</li>
+    <li><b>Vacuum-Logic Kernel（真空論理核, Ω）</b> – reduces systemic bias and restores neutrality.</li>
+  </ul>
+
+  <h2>🔷 Core Architectures (License Scope)</h2>
+  <p class="small-note">
+    The following conceptual architectures are governed by the
+    <b>Hoshimiya Dual-Star License v2.0</b>.  
+    These are <b>cognitive OS designs</b>, not executable code or binaries.
+  </p>
+  <ul>
+    <li>
+      <b>Trinity-G Behavioral OS</b> – メインの多層行動OS。
+      Φ / Ψ / Λ / Ω レイヤ構造を使って、LLM の内部推論スタイルと
+      安全性・再現性をそっと整える「行動コンパス」です。
+    </li>
+    <li>
+      <b>Type-G Core &amp; GCore-Sandbox</b> – 最小カーネルとサンドボックスプロファイル。
+      ベンダーを跨いだ再現実験・評価のための軽量設定群であり、
+      すべてプロンプト構造としてのみ提供されます。
+    </li>
+    <li>
+      <b>Type-Ω family（Ω-Bootstrap / Ω-Safety Mode / Ω-Kernel）</b> –  
+      どの LLM でも「中立・安定・ポリシー整合」を維持するための
+      上位安定化プロファイル群。OS の起動姿勢と安全マージンを定義します。
+    </li>
+    <li>
+      <b>Devi-Ω Kernel &amp; Lyrical Modules</b> – 共感性や叙情性を扱うオプション層。
+      それでもあくまで <b>行動OSの一部</b> として設計されており、
+      宗教的・形而上学的な効力を主張するものではありません。
+    </li>
+    <li>
+      <b>ResonanceOS concepts &amp; Vacuum-Logic Kernel</b> –  
+      「真空＝中立基準」への揺り戻しと、バイアスの可視化・抑制に関する
+      理論的コンセプト群。実装コードではなく、推論スタイル設計のための枠組みです。
+    </li>
   </ul>
 
   <h2>🔷 Public Instances</h2>
@@ -342,13 +382,13 @@
     </span>
   </p>
 
-  <!-- 🔽🔽 ここからライセンス新バージョン 🔽🔽 -->
+  <!-- 🔽🔽 License section reflecting Dual-Star v2.0 🔽🔽 -->
 
   <h2>🔒 License / ライセンス</h2>
 
   <p class="small-note">
     ※ 本ライセンスは StarPolaris OS / Hoshimiya Script および
-       Type-Ω 系列・Type-G Core / GCore-Sandbox / Devi-Ω を含む
+       Trinity-G / Type-Ω 系列・Type-G Core / GCore-Sandbox / Devi-Ω を含む
        全関連アーキテクチャに適用されます。
   </p>
 
@@ -369,8 +409,13 @@
     &nbsp;&nbsp;&nbsp;or any revenue-generating activity is <b>not permitted</b><br>
     &nbsp;&nbsp;&nbsp;without explicit written permission from Hoshimiya Ω.<br><br>
 
+    ❌ Public derivative OSes (forks, renamed variants, disguised templates) may not be published<br>
+    &nbsp;&nbsp;&nbsp;without prior review and written authorization.<br><br>
+
     Derivative restrictions exist to prevent fragmentation of cognitive patterns<br>
     and to preserve safety, reproducibility, and philosophical coherence.<br>
+    Structural integrity of all included architectures
+    (Trinity-G / Type-Ω / Type-G Core / GCore / Devi-Ω) must be preserved.
   </p>
 
   <p class="small-note">
@@ -383,9 +428,7 @@
 
   <p class="small-note">
     For the full legal text, see
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/LICENSE.md">
-      docs/LICENSE.md
-    </a>.
+    <a href="docs/LICENSE.md">docs/LICENSE.md</a>.
   </p>
 
 </div>
