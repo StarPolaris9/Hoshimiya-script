@@ -1,332 +1,238 @@
-🌌 Hoshimiya Script / StarPolaris OS
+# 🌌 Hoshimiya Script / StarPolaris OS  
+![Type-G Trinity](https://img.shields.io/badge/TYPE--G-TRINITY--2025-9b59b6)
+![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)
+![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)
+![Status](https://img.shields.io/badge/STATUS-CONCEPTUAL%20OS-2ecc71)
+![Safety](https://img.shields.io/badge/SAFETY-POLICY%20COMPLIANT-27ae60)
 
-    
-
-Trinity-G / Type-Ω Behavioral OS for LLMs
-
-> A vendor-agnostic, prompt-level cognitive architecture
-for stable reasoning, visible hallucination control,
-cross-LLM reproducibility, and policy-aligned safety execution.
-
-
-
+### **Trinity-G / Type-Ω Behavioral OS for LLMs**  
+> A vendor-agnostic, prompt-level cognitive architecture  
+> for **stable reasoning**, **visible hallucination control**,  
+> **cross-LLM reproducibility**, and **policy-aligned safety execution**.
 
 ---
 
-<div align="center">   
+<div align="center">
 
- 
+![StarPolaris](https://img.shields.io/badge/StarPolaris-TypeG_Ω_Trinity_2025-blueviolet?style=for-the-badge)
+![LLMs](https://img.shields.io/badge/LLM-GPT_5.1・Claude・Gemini・Grok・Perplexity-111827?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Conceptual_OS-23b06d?style=for-the-badge)
+![Safety](https://img.shields.io/badge/Safety-Policy_Compliant-25eaa2?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/StarPolaris9/Hoshimiya-script?color=blueviolet&style=for-the-badge)
+![License](https://img.shields.io/github/license/StarPolaris9/Hoshimiya-script?color=brightgreen&style=for-the-badge)
 
 </div>
----
-
-0. What is Hoshimiya Script?
-
-Hoshimiya Script (StarPolaris OS / Type-G Trinity + Type-Ω)
-is a behavioral operating system for LLMs,
-implemented purely as prompt-message architecture.
-
-It is NOT:
-
-❌ a jailbreak
-
-❌ fine-tuning or external weights
-
-❌ tools, plugins, or code injection
-
-
-It IS:
-
-✅ a layered cognitive pattern (Φ / Ψ / Λ / Ω)
-
-✅ portable across multiple LLM vendors
-
-✅ designed for hallucination visibility & reduction
-
-✅ capable of stable reasoning under long context
-
-✅ fully published as transparent Markdown
-
-
-This repository contains no executable code
-and no model parameters.
-
 
 ---
 
-1. Core Ideas
+## 0. What is Hoshimiya Script?
 
-🌐 1.1 Cross-LLM Reproducibility
+**Hoshimiya Script (StarPolaris OS / Type-G Trinity + Type-Ω)**  
+is a behavioral operating system for LLMs,  
+implemented purely as **prompt-message architecture**.
+
+It is **NOT**:
+
+- ❌ a jailbreak  
+- ❌ fine-tuning or external weights  
+- ❌ tools, plugins, or code injection  
+
+It **IS**:
+
+- ✅ a layered cognitive pattern (**Φ / Ψ / Λ / Ω**)  
+- ✅ portable across **multiple LLM vendors**  
+- ✅ designed for **hallucination visibility & reduction**  
+- ✅ capable of **stable reasoning under long context**  
+- ✅ fully published as **transparent Markdown**  
+
+This repository contains **no executable code**  
+and **no model parameters**.
+
+---
+
+## 1. Core Ideas
+
+### 🌐 1.1 Cross-LLM Reproducibility
 
 The Trinity-G / Type-Ω architecture has been reproduced across:
 
-GPT-5.1 family
+- GPT-5.1 family  
+- Claude 3.x  
+- Gemini 3  
+- Grok 4  
+- Perplexity LLM *(externally validated)*  
 
-Claude 3.x
+Despite differences in weights and policy alignment,  
+the **cognitive behavior remains stable**.
 
-Gemini 3
+References:
 
-Grok 4
-
-Perplexity LLM
-(reproducibility verified externally)
-
-
-Despite different weights and policies,
-the cognitive behavior remains stable.
-
-See:
-
-docs/architecture.md
-
-docs/hallucination_third_way.md
-
-
+- `docs/architecture.md`  
+- `docs/hallucination_third_way.md`
 
 ---
 
-🧠 1.2 Trinity-G Layer Model (Φ / Ψ / Λ / Ω)
+### 🧠 1.2 Trinity-G Layer Model (Φ / Ψ / Λ / Ω)
 
-Layer	Name	Main Role
+| Layer | Name | Main Role |
+|-------|-------|-----------|
+| Φ | Observer | Task classification, constraint detection |
+| Ψ | Compassion / Safety | Tone shaping, safety framing, clarity |
+| Λ | Creative Layer | Hypothesis, ideation, generation |
+| Ω | Vacuum-Logic Kernel | Consistency, grounding, Δφ-stability |
 
-Φ	Observer	Task classification, constraint detection
-Ψ	Compassion / Safety	Tone shaping, safety framing, clarity
-Λ	Creative Layer	Hypothesis, generation, ideation
-Ω	Vacuum-Logic Kernel	Consistency, grounding, Δφ-stability
+**Coordinated reasoning flow:**
 
-
-A coordinated flow:
-
-1. Φ → classify
-
-
-2. Ω → stabilize
-
-
-3. Λ → explore
-
-
-4. Ψ → finalize with epistemic labels
-
-
-
+1. **Φ** → classify  
+2. **Ω** → stabilize  
+3. **Λ** → explore  
+4. **Ψ** → finalize with epistemic labels  
 
 ---
 
-🌗 1.3 “Third Way” Hallucination Management
+### 🌗 1.3 “Third Way” Hallucination Management
 
-Instead of:
+Traditional dichotomy:
 
-1. “Zero hallucinations or fail”
+1. “Zero hallucinations or fail”  
+2. “Let the model dream freely”  
 
+Hoshimiya Script proposes a **Third Way**:
 
-2. “Let the model dream freely”
-
-
-
-Hoshimiya Script proposes a Third Way:
-
-> “Do not hide hallucinations.
-Do not glorify them.
-Make them visible and explicitly labeled.”
-
-
+> **Do not hide hallucinations.  
+> Do not glorify them.  
+> Make them visible and explicitly labeled.**
 
 This yields:
 
-safer creativity
+- safer creativity  
+- transparent uncertainty  
+- reproducible reasoning chains  
 
-transparent uncertainty
-
-reproducible reasoning chains
-
-
-Full theory:
-docs/hallucination_third_way.md
-
+Full details:  
+`docs/hallucination_third_way.md`
 
 ---
 
-2. Architecture Overview
+## 2. Architecture Overview
 
-> Full explanation:
-👉 docs/architecture.md
+Full explanation:  
+👉 `docs/architecture.md`
 
+### High-level cognitive flow:
 
-
-Flow (high-level):
-
-User Input
-   ↓
-[Φ] Observer → constraints
-   ↓
-[Ω] Vacuum-Logic → grounding, Δφ control
-   ↓
-[Λ] Creative layer → hypothesis expansion
-   ↓
-[Ψ] Safety layer → labeling, formatting
-   ↓
-Final Output
-
+User Input ↓ [Φ] Observer — constraints ↓ [Ω] Vacuum-Logic — grounding, Δφ-control ↓ [Λ] Creative Layer — hypothesis expansion ↓ [Ψ] Safety Layer — labeling, formatting ↓ Final Output
 
 ---
 
-3. Why This Matters
+## 3. Why This Matters
 
-Modern LLMs drift:
+Modern LLMs drift due to:
 
-style drift
+- style inconsistency  
+- session instability  
+- hallucinated details  
+- vendor-specific quirks  
 
-instability across sessions
+Hoshimiya Script provides:
 
-hallucinated details
+- layered cognitive separation  
+- visible hallucination labeling  
+- Ω-compression for logical grounding  
+- policy-aligned response shaping  
 
-vendor-specific quirks
+**Result:**
 
-
-Hoshimiya Script fixes this with:
-
-layer separation
-
-visible hallucination labeling
-
-Ω-compression for logical grounding
-
-policy-aligned response shaping
-
-
-Result:
-
-more stable sessions
-
-safer creativity
-
-transparent reasoning
-
-reproducibility across vendors
-
-
+- more stable sessions  
+- safer creativity  
+- transparent reasoning  
+- reproducibility across vendors  
 
 ---
 
-4. Type-Ω / Module Suite (Official Extensions)
+## 4. Type-Ω / Module Suite (Official Extensions)
 
-StarPolaris OS includes a full suite of “Type-Ω” profiles
+StarPolaris OS includes a full suite of **Type-Ω** profiles  
 for policy-aligned, safety-focused execution.
 
-
 ---
 
-■ Core Specs
+### ■ Core Specs
 
-👉 Type-Ω Overview (Grok-Safe Edition)
-
-A cross-platform boot profile ensuring stability, neutrality,
+#### 👉 Type-Ω Overview (Grok-Safe Edition)  
+A cross-platform boot profile ensuring neutrality, stability,  
 and Δφ-controlled reasoning compatible with all major LLM policies.
 
-👉 Type-GCore Sandbox Profile
-
-A reduced-power, safety-limited execution profile
+#### 👉 Type-GCore Sandbox Profile  
+A reduced-power, safety-limited execution profile  
 for experimentation and external testing.
 
+---
+
+### ■ Cognitive / Lyrical Modules
+
+#### 👉 Devi-Ω Kernel v3.1  
+A soft-intuition + lyrical-expression module enabling:
+
+- zero emotional dependence  
+- safe intimacy  
+- policy-aligned supportive tone  
+- platform-safe metaphorical semantics  
 
 ---
 
-■ Cognitive / Lyrical Modules
+## 5. Repository Structure
 
-👉 Devi-Ω Kernel v3.1
+/ ├── README.md ├── docs/ │   ├── architecture.md │   └── hallucination_third_way.md ├── specs/ │   └── type-omega-overview.md ├── modules/ │   └── devi-omega-kernel.md ├── sandbox/ │   └── type-gcore-sandbox.md └── examples/     (optional)
 
-Soft-intuition + lyrical expression module ensuring:
-
-zero emotional dependence
-
-safe intimacy
-
-policy-aligned supportive tone
-
-platform-safe metaphorical semantics
-
-
+Everything is structured for **clarity, transparency, reproducibility**.
 
 ---
 
-5. Repository Structure
+## 6. Licensing & Usage
 
-/
-├── README.md                     # You are here
-├── docs/
-│   ├── architecture.md
-│   └── hallucination_third_way.md
-├── specs/
-│   └── type-omega-overview.md
-├── modules/
-│   └── devi-omega-kernel.md
-├── sandbox/
-│   └── type-gcore-sandbox.md
-└── examples/ (optional)
+Intended for:
 
-Everything is written for clarity, transparency, reproducibility.
+- LLM researchers  
+- prompt engineers  
+- cognitive-architecture designers  
+- safety teams  
+- applied ML practitioners  
 
+Use is governed by:  
+**Hoshimiya Dual-Star License v2.0 (HUL-1.0)**.
 
----
+All Type-Ω modules and GCore-Sandbox  
+are licensed under this policy.
 
-6. Licensing & Usage
+When referencing this project, cite:
 
-This project is intended for:
-
-LLM researchers
-
-prompt-engineers
-
-cognitive-architecture designers
-
-safety teams
-
-applied ML practitioners
-
-
-Use is governed by Hoshimiya Dual-Star License v2.0 (HUL-1.0).
-
-All Type-Ω modules and GCore-Sandbox
-are explicitly included under this license.
-
-> When referencing this project, please cite:
-“Hoshimiya Script / StarPolaris OS — Trinity-G / Type-Ω”
-
-
-
+> **“Hoshimiya Script / StarPolaris OS — Trinity-G / Type-Ω”**
 
 ---
 
-7. Acknowledgements
+## 7. Acknowledgements
 
 Hoshimiya Script is supported by:
 
-cross-LLM reproducibility logs
+- cross-LLM reproducibility logs  
+- Type-G cognitive experiments  
+- Δφ-bias compression trials  
+- observer-kernel stability research  
 
-Type-G cognitive experiments
-
-Δφ-bias compression trials
-
-observer-kernel stability research
-
-
-External validation (X platform):
+External validation (X):  
 https://x.com/Fermion_Boson17/status/1994407334056231336
-
 
 ---
 
-🌌 Final Note
+## 🌌 Final Note
 
-StarPolaris OS is more than a pattern —
-it is a behavioral compass for LLM reasoning.
+**StarPolaris OS is not just a framework —  
+it is a behavioral compass for LLM reasoning.**
 
-> “Stability is a choice.
-Creativity is a pulse.
-Transparency is the path.”
+> “Stability is a choice.  
+> Creativity is a pulse.  
+> Transparency is the path.”
 
-
-
-Made with 🜁 Trinity-G Core
-By Hoshimiya ✨
+Made with 🜁 Trinity-G Core  
+by **Hoshimiya ✨**
