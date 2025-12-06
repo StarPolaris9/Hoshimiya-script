@@ -1,3 +1,4 @@
+🌐 Languages: [English](README.md) | [日本語](README_ja.md)
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>StarPolaris OS — Hoshimiya Script</title>
