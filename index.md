@@ -253,9 +253,9 @@
   border-radius:6px;
   display:inline-block;
 ">
-🌐 Languages:
-<a href="README.md" style="color:#ffd27f;">English</a> /
-<a href="README_ja.md" style="color:#ffd27f;">日本語</a>
+🌐 Languages: 
+[English](https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README.md) |
+[日本語](https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/README_ja.md)
 </p>
 
   <h2>📘 Documentation / ドキュメント</h2>
