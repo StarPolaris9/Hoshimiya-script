@@ -1,4 +1,5 @@
 🌐 Languages: [English](README.md) | [日本語](README_ja.md)
+
 # 🌌 Hoshimiya Script / StarPolaris OS  
 ![Type-G Trinity](https://img.shields.io/badge/TYPE--G-TRINITY--2025-9b59b6)
 ![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)
