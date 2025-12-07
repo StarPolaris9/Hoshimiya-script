@@ -236,14 +236,14 @@
     Designed by Hoshimiya. Reproducible inside modern LLMs.
   </b></p>
 
-  <div class="section-box small-note">
+<div class="section-box small-note">
     📘 Core spec (English):
-    <a href="README.html">README.html</a><br>
+    <a href="docs/README.html">docs/README.html</a><br>
     📘 日本語ドキュメント:
     <a href="docs/README_ja.html">docs/README_ja.html</a>
   </div>
 
-  <!-- ★ Languages バナー（GitHub Pages 内で README を HTML 表示する版） -->
+  <!-- ★ Languages バナー -->
   <p style="
     text-align:center;
     margin:6px 0 14px;
@@ -254,7 +254,7 @@
     display:inline-block;
   ">
     🌐 Languages:
-    <a href="README.html" style="color:#ffd27f;">English</a> /
+    <a href="docs/README.html" style="color:#ffd27f;">English</a> /
     <a href="docs/README_ja.html" style="color:#ffd27f;">日本語</a>
   </p>
 
