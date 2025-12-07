@@ -241,22 +241,24 @@
     <a href="docs/README.md">docs/README.md</a><br>
     📘 日本語ドキュメント:
     <a href="docs/README_ja.md">docs/README_ja.md</a>
-
   </div>
 
-<p style="
-  text-align:center;
-  margin:6px 0 14px;
-  font-size:0.9em;
-  background:rgba(255,220,150,0.12);
-  padding:6px 12px;
-  border-radius:6px;
-  display:inline-block;
-">
-🌐 Languages:
-<a href="README.md" style="color:#ffd27f;">English</a> /
-<a href="README_ja.md" style="color:#ffd27f;">日本語</a>
-</p>
+  <!-- ★ Languages バナー（GitHub の README 画面に飛ぶ絶対URL版） -->
+  <p style="
+    text-align:center;
+    margin:6px 0 14px;
+    font-size:0.9em;
+    background:rgba(255,220,150,0.12);
+    padding:6px 12px;
+    border-radius:6px;
+    display:inline-block;
+  ">
+    🌐 Languages:
+    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/README.md"
+       style="color:#ffd27f;">English</a> /
+    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/README_ja.md"
+       style="color:#ffd27f;">日本語</a>
+  </p>
 
   <h2>📘 Documentation / ドキュメント</h2>
   <ul>
