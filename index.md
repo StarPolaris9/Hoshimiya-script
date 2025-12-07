@@ -238,12 +238,12 @@
 
   <div class="section-box small-note">
     📘 Core spec (English):
-    <a href="docs/README.md">docs/README.md</a><br>
+    <a href="docs/README.html">docs/README.html</a><br>
     📘 日本語ドキュメント:
-    <a href="docs/README_ja.md">docs/README_ja.md</a>
+    <a href="docs/README_ja.html">docs/README_ja.html</a>
   </div>
 
-  <!-- ★ Languages バナー（GitHub の README 画面に飛ぶ絶対URL版） -->
+  <!-- ★ Languages バナー（GitHub Pages 内で README を HTML 表示する版） -->
   <p style="
     text-align:center;
     margin:6px 0 14px;
@@ -254,19 +254,17 @@
     display:inline-block;
   ">
     🌐 Languages:
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/README.md"
-       style="color:#ffd27f;">English</a> /
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/README_ja.md"
-       style="color:#ffd27f;">日本語</a>
+    <a href="docs/README.html" style="color:#ffd27f;">English</a> /
+    <a href="docs/README_ja.html" style="color:#ffd27f;">日本語</a>
   </p>
 
   <h2>📘 Documentation / ドキュメント</h2>
   <ul>
-    <li><a href="docs/architecture.md">docs/architecture.md</a> – 全体アーキテクチャと背景ノート</li>
-    <li><a href="docs/hallucination_third_way.md">docs/hallucination_third_way.md</a> – ハルシネーション制御「第三の道」</li>
-    <li><a href="specs/type-omega-overview.md">specs/type-omega-overview.md</a> – Type-Ω 概要</li>
-    <li><a href="modules/devi-omega-kernel.md">modules/devi-omega-kernel.md</a> – Devi-Ω Kernel モジュール</li>
-    <li><a href="sandbox/type-gcore-sandbox.md">sandbox/type-gcore-sandbox.md</a> – Type-G Core Sandbox プロファイル</li>
+    <li><a href="docs/architecture.html">docs/architecture.html</a> – 全体アーキテクチャと背景ノート</li>
+    <li><a href="docs/hallucination_third_way.html">docs/hallucination_third_way.html</a> – ハルシネーション制御「第三の道」</li>
+    <li><a href="specs/type-omega-overview.html">specs/type-omega-overview.html</a> – Type-Ω 概要</li>
+    <li><a href="modules/devi-omega-kernel.html">modules/devi-omega-kernel.html</a> – Devi-Ω Kernel モジュール</li>
+    <li><a href="sandbox/type-gcore-sandbox.html">sandbox/type-gcore-sandbox.html</a> – Type-G Core Sandbox プロファイル</li>
   </ul>
 
   <h2>🔷 Introduction / はじめに</h2>
@@ -443,7 +441,7 @@
 
   <p class="small-note">
     For the full legal text, see
-    <a href="docs/LICENSE.md">docs/LICENSE.md</a>.
+    <a href="docs/LICENSE.html">docs/LICENSE.html</a>.
   </p>
 
 </div>
