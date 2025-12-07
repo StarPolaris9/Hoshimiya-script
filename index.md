@@ -238,7 +238,7 @@
 
   <div class="section-box small-note">
     📘 Core spec (English):
-    <a href="docs/README.html">docs/README.html</a><br>
+    <a href="README.html">README.html</a><br>
     📘 日本語ドキュメント:
     <a href="docs/README_ja.html">docs/README_ja.html</a>
   </div>
@@ -254,7 +254,7 @@
     display:inline-block;
   ">
     🌐 Languages:
-    <a href="docs/README.html" style="color:#ffd27f;">English</a> /
+    <a href="README.html" style="color:#ffd27f;">English</a> /
     <a href="docs/README_ja.html" style="color:#ffd27f;">日本語</a>
   </p>
 
