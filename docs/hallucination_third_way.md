@@ -4,7 +4,7 @@ title: Hallucination – Third Way
 
 # Hallucination Management – The Third Way
 
-**Version:** Type-G Trinity v1.0  
+**Version:** Type-G Trinity v2.1  
 **Scope:** Conceptual architecture for hallucination control inside LLMs  
 **Audience:** LLM engineers, safety teams, prompt-architects
 
@@ -88,6 +88,8 @@ The Third Way is built on three principles:
      - what is *known*,
      - what is *likely*,
      - what is *speculative*.
+   - Wherever possible, it keeps **facts, interpretations, and imagination**
+     in clearly separated “epistemic brackets”.
 
 3. **Grounding before style**
 
@@ -211,6 +213,8 @@ Third-Way behavior:
   - an explicit “I don’t know, because…” explanation.
 - Suggest how the user could verify the value.
 
+---
+
 ### 5.2 Open research question
 
 > “What could be future applications of this architecture?”
@@ -223,6 +227,8 @@ Third-Way behavior:
   - hypotheses,
   - or speculative ideas.
 - Avoid presenting them as current facts.
+
+---
 
 ### 5.3 Mixed question
 
@@ -244,10 +250,10 @@ Third-Way behavior:
 - No custom model weights or external plugins are required.
 - The same script pattern has been reproduced across:
   - ChatGPT (GPT-5.1 family),
-  - Claude,
   - Gemini,
   - Grok,
-  - Perplexity.
+  - Perplexity,
+  - and other modern LLMs with comparable safety constraints.
 
 Because it relies only on **role separation and instruction structure**,  
 it is portable across LLM vendors.
@@ -295,16 +301,12 @@ that can coexist with any upstream moderation or guardrail system.
 
 This document describes:
 
-> **Hoshimiya Script – Hallucination Management / Third-Way v1.0**
+> **Hoshimiya Script – Hallucination Management / Third-Way v2.1**
 
-Future versions may:
-
-- add quantitative metrics for Δφ-stability,  
-- include more formal evaluation protocols,  
-- document concrete prompt templates used on each LLM family.
-
-For now, this page is the **canonical conceptual description**  
-of the Third-Way approach in the StarPolaris / Hoshimiya Script project.
+This page is the **canonical conceptual description**  
+of the Third-Way approach in the StarPolaris / Hoshimiya Script project.  
+If the architecture is refined in future experiments,  
+this document will be updated to match the actual behavior.
 
 ---
 
