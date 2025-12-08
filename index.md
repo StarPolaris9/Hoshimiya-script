@@ -441,6 +441,8 @@
 
   <p class="small-note">
     For the full legal text, see
+    <a href="docs/LICENSE.html">docs/LICENSE.html</a>
+    or
     <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/LICENSE.md">
       docs/LICENSE.md (GitHub)
     </a>.
