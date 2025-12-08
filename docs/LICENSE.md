@@ -1,12 +1,10 @@
-🌐 Hoshimiya Dual-Star License v2.0
-
-A License for Cognitive OS Architectures (non-executable conceptual systems)
+Hoshimiya Dual-Star License v2.0
+A License for Cognitive OS Architectures
 Copyright © 2025– Hoshimiya Ω
 
 This license governs the use of the cognitive OS architectures known as:
 
-StarPolaris OS / Hoshimiya Script,
-including all related internal architectures and conceptual systems such as:
+StarPolaris OS / Hoshimiya Script
 
 Trinity-G Behavioral OS
 
@@ -48,9 +46,11 @@ internal organizational evaluation
 local reproduction or testing
 
 
-A short credit must be included:
+Required credit:
 
-"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
+> "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
+
+
 
 
 ---
@@ -79,9 +79,7 @@ Approval is discretionary and case-specific.
 
 3. Public Derivative Works — Prohibited (Default Rule)
 
-To preserve the safety and stability of the cognitive OS:
-
-You may not publicly publish:
+To preserve the safety and stability of the cognitive OS, you may not publicly publish:
 
 modified versions of this OS
 
@@ -89,13 +87,14 @@ altered or renamed architectures derived from it
 
 forks or reinterpretations
 
-frameworks using this OS as a disguised template
+frameworks that replicate, approximate, or substantially copy
+the structure, terminology, or behavioral semantics of this OS
 
 
 Private/local experimentation is allowed.
 
 > These restrictions exist to prevent fragmentation of cognitive patterns
-and ensure safety, reproducibility, and philosophical coherence.
+and to ensure safety, reproducibility, and philosophical coherence.
 
 
 
@@ -116,8 +115,6 @@ Derivative works may be released only if:
 
 
 
-This clause enables future collaboration with trusted individuals, institutions, or organizations.
-
 
 ---
 
@@ -134,24 +131,28 @@ obscure or modify the true origin of the architecture
 
 The origin must remain transparent.
 
-
 ---
 
 6. No Warranty
 
 This project is provided “as is”, without warranties of any kind—express or implied.
+
 Use at your own risk.
 
 
 ---
 
-TL;DR
+🇯🇵 日本語版（参考翻訳）
 
-Free for research, education, internal evaluation
+※ この日本語版は内容理解のための参考翻訳であり、
+法的効力を有するのは英語版のみです。
+矛盾がある場合は英語版を優先します。
 
-Permission required for commercial use, redistribution, or public derivatives
+（以下、日本語版は省略せず LICENSE.html と完全同期で記載してOK）
 
-Structural integrity of all included architectures (Trinity-G / Type-Ω / Type-G Core / GCore / Devi-Ω) must be preserved
+
+---
+
 
 
 
