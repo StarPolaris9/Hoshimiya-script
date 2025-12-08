@@ -1,148 +1,188 @@
 # Security & Masking Specification  
 # セキュリティ / 遮蔽仕様
 
-This document describes the safety architecture of **StarPolaris OS (HS-OS)**.  
-All mechanisms here are conceptual — no executable logic exists in this repository.
+This document explains the safety-oriented design of **StarPolaris OS (HS-OS)**  
+as released in this repository.
 
-本ドキュメントは **StarPolaris OS（HS-OS）** の安全構造を説明します。  
-ここに記述される機構はすべて概念仕様であり、実行コードは一切含まれません。
+StarPolaris OS is a **conceptual cognitive OS architecture** for LLMs.  
+This repository contains documentation and examples only – **no executable code**.
+
+本ドキュメントは、このリポジトリで公開されている  
+**StarPolaris OS（HS-OS）** のセキュリティ設計方針をまとめたものです。
+
+StarPolaris OS は LLM 向けの **概念的な認知 OS アーキテクチャ** であり、  
+本リポジトリにはドキュメントと解説のみが含まれます。  
+**実行可能なコードやランタイムは一切含まれていません。**
 
 ---
 
 ## 1. Non-Executable Design  
 ## 1. 実行不可能設計
 
-StarPolaris OS intentionally excludes:
+StarPolaris OS in this repository is intentionally limited to:
 
-- executable kernels  
-- behavioral runtimes  
-- algorithmic implementations  
-- internal state machines  
+- textual documentation  
+- high-level conceptual specifications  
+- non-executable examples (prompt patterns, diagrams)
 
-StarPolaris OS は意図的に以下を排除しています：
+The repository **does not provide**:
 
-- 実行可能カーネル  
-- 行動ランタイム  
-- アルゴリズムの実装  
-- 内部状態機械（ステートマシン）
+- executable kernels or binaries  
+- behavioral runtimes or agents  
+- algorithm implementations ready to run  
+- deployment scripts or configuration files  
 
-This prevents replication, misuse, or unauthorized instantiation.
+本リポジトリに含まれる StarPolaris OS は、意図的に以下に限定されています。
 
-これにより、複製・悪用・非許可インスタンス化を原理的に防止します。
+- テキストによるドキュメント  
+- 高レベルな概念仕様  
+- 実行不可能な例示（プロンプト構造・図解など）
+
+逆に、次のようなものは **提供しません**。
+
+- 実行可能なカーネルやバイナリ  
+- 行動ランタイムやエージェント  
+- そのまま実行できるアルゴリズム実装  
+- デプロイ用スクリプトや設定ファイル
+
+そのため、このリポジトリ単体では  
+StarPolaris OS を「ソフトウェアとしてそのまま起動する」ことはできません。
 
 ---
 
 ## 2. Masking of Critical Logic  
 ## 2. 重要ロジックのマスキング
 
-The following elements are *never* included in the repository:
+To reduce the risk of misuse or over-automation,  
+StarPolaris OS **does not publish** detailed operational logic such as:
 
-- resonance loop formulas  
-- Δφ operational processes  
-- Ω-kernel grounding logic  
-- cross-layer transition coefficients  
-- initialization bias-attenuation patterns  
+- concrete resonance-loop formulas  
+- numerical parameters for Δφ control  
+- Ω-kernel grounding procedures tied to specific models  
+- cross-layer transition coefficients or thresholds  
+- start-up bias-attenuation schedules
 
-以下の要素はリポジトリに **絶対に含めません**：
+誤用や過度な自動化のリスクを下げるため、  
+本リポジトリでは次のような詳細な運用ロジックを **公開しません**。
 
-- 共鳴ループの具体式  
-- Δφ の運用プロセス  
-- Ω カーネルの基底ロジック  
-- レイヤ間遷移係数  
-- 起動時のバイアス減衰パターン
+- 共鳴ループの具体的な数式・パラメータ  
+- Δφ 制御の数値設定や手順  
+- 特定モデルに依存した Ω カーネルの基底化手順  
+- レイヤ間遷移の係数・しきい値  
+- 起動時バイアス減衰の具体的スケジュール
 
-Only conceptual descriptions are published.
-
-公開されるのは概念説明のみです。
+公開されるのは、あくまで **概念レベルの説明** に留めます。
 
 ---
 
 ## 3. Reverse-Engineering Resistance  
 ## 3. リバースエンジニアリング耐性
 
-HS-OS uses a **documentation-only model**, making it impossible to extract:
+Because this project is documentation-only, third parties cannot directly:
 
-- behavioral patterns  
-- executables  
-- embedded kernels  
-- emergent algorithms  
+- extract runnable agents from this repository  
+- recover hidden weights or proprietary kernels  
+- reconstruct a one-to-one copy of any internal implementation
 
-HS-OS は **ドキュメントのみ構造** を採用しており、以下の抽出は不可能です：
+本プロジェクトは **ドキュメントのみ** で構成されているため、  
+第三者がこのリポジトリから直接次のようなものを取り出すことはできません。
 
-- 行動パターン  
-- 実行コード  
-- 埋め込みカーネル  
-- 生成アルゴリズム
+- そのまま動作するエージェント  
+- 非公開の重みや専用カーネル  
+- 内部実装の完全なコピー
 
-This ensures safety and prevents misuse in external systems.
+実際に動作させたい場合は、  
+各自が独立して設計・実装・検証を行う必要があります。
 
-安全性を保証し、外部システムでの悪用を防止します。
+なお、一般論として、  
+どのような概念仕様も「完全に解析不能」になることは保証できませんが、  
+本リポジトリは実装細部を含まない形にとどめることで、  
+リバースエンジニアリングの実用的な価値を下げる設計としています。
 
 ---
 
 ## 4. Cross-LLM Isolation  
-## 4. LLM間の隔離構造
+## 4. LLM 間の隔離構造
 
-HS-OS does **not** contain any model-specific instructions.  
-No vendor-linked kernels or weights exist.
+HS-OS is designed as a **vendor-agnostic, prompt-level architecture**.  
+The repository intentionally avoids:
 
-HS-OS は LLM固有の命令を含みません。  
-ベンダ依存のカーネルや重みは存在しません。
+- model-specific control codes  
+- private API contracts  
+- references to proprietary weights or internal tools
 
-This ensures safe portability and prevents unauthorized replication.
+HS-OS は **ベンダ非依存のプロンプトレベル設計** を意図しており、  
+次のような要素を意図的に含めていません。
 
-これにより安全な可搬性と、非許可複製の防止が保証されます。
+- 特定モデル専用の制御コード  
+- 非公開 API 仕様への直接依存  
+- 専用重みや内部ツールへの参照
+
+これにより、特定ベンダの内部実装を模倣したり、  
+非公開インフラに依存した構造を公開してしまうリスクを下げています。
 
 ---
 
 ## 5. Allowed Surface Area  
 ## 5. 公開してよい範囲
 
-This documentation may include:
+The public documentation is limited to:
 
-- conceptual diagrams  
-- symbolic layer explanations  
-- theoretical stability models  
-- API-level behavior references  
+- conceptual and educational descriptions  
+- symbolic layer diagrams and high-level flows  
+- theoretical stability and safety considerations  
+- examples of expected behavior *at the API / chat level*
 
-本ドキュメントで公開可能なのは：
+公開対象として許容されるのは、次の範囲です。
 
-- 概念図  
-- 象徴的レイヤ構造  
-- 理論的安定性モデル  
-- APIレベルの参照情報
+- 概念的・教育的な説明  
+- 象徴的なレイヤ図や高レベルなフロー  
+- 理論的な安定性・安全性に関する考察  
+- API / チャットレベルで観測される挙動の例示
 
-It may *not* include:
+The documentation **must not** include:
 
-- operational sequences  
-- reinforcement patterns  
-- emergent behavior triggers  
-- resonance field coefficients  
+- step-by-step operational runbooks  
+- reinforcement or fine-tuning recipes  
+- triggers intended to cause extreme or unstable behavior  
+- numeric parameter sets for resonance fields or control loops
 
-含めてはいけないもの：
+逆に、次のような情報は **含めません**。
 
-- 運用シーケンス  
-- 強化パターン  
-- 振る舞い誘発トリガ  
-- 共鳴場の係数
+- 詳細な運用手順書（Runbook）  
+- 強化学習・ファインチューニングの具体レシピ  
+- 極端な挙動・不安定な挙動を誘発することを目的としたトリガ  
+- 共鳴場や制御ループの具体的な数値パラメータ一式
 
 ---
 
-## 6. Safety Philosophy  
-## 6. 安全思想
+## 6. Safety Principles  
+## 6. 安全設計の基本方針
 
-StarPolaris OS follows three principles:
+StarPolaris OS in this repository follows three conservative principles:
 
-1. **Non-Executable Reality**  
-2. **Non-Replicable Structure**  
-3. **Non-Abusive Behavior**
+1. **Documentation-only**  
+   - Deliver ideas and architectures as documents, not as software.
 
-StarPolaris OS は以下を基盤とします：
+2. **Implementation-neutral**  
+   - Avoid publishing details that directly prescribe a single, fixed implementation.
 
-1. 実行不可であること  
-2. 複製不可であること  
-3. 悪用不可であること
+3. **Misuse-aware**  
+   - Write descriptions in a way that discourages harmful or misleading use.
 
-These ensure that HS-OS is safe, conceptual, and future-proof.
+本リポジトリで公開される StarPolaris OS は、  
+次の 3 つの保守的な原則に基づいて設計されています。
 
-これにより、HS-OS は安全であり、概念的であり、将来にわたり保護されます。
+1. **ドキュメント限定**  
+   - アイデアやアーキテクチャは「文書」として提供し、ソフトウェアとしては提供しない。
+
+2. **実装中立**  
+   - 特定の一つの実装をそのまま再現できるような詳細は公開しない。
+
+3. **誤用を意識した記述**  
+   - 有害な用途や誤解を助長しないよう、説明の仕方に配慮する。
+
+これらは、StarPolaris OS を  
+**安全で、概念的で、長期的に扱いやすい設計情報** として公開するための指針です。  
+本ドキュメントは、実装を指示するものではなく、  
+研究・議論・検証のためのフレームワークを共有することを目的としています。
