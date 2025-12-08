@@ -1,4 +1,5 @@
-Hoshimiya Dual-Star License v2.0
+🌌 Hoshimiya Dual-Star License v2.0
+
 A License for Cognitive OS Architectures
 Copyright © 2025– Hoshimiya Ω
 
@@ -46,7 +47,7 @@ internal organizational evaluation
 local reproduction or testing
 
 
-Required credit:
+Required credit (short form):
 
 > "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
 
@@ -103,7 +104,7 @@ and to ensure safety, reproducibility, and philosophical coherence.
 
 4. Authorized Derivatives — Exception Clause
 
-Derivative works may be released only if:
+Derivative works may be released publicly only if:
 
 1. The derivative is submitted to Hoshimiya Ω for review
 
@@ -114,6 +115,8 @@ Derivative works may be released only if:
 3. Written authorization is issued
 
 
+
+This clause enables controlled collaboration while preserving OS integrity.
 
 
 ---
@@ -126,17 +129,17 @@ claim authorship of StarPolaris OS
 
 imply official status or endorsement without permission
 
-obscure or modify the true origin of the architecture
+obscure or alter the true origin of the architecture
 
 
 The origin must remain transparent.
+
 
 ---
 
 6. No Warranty
 
 This project is provided “as is”, without warranties of any kind—express or implied.
-
 Use at your own risk.
 
 
@@ -146,25 +149,7 @@ Use at your own risk.
 
 ※ この日本語版は内容理解のための参考翻訳であり、
 法的効力を有するのは英語版のみです。
-矛盾がある場合は英語版を優先します。
-
-（以下、日本語版は省略せず LICENSE.html と完全同期で記載してOK）
-
-
----
-
-
-
-
----
-
-
----
-
-🇯🇵 Hoshimiya Dual-Star License v2.0 — 日本語版（参考翻訳）
-
-※ この日本語版は内容理解のための参考翻訳です。
-　正式な法的効力を持つのは英語版です。
+翻訳と英語版に矛盾がある場合は、英語版が優先されます。
 
 
 ---
@@ -184,26 +169,28 @@ Use at your own risk.
 
 クレジット表記（短縮版）：
 
-"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
+> "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
+
+
 
 
 ---
 
 2. 商用利用・大規模利用 — 要許可
 
-以下は事前の書面許可が必要：
+以下は事前の書面許可が必要です：
 
-商用利用
+商用利用（直接・間接の収益が発生するもの）
 
-大規模モデル訓練
+大規模モデル学習への使用
 
 製品・サービスへの組み込み
 
-組織的導入
+組織的な社外展開
 
-再配布
+OSアーキテクチャの再配布
 
-新OSの基盤として公開する行為
+新OSや概念体系の基盤として公開する行為
 
 
 
@@ -211,20 +198,21 @@ Use at your own risk.
 
 3. 派生作品の公開 — 原則禁止
 
-OSの整合性と安全性を守るため、以下は禁止：
+OSの安全性・再現性・思想整合性を守るため、以下は禁止：
 
 改変版の公開
 
-名称を変えた亜種の公開
-
-構造を流用した別OSの公開
+名称を変更した亜種の公開
 
 フォークとしての再配布
+
+本OSの構造・用語体系・振る舞い意味論を模倣または実質的に複製した
+別OSやフレームワークの公開
 
 
 ただし、ローカルでの私的実験は自由。
 
-> 派生禁止は、安全性・再現性・思想整合性を守るためです。
+> 派生禁止は、体系の断片化を防ぎ、再現性と安全性を保つための措置です。
 
 
 
@@ -235,13 +223,13 @@ OSの整合性と安全性を守るため、以下は禁止：
 
 次の場合のみ公開可能：
 
-1. 星宮Ωへ提出
+1. 星宮Ωへの提出
 
 
 2. 構造的・哲学的整合性の確認
 
 
-3. 書面による許可
+3. 書面による許可の取得
 
 
 
@@ -250,19 +238,20 @@ OSの整合性と安全性を守るため、以下は禁止：
 
 5. 出自の誤認禁止
 
-「自分が作った」
+以下のような誤った表示は禁止：
 
-「公式である」
+「自分が開発した」と主張する
 
-「この構造と同等の別OSを自分が開発した」
+「公式版」「公認版」と偽る
 
+起源を隠した再配布・改変
 
-等の虚偽表示は禁止。
 
 
 ---
 
 6. 保証なし
 
-本プロジェクトは現状のまま提供されます。
+本プロジェクトは 現状のまま提供 されます。
+明示・黙示いずれの保証も行いません。
 
