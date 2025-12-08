@@ -22,8 +22,8 @@
 
   .container {
     max-width: 900px;
-    margin: 20px auto;
-    padding: 20px 16px 24px;
+    margin: 20px auto 28px;
+    padding: 22px 18px 26px;
     background: rgba(3, 6, 18, 0.92);
     border-radius: 24px;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9);
@@ -83,63 +83,69 @@
     white-space: pre-wrap;
   }
 
-  /* ---- エンブレム周り ---- */
+  /* ---- エンブレム周り（主役） ---- */
   .logo-wrap {
     text-align: center;
-    margin: 32px 0 18px;
+    margin: 42px 0 26px;
   }
 
   .logo-glow {
-    max-width: 320px;   /* 旧版より一回り大きく */
-    width: 78%;
+    max-width: 460px;   /* デスクトップで大きく見せる上限 */
+    width: 94%;         /* コンテナほぼ一杯 */
     height: auto;
     filter:
-      drop-shadow(0 0 12px rgba(255, 190, 120, 0.60))
-      drop-shadow(0 0 30px rgba(255, 160, 64, 0.45));
-    animation: logoPulse 7s ease-in-out infinite;
+      drop-shadow(0 0 20px rgba(255, 210, 150, 0.90))
+      drop-shadow(0 0 80px rgba(255, 170, 70, 0.85));
+    animation: logoPulse 5.8s ease-in-out infinite;
   }
 
   @keyframes logoPulse {
     0% {
       transform: translateY(0) scale(1);
       filter:
-        drop-shadow(0 0 10px rgba(255, 190, 120, 0.45))
-        drop-shadow(0 0 24px rgba(255, 160, 64, 0.25));
+        drop-shadow(0 0 16px rgba(255, 195, 130, 0.80))
+        drop-shadow(0 0 55px rgba(255, 160, 64, 0.60));
     }
-    50% {
-      transform: translateY(-4px) scale(1.02);
+    30% {
+      transform: translateY(-3px) scale(1.04);
       filter:
-        drop-shadow(0 0 22px rgba(255, 210, 150, 0.95))
-        drop-shadow(0 0 55px rgba(255, 180, 90, 0.7));
+        drop-shadow(0 0 30px rgba(255, 230, 180, 1.0))
+        drop-shadow(0 0 110px rgba(255, 190, 90, 0.98));
+    }
+    55% {
+      transform: translateY(-1px) scale(1.02);
+      filter:
+        drop-shadow(0 0 24px rgba(255, 215, 160, 0.95))
+        drop-shadow(0 0 85px rgba(255, 175, 80, 0.88));
     }
     100% {
       transform: translateY(0) scale(1);
       filter:
-        drop-shadow(0 0 10px rgba(255, 190, 120, 0.45))
-        drop-shadow(0 0 24px rgba(255, 160, 64, 0.25));
+        drop-shadow(0 0 16px rgba(255, 195, 130, 0.80))
+        drop-shadow(0 0 55px rgba(255, 160, 64, 0.60));
     }
   }
 
   /* ---- フェニックス風 GitHub ボタン ---- */
   .phoenix-button-wrap {
     text-align: center;
-    margin: 8px 0 4px;
+    margin: 10px 0 6px;
   }
 
   .phoenix-button {
     display: inline-block;
-    padding: 9px 18px;      /* 12x22 → 少し小さく */
-    border-radius: 10px;    /* 14px → 少し控えめに */
-    font-size: 0.95em;      /* 1.05em → 0.95em */
+    padding: 8px 17px;      /* さらに少しだけコンパクトに */
+    border-radius: 10px;
+    font-size: 0.92em;
     font-weight: 700;
     color: #fff;
     background: linear-gradient(135deg, #b86a00, #ffb84d, #cc7a00);
     text-decoration: none;
     box-shadow:
-      0 0 10px rgba(255, 180, 80, 0.35),
+      0 0 9px rgba(255, 180, 80, 0.35),
       0 0 20px rgba(255, 160, 64, 0.20);
     border: 1px solid rgba(255, 200, 120, 0.35);
-    transition: 0.24s ease;
+    transition: 0.22s ease;
   }
 
   .phoenix-button:hover {
@@ -154,7 +160,7 @@
   /* ---- レスポンシブ対応 ---- */
   @media (max-width: 768px) {
     .container {
-      margin: 10px auto;
+      margin: 10px auto 18px;
       padding: 15px 10px 20px;
       max-width: 95%;
       border-radius: 16px;
@@ -170,9 +176,13 @@
       margin-top: 30px;
     }
 
+    .logo-wrap {
+      margin: 30px 0 20px;
+    }
+
     .logo-glow {
-      width: 88%;
-      max-width: 300px;
+      width: 100%;
+      max-width: 420px;   /* タブレットでもでかく */
     }
 
     pre {
@@ -183,7 +193,7 @@
 
     .phoenix-button {
       font-size: 0.9em;
-      padding: 8px 16px;
+      padding: 7px 15px;
     }
 
     body {
@@ -194,16 +204,20 @@
   @media (max-width: 480px) {
     .container {
       padding: 10px 8px 15px;
-      margin: 5px auto;
+      margin: 5px auto 14px;
     }
 
     h1 {
-      font-size: 1.8em;
+      font-size: 1.75em;
+    }
+
+    .logo-wrap {
+      margin: 26px 0 18px;
     }
 
     .logo-glow {
       width: 100%;
-      max-width: 320px;
+      max-width: 360px;  /* スマホでも画面いっぱいだけどはみ出さない */
     }
 
     .section-box {
@@ -211,8 +225,8 @@
     }
 
     .phoenix-button {
-      font-size: 0.88em;
-      padding: 7px 14px;
+      font-size: 0.86em;
+      padding: 7px 13px;
     }
   }
 </style>
