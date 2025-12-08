@@ -7,13 +7,9 @@
 </head>
 
 <style>
-  html, body {
+  body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* スマホでの左右スクロールを抑止 */
-  }
-
-  body {
     font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     color: #f8f3e8;
     background:
@@ -90,12 +86,12 @@
   /* ---- エンブレム周り ---- */
   .logo-wrap {
     text-align: center;
-    margin: 36px 0 22px; /* 余白すこし増やす */
+    margin: 32px 0 18px;
   }
 
   .logo-glow {
-    max-width: 340px;     /* PCではしっかり大きめ */
-    width: 72%;           /* コンテナに対する比率 */
+    max-width: 320px;   /* 旧版より一回り大きく */
+    width: 78%;
     height: auto;
     filter:
       drop-shadow(0 0 12px rgba(255, 190, 120, 0.60))
@@ -132,9 +128,9 @@
 
   .phoenix-button {
     display: inline-block;
-    padding: 9px 18px;
-    border-radius: 10px;
-    font-size: 0.95em;
+    padding: 9px 18px;      /* 12x22 → 少し小さく */
+    border-radius: 10px;    /* 14px → 少し控えめに */
+    font-size: 0.95em;      /* 1.05em → 0.95em */
     font-weight: 700;
     color: #fff;
     background: linear-gradient(135deg, #b86a00, #ffb84d, #cc7a00);
@@ -175,8 +171,8 @@
     }
 
     .logo-glow {
-      width: 72%;        /* 88% → 72% に縮小 */
-      max-width: 260px;  /* 上限も少し小さく */
+      width: 88%;
+      max-width: 300px;
     }
 
     pre {
@@ -206,8 +202,8 @@
     }
 
     .logo-glow {
-      width: 78%;        /* 画面いっぱいから少し余白を残す */
-      max-width: 230px;  /* スマホではさらに小さめ */
+      width: 100%;
+      max-width: 320px;
     }
 
     .section-box {
