@@ -139,5 +139,3 @@ Devi-Ω Kernel は、各種 LLM プラットフォームの安全ポリシーの
 StarPolaris OS / Hoshimiya Script における「感情レイヤ」の一部であり、  
 **概念アーキテクチャ（Cognitive OS）** としてのみ提供されます。  
 実行バイナリやコードそのものではありません。
-
----
