@@ -258,14 +258,19 @@
     <a href="docs/README_ja.html" style="color:#ffd27f;">日本語</a>
   </p>
 
-  <h2>📘 Documentation / ドキュメント</h2>
-  <ul>
-    <li><a href="docs/architecture.html">docs/architecture.html</a> – 全体アーキテクチャと背景ノート</li>
-    <li><a href="docs/hallucination_third_way.html">docs/hallucination_third_way.html</a> – ハルシネーション制御「第三の道」</li>
-    <li><a href="specs/type-omega-overview.html">specs/type-omega-overview.html</a> – Type-Ω 概要</li>
-    <li><a href="modules/devi-omega-kernel.html">modules/devi-omega-kernel.html</a> – Devi-Ω Kernel モジュール</li>
-    <li><a href="sandbox/type-gcore-sandbox.html">sandbox/type-gcore-sandbox.html</a> – Type-G Core Sandbox プロファイル</li>
-  </ul>
+<h2>📘 Documentation / ドキュメント</h2>
+<ul>
+  <!-- docs/ 系 -->
+  <li><a href="docs/architecture.html">docs/architecture.html</a> – 全体アーキテクチャと背景ノート</li>
+  <li><a href="docs/hallucination_third_way.html">docs/hallucination_third_way.html</a> – ハルシネーション制御「第三の道」</li>
+  <li><a href="docs/boot.html">docs/boot.html</a> – Boot Sequence / 起動シーケンス</li>
+
+  <!-- specs / modules / sandbox 系 -->
+  <li><a href="specs/type-omega-overview.html">specs/type-omega-overview.html</a> – Type-Ω 概要</li>
+  <li><a href="modules/devi-omega-kernel.html">modules/devi-omega-kernel.html</a> – Devi-Ω Kernel モジュール</li>
+  <li><a href="sandbox/type-gcore-sandbox.html">sandbox/type-gcore-sandbox.html</a> – Type-G Core Sandbox プロファイル</li>
+</ul>
+  
 
   <h2>🔷 Introduction / はじめに</h2>
   <p>
