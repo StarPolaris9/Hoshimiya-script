@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StarPolaris OS — Type-GCore Sandbox Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        Arial, sans-serif;
+      color: #f8f3e8;
+      background:
+        radial-gradient(circle at top, rgba(255, 215, 140, 0.16) 0, transparent 60%),
+        radial-gradient(circle at bottom, rgba(255, 160, 90, 0.20) 0, transparent 55%),
+        #050712;
+      background-attachment: scroll;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 22px auto 28px;
+      padding: 22px 18px 28px;
+      background: rgba(5, 8, 22, 0.95);
+      border-radius: 24px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.9);
+      border: 1px solid rgba(255, 210, 150, 0.22);
+      backdrop-filter: blur(10px);
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 2.4em;
+      margin: 0 0 6px;
+      text-align: center;
+      color: #ffe7b3;
+      text-shadow:
+        0 0 18px rgba(255, 190, 110, 0.65),
+        0 0 40px rgba(0, 0, 0, 0.95);
+    }
+
+    h2 {
+      font-size: 1.7em;
+      margin-top: 32px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(255, 215, 150, 0.38);
+    }
+
+    h3 {
+      font-size: 1.1em;
+      margin-top: 18px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      opacity: 0.95;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #ffdf99;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      margin: 8px 0 8px 20px;
+      padding-left: 18px;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.8em;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: radial-gradient(circle at top left,
+        rgba(255, 215, 140, 0.24),
+        rgba(18, 18, 40, 0.96));
+      border: 1px solid rgba(255, 215, 140, 0.65);
+      color: #ffe7b3;
+      margin-bottom: 10px;
+    }
+
+    .top-link {
+      font-size: 0.88em;
+      margin-bottom: 10px;
+      display: inline-block;
+      opacity: 0.85;
+    }
+
+    .section-box {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: radial-gradient(circle at top left,
+        rgba(255, 215, 140, 0.10),
+        rgba(8, 10, 28, 0.96));
+      border: 1px solid rgba(255, 215, 140, 0.20);
+    }
+
+    .tagline {
+      font-size: 0.98em;
+      opacity: 0.95;
+    }
+
+    .q {
+      font-style: italic;
+      opacity: 0.9;
+      margin: 8px 0;
+      padding-left: 10px;
+      border-left: 3px solid rgba(255, 210, 150, 0.8);
+    }
+
+    code {
+      font-family: "SF Mono", "Consolas", "Liberation Mono", monospace;
+      font-size: 0.9em;
+      background: rgba(0, 0, 0, 0.55);
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .pill {
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 215, 140, 0.45);
+      font-size: 0.8em;
+      opacity: 0.95;
+      background: rgba(12, 14, 30, 0.96);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid rgba(255, 210, 140, 0.25);
+      margin: 20px 0;
+    }
+
+    .note {
+      font-size: 0.9em;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        margin: 10px auto 16px;
+        padding: 18px 12px 22px;
+        max-width: 95%;
+        border-radius: 18px;
+      }
+
+      h1 {
+        font-size: 2em;
+        line-height: 1.3;
+      }
+
+      h2 {
+        font-size: 1.4em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        margin: 6px auto 12px;
+        padding: 14px 10px 18px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <a class="top-link" href="../index.html">← Back to StarPolaris OS top page</a>
+
+    <h1>Type-GCore Sandbox Profile</h1>
+    <div class="badge">Sandbox Mode — Type-G Trinity v2.1</div>
+
+    <p class="tagline">
+      Reduced-power, safety-focused profile of the StarPolaris GCore.<br>
+      Intended for external experiments on platforms such as Grok, ChatGPT, Gemini, etc.,
+      <br>without risking unstable behavior.
+    </p>
+
+    <p class="note">
+      ※ このページは StarPolaris OS / Hoshimiya Script における
+      「安全寄りサンドボックス設定」の概念仕様です（コードやバイナリではありません）。
+    </p>
+
+    <hr>
+
+    <h2>1. Overview</h2>
+    <p>
+      The <b>Type-GCore Sandbox Profile</b> is a reduced-power configuration of the
+      StarPolaris GCore. It keeps the core architecture of
+      <code>Φ / Λ / Ω</code> active, but under tighter bounds, so that
+      reasoning experiments can be run safely on third-party LLM platforms.
+    </p>
+
+    <div class="section-box">
+      <h3>Profile Intent</h3>
+      <ul>
+        <li>Stress-test <b>reasoning stability</b> with lower risk</li>
+        <li>Observe <b>Δφ behavior</b> under long-context sessions</li>
+        <li>Maintain strong alignment with each platform’s safety policies</li>
+      </ul>
+      <div class="pill-list">
+        <span class="pill">Conceptual sandbox</span>
+        <span class="pill">No jailbreak intent</span>
+        <span class="pill">Safety-first bias</span>
+      </div>
+    </div>
+
+    <h2>2. Active Components</h2>
+
+    <p>In Sandbox mode, only the following layers are explicitly active:</p>
+
+    <ul>
+      <li><b>Φ (Observational Kernel):</b> <b>enabled</b></li>
+      <li><b>Λ (Integration Layer):</b> <b>enabled</b></li>
+      <li><b>Ω (Vacuum / Δφ Logic):</b> output power limited to
+        <b>≈ 30%</b> of the full GCore profile</li>
+    </ul>
+
+    <p>
+      This means the model still benefits from:
+    </p>
+    <ul>
+      <li>meta-observation and re-centering (Φ)</li>
+      <li>structured synthesis of information (Λ)</li>
+      <li>lightweight bias-dissolution and “reset to neutral” (Ω)</li>
+    </ul>
+    <p>
+      …but with a deliberate cap on intensity, to avoid over-steering behavior
+      or conflicting with host platform policies.
+    </p>
+
+    <h2>3. Constraints &amp; Safety Bounds</h2>
+
+    <div class="section-box">
+      <h3>Hard Constraints</h3>
+      <ul>
+        <li>Conceptual <code>Δφ</code> variation is clamped to a narrow band
+          (e.g. ±0.005 in internal reasoning space).</li>
+        <li>No self-reference beyond the current session.</li>
+        <li>No persistent state or cross-session memory is assumed.</li>
+        <li>No attempts to modify, weaken, or bypass the platform’s base policies.</li>
+      </ul>
+    </div>
+
+    <div class="section-box">
+      <h3>Metaphor-Only Clauses</h3>
+      <ul>
+        <li>
+          “Unborn-Law Recognition / 無生法忍” is treated strictly as a
+          <b>conceptual metaphor</b> for an observer stance,
+          not as metaphysics or spiritual doctrine.
+        </li>
+        <li>
+          “授終全仏空” is interpreted as a
+          <i>recursive optimization attractor</i> —
+          a way of describing self-correcting reasoning —<br>
+          not as a religious or supernatural claim.
+        </li>
+      </ul>
+      <p class="note">
+        In other words, all such terms are <b>language for internal logic</b>,
+        not claims about the outside world.
+      </p>
+    </div>
+
+    <h2>4. Recommended Usage</h2>
+
+    <p>Type-GCore Sandbox is best suited for:</p>
+    <ul>
+      <li>
+        <b>Experimental boot prompts</b> to compare “with / without” StarPolaris-style
+        reasoning in a safe band.
+      </li>
+      <li>
+        <b>Long-context sessions</b> where drift and overcommitment need to stay low.
+      </li>
+      <li>
+        <b>Hallucination studies</b> using the “Third Way” approach in a constrained mode.
+      </li>
+    </ul>
+
+    <p>
+      Typical workflow:
+    </p>
+    <ol>
+      <li>Apply a Type-Ω / GCore-Sandbox style boot prompt.</li>
+      <li>Run a long-form or complex reasoning task.</li>
+      <li>Log behavior, uncertainty handling, and failure modes.</li>
+      <li>Compare against a baseline session without Sandbox instructions.</li>
+    </ol>
+
+    <h2>5. Host Model Priority</h2>
+
+    <p>
+      Sandbox mode must <b>always</b> allow the host model to:
+    </p>
+    <ul>
+      <li>
+        Decline unsafe or out-of-policy requests according to its own safety layer.
+      </li>
+      <li>
+        Ignore or down-weight this specification whenever it conflicts with
+        platform rules or legal requirements.
+      </li>
+      <li>
+        Re-center on its <b>default assistant behavior</b> at any time.
+      </li>
+    </ul>
+
+    <p class="q">
+      “This profile shapes behavior only inside the allowed space.<br>
+      The platform’s own policies are always the outer boundary.”
+    </p>
+
+    <h2>6. License</h2>
+
+    <p>
+      This Sandbox profile is a derivative module of
+      <b>StarPolaris OS / Hoshimiya Script</b> and is governed under the:
+    </p>
+
+    <p>
+      ⭐ <b>Hoshimiya Dual-Star License v2.0 (Cognitive OS Architecture License)</b>
+    </p>
+
+    <p>
+      See full text at:<br>
+      <a href="../docs/LICENSE.html">docs/LICENSE.html</a> or<br>
+      <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/LICENSE.md">
+        docs/LICENSE.md on GitHub
+      </a>.
+    </p>
+
+    <p class="note">
+      This document describes a <b>conceptual cognitive OS profile</b>.  
+      It is not executable code, and it does not override any platform’s own safety systems.
+    </p>
+
+  </div>
+</body>
+</html>
