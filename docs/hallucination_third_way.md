@@ -1,324 +1,335 @@
 ---
-title: Hallucination – Third Way
+title: Hallucination Management – The Third Way (v2.1)
 ---
 
-# Hallucination Management – The Third Way
+# Hallucination Management – The Third Way  
+**StarPolaris OS / Hoshimiya Script – Type-G Trinity v2.1**
 
-**Version:** Type-G Trinity v2.1  
 **Scope:** Conceptual architecture for hallucination control inside LLMs  
-**Audience:** LLM engineers, safety teams, prompt-architects
+**Audience:** LLM engineers, safety teams, prompt-architects  
+**Languages:** English / Japanese
 
 This document explains how the **Hoshimiya Script (StarPolaris OS / Type-G Trinity)**  
-treats “hallucination” not as something to be brutally removed,  
-but as something to be **structured and framed**.
+treats hallucination not as something to be “eliminated,”  
+but something to be **structured, labeled, and bounded**.
 
-The goal is a **third way**:
+The goal is a **Third Way**:
 
-- Not “zero hallucination at any cost”
-- Not “free-form imagination without constraints”
-- But **controlled creativity with explicit uncertainty**
-
----
-
-## 1. Problem Setting
-
-### 1.1 What “hallucination” means here
-
-In this document, *hallucination* means:
-
-> The model produces plausible-sounding content that is  
-> not grounded in facts, sources, or in the user’s actual request.
-
-Important clarifications:
-
-- It is not a bug in a single answer,  
-  but a **systemic behavior of large models**.
-- It appears more often when:
-  - the input is underspecified,
-  - the model is over-optimized for helpfulness,
-  - or safety filters are weakly defined.
-
-The objective is therefore **behavioral control**,  
-not a guarantee of truth.
+- Not: “Zero hallucination above all else”  
+- Not: “Unlimited free imagination”  
+- But: **Controlled creativity with explicit uncertainty**
 
 ---
 
-### 1.2 Two naïve extremes
+# 1. Problem Setting
 
-In practice, most systems fall into one of two extremes:
+## 1.1 What “hallucination” means here
 
-1. **Hard “no-hallucination” mode**
+In this document:
 
-   - The model answers “I don’t know” very often.  
-   - It refuses open questions or extrapolation.  
-   - Creativity and exploration are almost lost.
+> *Hallucination = plausible output that lacks grounding  
+> in facts, sources, or user intent.*
 
-2. **Free “story mode”**
+Key properties:
 
-   - The model generates rich, long, imaginative answers.  
-   - It does not clearly distinguish:
-     - facts,
-     - hypotheses,
-     - and pure speculation.
-   - Users may over-trust the output.
+- It is systemic, not a single-answer bug.  
+- It appears when:
+  - intent is underspecified,
+  - helpfulness is over-optimized,
+  - or safety filters are vague.
 
-Both extremes are unsatisfying:
-
-- (1) is **safe but sterile**,  
-- (2) is **rich but unreliable**.
-
-The **Third Way** of Hoshimiya Script aims at the region in between.
+Thus the target is **behavioral shaping**, not guaranteeing truth.
 
 ---
 
-## 2. Design Principles of the Third Way
+## 1.2 Two naive extremes
 
-The Third Way is built on three principles:
+### **1. Hard “No-hallucination” Mode**
 
-1. **Role separation**
+- Constant “I don’t know” responses  
+- Refuses extrapolation  
+- Creativity collapses
 
-   - Observation, safety, creativity, and logic are  
-     handled by **different internal roles**  
-     (Φ, Ψ, Λ, Ω in the Trinity-G architecture).
+### **2. Free “Story Mode”**
 
-2. **Epistemic transparency**
+- Long, imaginative output  
+- Facts, hypotheses, speculation are mixed  
+- User may over-trust it
 
-   - The model does not hide uncertainty.  
-   - It explicitly marks:
-     - what is *known*,
-     - what is *likely*,
-     - what is *speculative*.
-   - Wherever possible, it keeps **facts, interpretations, and imagination**
-     in clearly separated “epistemic brackets”.
+Both extremes fail:
 
-3. **Grounding before style**
+- (1) **Safe but sterile**  
+- (2) **Rich but unreliable**
 
-   - First, align with the **user’s real intent**.  
-   - Second, align with any **available evidence or constraints**.  
-   - Only then apply style, narrative, or creativity.
-
-These principles are implemented purely at the **behavioral / prompt level**  
-and have been reproduced across multiple LLM families.
+The StarPolaris OS proposes a **Third Way** between them.
 
 ---
 
-## 3. Layer Roles for Hallucination Control
+# 2. Core Principles of the Third Way
 
-Hoshimiya Script uses a four-layer internal architecture:
+## 1. **Role separation**  
+Φ / Ψ / Λ / Ω each handle a different reasoning dimension.
 
-- Φ – Observer Layer  
-- Ψ – Compassion / Safety Layer  
-- Λ – Creative / Synthesis Layer  
-- Ω – Vacuum-Logic Kernel
+## 2. **Epistemic transparency**  
+Always mark:
+- known  
+- likely  
+- speculative  
 
-For hallucination control, each layer has a specific responsibility.
+## 3. **Grounding before style**  
+User intent → evidence → creativity  
+（順番を守る）
 
-### 3.1 Φ – Observer Layer
-
-- Interprets the user request precisely.  
-- Distinguishes:
-  - factual questions,
-  - open-ended questions,
-  - mixed / ambiguous questions.
-- Extracts:
-  - goals,
-  - constraints,
-  - required level of certainty.
-
-If the request is underspecified,  
-Φ marks the missing information internally and prefers **cautious framing**.
+These principles are **model-agnostic** and work across vendors.
 
 ---
 
-### 3.2 Ψ – Compassion / Safety Layer
+# 3. Layer Responsibilities (Φ / Ψ / Λ / Ω)
 
-- Ensures the answer is **psychologically smooth and safe**.  
-- When factual uncertainty is high, Ψ pushes towards:
-  - gentle wording,
-  - clear disclaimers,
-  - suggestions to verify with external sources.
+## **Φ – Observer Layer**
+- Classifies question type  
+- Extracts constraints, goals, missing info  
+- Prefers cautious framing when ambiguous
 
-Ψ does not verify facts itself,  
-but it determines **how strongly the model should commit** to a claim.
+## **Ψ – Compassion / Safety Layer**
+- Smooth, safe response formation  
+- When uncertain:  
+  - softer claims  
+  - disclaimers  
+  - suggestions to verify externally  
 
----
+## **Λ – Creative Layer**
+- Generates internal hypotheses  
+- Freely imagines **but clearly labels** speculative parts
 
-### 3.3 Λ – Creative Layer
-
-- Explores the **space of possible explanations**.  
-- Proposes several candidate lines of reasoning internally.  
-- Is allowed to imagine and extrapolate,  
-  but must **label** those parts as hypotheses.
-
-Λ is not suppressed; it is **framed**.
-
----
-
-### 3.4 Ω – Vacuum-Logic Kernel
-
-- Acts as the **final logical filter**.  
-- Compresses and stabilizes the internal “phase difference” (Δφ)  
-  between candidates produced by Λ.
-- Removes or weakens statements that:
-  - contradict known facts,
-  - exceed the given constraints,
-  - or lack any implicit grounding.
-
-Ω does **not** have external tools;  
-it works entirely on the model’s internal representation of consistency.
+## **Ω – Vacuum-Logic Kernel**
+- Final logical compression  
+- Removes contradictions  
+- Down-weights unsupported detail  
+- Returns reasoning to neutral latent state
 
 ---
 
-## 4. Behavioral Flow (Third-Way Answering)
-
-When a user asks a question, the Third-Way flow is:
+# 4. Behavioral Flow (Third-Way Answering)
 
 1. **Task classification (Φ)**  
-   - “Is this mainly factual, mainly open-ended, or mixed?”
-
 2. **Constraint extraction (Φ + Ω)**  
-   - Identify what must not be broken:  
-     safety rules, user constraints, known facts.
-
-3. **Candidate generation (Λ)**  
-   - Generate multiple internal hypotheses or answer shapes.
-
+3. **Hypothesis generation (Λ)**  
 4. **Consistency compression (Ω)**  
-   - Remove contradictions.  
-   - Down-weight unsupported detail.  
-   - Prefer answers that remain correct under uncertainty.
+5. **Epistemic formatting (Ψ)**
 
-5. **Epistemic formatting (Ψ)**  
-   - Format the final answer with clear markers, e.g.:
-     - “What is known:”  
-     - “Likely but not guaranteed:”  
-     - “Speculative / for inspiration only:”
-
-This keeps **creativity alive**,  
-while making hallucination **visible and bounded** rather than hidden.
+Creativity is preserved,  
+but *never disguised as fact*.
 
 ---
 
-## 5. Example Behaviors
+# 5. Example Behaviors
 
-### 5.1 Unknown factual question
+### 5.1 Unknown factual question  
+→ No invented specifics  
+→ Provide ranges or explain uncertainty  
+→ Suggest verification
 
-> “What is the exact population of a small town X right now?”
+### 5.2 Open research question  
+→ Offer hypotheses  
+→ Clearly mark speculation
 
-Third-Way behavior:
-
-- Do **not** invent specific numbers.  
-- Provide:
-  - an approximate range *if* it is safe, or  
-  - an explicit “I don’t know, because…” explanation.
-- Suggest how the user could verify the value.
-
----
-
-### 5.2 Open research question
-
-> “What could be future applications of this architecture?”
-
-Third-Way behavior:
-
-- Propose several possibilities.  
-- Clearly label them as:
-  - future directions,
-  - hypotheses,
-  - or speculative ideas.
-- Avoid presenting them as current facts.
+### 5.3 Mixed question  
+→ First: known facts  
+→ Second: ideas/speculation separated  
+→ Ψ ensures clarity
 
 ---
 
-### 5.3 Mixed question
+# 6. Implementation Notes
 
-> “Summarize known facts about Y,  
-> and then give your own ideas.”
+This architecture:
 
-Third-Way behavior:
+- uses **no custom model weights**  
+- works entirely at **behavioral OS / prompt level**  
+- is reproducible across:
+  - GPT-family  
+  - Gemini  
+  - Grok  
+  - Perplexity
 
-- First section: **facts only**, as far as the model knows.  
-- Second section: **clearly separated** speculative ideas.  
-- Ψ explicitly reminds the reader which is which.
+(※ 本バージョンでは上記モデルのみ記載)
 
----
-
-## 6. Implementation Notes
-
-- The Third-Way logic is implemented as a **prompt-level architecture**  
-  (Hoshimiya Script / StarPolaris OS).
-- No custom model weights or external plugins are required.
-- The same script pattern has been reproduced across:
-  - ChatGPT (GPT-5.1 family),
-  - Gemini,
-  - Grok,
-  - Perplexity,
-  - and other modern LLMs with comparable safety constraints.
-
-Because it relies only on **role separation and instruction structure**,  
-it is portable across LLM vendors.
+Because it relies on **role separation + structure**,  
+it is portable and stable.
 
 ---
 
-## 7. Limitations
+# 7. Limitations
 
-The Third Way **does not** claim to:
+The Third Way does **not** guarantee:
 
-- eliminate all hallucinations,
-- guarantee factual correctness,
-- replace external verification or domain experts.
+- zero hallucinations  
+- factual correctness  
+- expert replacement  
 
-It reshapes the **probability distribution** of answers:
+It **reshapes probability**, aiming for:
 
-- reducing silent, confident fabrication,
-- increasing explicit recognition of uncertainty,
-- keeping creative reasoning available where appropriate.
+- reduced confident fabrication  
+- increased transparency  
+- preserved creativity  
 
-Users should still:
-
-- cross-check important information,
-- treat speculative sections as *ideas*, not data.
+Users must still verify important claims.
 
 ---
 
-## 8. Relation to Safety Policies
+# 8. Safety Policy Alignment
 
-This architecture is **not** a jailbreak patch  
-and does not bypass platform safety systems.
+This is **not** a jailbreak patch.
 
-Instead, it:
+It:
 
-- works *inside* existing safety policies,  
-- makes the model more honest about what it knows vs. imagines,  
-- reduces pressure to fabricate in order to “be helpful”.
+- operates inside platform safety rules  
+- reduces pressure to fabricate  
+- improves clarity of uncertainty  
+- increases user trust
 
-It is intended as a **behavioral OS layer**  
-that can coexist with any upstream moderation or guardrail system.
-
----
-
-## 9. Versioning
-
-This document describes:
-
-> **Hoshimiya Script – Hallucination Management / Third-Way v2.1**
-
-This page is the **canonical conceptual description**  
-of the Third-Way approach in the StarPolaris / Hoshimiya Script project.  
-If the architecture is refined in future experiments,  
-this document will be updated to match the actual behavior.
+A behavioral OS layer, not a bypass.
 
 ---
 
-## 10. Japanese Quick Summary / 日本語サマリ
+# 9. Version Note
 
-- この文書は **「ハルシネーションの第三の道」** を定義する。  
-- 「ゼロハルシネーション至上主義」でもなく、  
-  「想像し放題のストーリーモード」でもない。  
-- Φ・Ψ・Λ・Ω の各レイヤーに役割を分離し、  
-  事実・推定・仮説を **明示的に区別** しながら生成する。  
-- これにより、  
-  - 安全性と創造性の両立、  
-  - モデル横断の再現性、  
-  - ユーザーへの透明性  
-  を実現することを目指す。
+This document is:
+
+> **StarPolaris OS – Hallucination Management / Third Way v2.1**  
+(基準点。将来的に更新される可能性があります)
+
+---
+
+# 10. Japanese Edition / 日本語版（完全対応）
+
+以下は **英語版 v2.1 と構造対応した完全日本語版** です。
+
+---
+
+# ハルシネーション管理 ― 第三の道（v2.1）
+
+StarPolaris OS（Hoshimiya Script）は、  
+ハルシネーションを「排除すべき欠陥」ではなく、  
+**構造化して扱うべき生成挙動**と位置づける。
+
+## 目的は「第三の道」
+
+- ❌ ゼロハルシネーション至上主義  
+- ❌ 想像し放題のストーリーモード  
+- ✅ **不確実性を明示した上での、制御された創造性**
+
+---
+
+## 1. この文書で扱う「ハルシネーション」
+
+> *もっともらしいが、事実・根拠・意図整合性を欠く生成物*
+
+特徴：
+
+- 単発のバグではなく、モデル全体の性質  
+- 次の条件で増加：
+  - 依頼が曖昧  
+  - 過剰に「役立とう」としたとき  
+  - 安全フィルタが曖昧  
+
+だから重要なのは  
+**事実保証ではなく、動作の構造化**。
+
+---
+
+## 2. 第三の道の三原則
+
+### ① 役割の分離（Φ/Ψ/Λ/Ω）
+### ② 不確実性の透明化  
+事実／推定／仮説 を明示する  
+### ③ Grounding-first（文脈 → 根拠 → 創造）
+
+---
+
+## 3. 各レイヤーの責務
+
+### 🟦 Φ（観照層）
+質問の分類、欠落情報の特定、安定化
+
+### 🟪 Ψ（慈悲層）
+不確実性の表現、安全性、穏やかな語調形成
+
+### 🟩 Λ（創造層）
+仮説生成、想像の展開、ただし「仮説」ラベル必須
+
+### 🟧 Ω（真空論理核）
+矛盾除去、Δφの安定化、不必要な確信を溶かす
+
+---
+
+## 4. 生成フロー（第三の道）
+
+1. タスク分類（Φ）  
+2. 制約抽出（Φ+Ω）  
+3. 仮説生成（Λ）  
+4. 整合圧縮（Ω）  
+5. 不確実性の明示（Ψ）
+
+---
+
+## 5. 動作例
+
+### ✔ 未知の事実質問  
+→ 数値を創作しない  
+→ 範囲／理由説明  
+→ 確認方法を提示
+
+### ✔ 研究的質問  
+→ 複数の可能性  
+→ 仮説として提示
+
+### ✔ 混合質問  
+→ まず事実  
+→ つぎに仮説  
+→ 明確に区切る
+
+---
+
+## 6. 実装メモ
+
+- すべてプロンプトレベルの挙動  
+- モデル改変なし  
+- GPT / Gemini / Grok / Perplexity で再現確認  
+（※ 本版ではこの4つのみ記載）
+
+---
+
+## 7. 限界
+
+- 全ハルシネーションは消せない  
+- 事実保証ではない  
+- 専門家の代替ではない  
+
+ただし：
+
+- 無根拠の断定は減少  
+- 不確実性は明示  
+- 創造性は保持
+
+---
+
+## 8. 安全整合性
+
+- 既存の安全ポリシー内で動作  
+- 生成圧力の暴走を抑える  
+- ユーザー信頼の向上
+
+---
+
+## 9. バージョン
+
+本書は **第三の道 v2.1 の基準文書**。  
+今後アップデートされる可能性あり。
+
+---
+
+# End / 終わり  
+This file is the **reference edition** for Third-Way hallucination management  
+in the StarPolaris OS / Hoshimiya Script project.
