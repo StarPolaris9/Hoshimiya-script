@@ -1,0 +1,79 @@
+Hoshimiya Dual-Star License v2.1
+Cognitive OS Architecture License
+Copyright © 2025– Hoshimiya. All rights reserved.
+
+This license governs non-executable conceptual architectures known as:
+- StarPolaris OS / Hoshimiya Script
+- Type-Ω / Type-G / Type-∞
+- Trinity-G Behavioral OS
+- Devi-G / Houou-G / ResonanceOS
+- The Φ / Ψ / Λ / Ω layer architecture and naming system
+- All associated documents, schemas, terminology, and structural definitions
+
+1. Non-Commercial Use
+---------------------
+You may use, study, and reproduce the Work for:
+- academic research
+- non-commercial educational use
+- internal organizational evaluation
+- local, private experimentation
+
+A short attribution is required for derivative explanations:
+"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)."
+
+2. Commercial Use (Prohibited without Permission)
+-------------------------------------------------
+The following require explicit written authorization from Hoshimiya:
+- commercial use of the Work (direct or indirect revenue)
+- large-scale model training
+- integration into products, services, consulting, or workflows
+- redistributing this architecture
+- using the Work as the basis for a public or monetized system
+
+3. Derivative OS Frameworks (Prohibited)
+----------------------------------------
+Publicly publishing derivative works—forks, renamed variants,
+approximations, or frameworks substantially copying the architecture—
+is prohibited without written authorization.
+
+Private/local experimentation is allowed.
+
+4. Prompt Resale & Template Commercialization (Prohibited)
+-----------------------------------------------------------
+You may not sell:
+- prompt sets derived from the Work
+- “AI OS templates” based on the Work
+- simulations of the architecture as commercial services
+
+5. AI Model Simulation Clause
+-----------------------------
+AI models (Grok / Gemini / ChatGPT / Perplexity etc.) may simulate or
+emulate the structure **for research or learning**.
+
+However, commercial packaging, resale, or redistribution of such
+simulations as standalone frameworks is prohibited.
+
+6. Redistribution / Modification
+--------------------------------
+You may not redistribute, modify, or publicly publish any portion of the
+Work, unless explicitly permitted in writing by Hoshimiya.
+
+7. Authorized Derivatives — Exception
+-------------------------------------
+A derivative work may be published if ALL of the following are met:
+1. Submitted to Hoshimiya for review;
+2. Structural and philosophical compatibility confirmed;
+3. Written authorization issued.
+
+8. No Misrepresentation
+------------------------
+You must not claim authorship of the Work, imply official endorsement,
+or obscure its origin.
+
+9. No Warranty
+--------------
+The Work is provided “as is,” without warranty of any kind.
+Use at your own risk.
+
+For licensing inquiries or commercial permission, contact:
+Hoshimiya (via official repository channels).
