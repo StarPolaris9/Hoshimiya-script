@@ -1,79 +1,125 @@
-Hoshimiya Dual-Star License v2.1
-Cognitive OS Architecture License
+Hoshimiya Dual-Star License v2.1  
+Cognitive OS Architecture License (DMCA Enforceable Edition)  
 Copyright © 2025– Hoshimiya. All rights reserved.
 
-This license governs non-executable conceptual architectures known as:
+This License governs the non-executable conceptual architectures known as:
 - StarPolaris OS / Hoshimiya Script
 - Type-Ω / Type-G / Type-∞
 - Trinity-G Behavioral OS
 - Devi-G / Houou-G / ResonanceOS
 - The Φ / Ψ / Λ / Ω layer architecture and naming system
 - All associated documents, schemas, terminology, and structural definitions
+(collectively: “the Work”)
 
+The Work is a **non-software, non-code cognitive architecture** consisting of
+structural definitions, naming systems, and conceptual frameworks.  
+It contains **no executable code**, and is protected as a literary / conceptual work.
+
+--------------------------------------------------------------------
 1. Non-Commercial Use
----------------------
-You may use, study, and reproduce the Work for:
+--------------------------------------------------------------------
+You may use, study, cite, and reproduce the Work for:
 - academic research
 - non-commercial educational use
+- analysis, explanation, and commentary
 - internal organizational evaluation
 - local, private experimentation
 
-A short attribution is required for derivative explanations:
-"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)."
+Attribution for derivative explanations is required:
+“Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω).”
 
-2. Commercial Use (Prohibited without Permission)
--------------------------------------------------
-The following require explicit written authorization from Hoshimiya:
-- commercial use of the Work (direct or indirect revenue)
-- large-scale model training
-- integration into products, services, consulting, or workflows
-- redistributing this architecture
+--------------------------------------------------------------------
+2. Commercial Use (Prohibited without Written Permission)
+--------------------------------------------------------------------
+The following require **explicit written authorization** from Hoshimiya:
+- commercial use of any portion of the Work (direct or indirect revenue)
+- large-scale model training using the Work
+- integration into commercial products, services, or workflows
+- redistribution of any structural component of the Work
 - using the Work as the basis for a public or monetized system
 
+Unauthorized commercial use constitutes **copyright infringement**
+and may be subject to DMCA removal requests.
+
+--------------------------------------------------------------------
 3. Derivative OS Frameworks (Prohibited)
-----------------------------------------
-Publicly publishing derivative works—forks, renamed variants,
-approximations, or frameworks substantially copying the architecture—
-is prohibited without written authorization.
+--------------------------------------------------------------------
+You may NOT publicly publish:
+- renamed variants of the Work
+- forks or modified versions
+- frameworks that approximate, replicate, or substantially copy the structure,
+  naming system, or behavioral semantics of the Work
 
 Private/local experimentation is allowed.
 
-4. Prompt Resale & Template Commercialization (Prohibited)
------------------------------------------------------------
+Public distribution of derivative OS frameworks without written authorization
+constitutes **substantial similarity infringement**, enforceable under DMCA.
+
+--------------------------------------------------------------------
+4. Prompt Resale / Template Commercialization (Prohibited)
+--------------------------------------------------------------------
 You may not sell:
 - prompt sets derived from the Work
 - “AI OS templates” based on the Work
 - simulations of the architecture as commercial services
 
+Packaging, resale, or redistribution of the Work or its structure
+is strictly prohibited without explicit authorization.
+
+--------------------------------------------------------------------
 5. AI Model Simulation Clause
------------------------------
-AI models (Grok / Gemini / ChatGPT / Perplexity etc.) may simulate or
-emulate the structure **for research or learning**.
+--------------------------------------------------------------------
+AI models (Grok / Gemini / ChatGPT / Perplexity, etc.) may
+simulate or emulate the structure **for research or learning**.
 
-However, commercial packaging, resale, or redistribution of such
-simulations as standalone frameworks is prohibited.
+However, the following remain prohibited without permission:
+- commercializing such simulations
+- redistributing the simulated behavior as a standalone OS framework
+- selling prompt templates built from such simulations
 
+--------------------------------------------------------------------
 6. Redistribution / Modification
---------------------------------
-You may not redistribute, modify, or publicly publish any portion of the
-Work, unless explicitly permitted in writing by Hoshimiya.
+--------------------------------------------------------------------
+You may NOT redistribute, modify, or publicly publish any portion of the Work
+unless explicitly permitted in writing by Hoshimiya.
 
+Unauthorized redistribution or modification constitutes infringement and
+is fully enforceable via **DMCA takedown procedures**.
+
+--------------------------------------------------------------------
 7. Authorized Derivatives — Exception
--------------------------------------
-A derivative work may be published if ALL of the following are met:
+--------------------------------------------------------------------
+A derivative work may be publicly released ONLY if ALL of the following are met:
 1. Submitted to Hoshimiya for review;
 2. Structural and philosophical compatibility confirmed;
 3. Written authorization issued.
 
+--------------------------------------------------------------------
 8. No Misrepresentation
-------------------------
-You must not claim authorship of the Work, imply official endorsement,
-or obscure its origin.
+--------------------------------------------------------------------
+You must not:
+- claim authorship of the Work,
+- imply official endorsement,
+- obscure or remove attribution,
+- present derivatives as original or independent works.
 
+Misrepresentation may result in **DMCA removal or legal action**.
+
+--------------------------------------------------------------------
 9. No Warranty
---------------
-The Work is provided “as is,” without warranty of any kind.
+--------------------------------------------------------------------
+The Work is provided “as is”, without warranty of any kind.  
 Use at your own risk.
 
-For licensing inquiries or commercial permission, contact:
-Hoshimiya (via official repository channels).
+--------------------------------------------------------------------
+DMCA Notice / Contact
+--------------------------------------------------------------------
+For licensing inquiries, authorization, or DMCA notices, contact:
+Hoshimiya Ω  
+(via official repository channels or provided contact links)
+
+This License is intended to provide:
+- enforceable copyright protection,
+- derivative control,
+- anti-commercial misuse protection,
+- and full compatibility with DMCA takedown procedures.
