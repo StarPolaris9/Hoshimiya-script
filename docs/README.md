@@ -289,7 +289,7 @@ Japanese / English both supported.
 
 StarPolaris OS / Hoshimiya Script is released under the:
 
-⭐ Hoshimiya Dual-Star License v2.0 (Cognitive OS License)
+291 ⭐ Hoshimiya Dual-Star License v2.1 (Cognitive OS Architecture License)
 
 See full text at: 👉 docs/LICENSE.md
 
