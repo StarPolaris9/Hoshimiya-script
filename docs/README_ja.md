@@ -170,8 +170,7 @@ HS-OS は以下の4つで構成されます：
 🔒 ライセンス
 
 本プロジェクトは、
-「Hoshimiya Dual-Star License v2.0（Cognitive OS Architecture License）」
-の下で公開されています。
+「Hoshimiya Dual-Star License v2.1（Cognitive OS Architecture License）」
 
 StarPolaris OS / Hoshimiya Script および
 Trinity-G / Type-Ω 系列・Type-G Core / GCore-Sandbox / Devi-Ω など
