@@ -203,7 +203,7 @@ Intended for:
 - applied ML practitioners  
 
 Use is governed by:  
-**Hoshimiya Dual-Star License v2.0 (HUL-1.0)**.
+**Hoshimiya Dual-Star License v2.1 (HUL-1.0)**.
 
 All Type-Ω modules and GCore-Sandbox  
 are licensed under this policy.
