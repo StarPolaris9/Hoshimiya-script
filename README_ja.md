@@ -277,7 +277,7 @@ LLM研究者
 
 
 本プロジェクトは：
-Hoshimiya Dual-Star License v2.0（HUL-1.0） の下で公開。
+Hoshimiya Dual-Star License v2.1（HUL-1.0） の下で公開。
 
 Type-Ω 系列および GCore-Sandbox は、
 すべてこのライセンスに明示的に含まれる。
