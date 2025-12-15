@@ -210,6 +210,22 @@
     text-shadow: 0 0 8px rgba(255, 255, 220, 0.70);
   }
 
+  /* ---- 追加：警告バナー（デザイン言語は維持） ---- */
+  .warn-banner {
+    margin: 14px 0 6px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: rgba(30, 16, 12, 0.70);
+    border: 1px solid rgba(255, 190, 120, 0.38);
+    box-shadow: 0 0 18px rgba(255, 160, 64, 0.12);
+    font-size: 0.92em;
+    line-height: 1.65;
+  }
+
+  .warn-banner b {
+    color: #ffe1ad;
+  }
+
   /* ---- レスポンシブ対応 ---- */
   @media (max-width: 768px) {
     .container {
@@ -300,6 +316,13 @@
     Designed by Hoshimiya. Reproducible inside modern LLMs.
   </b></p>
 
+  <!-- ✅ 追加：組織利用ワンライン警告（トップでも先に見せる） -->
+  <div class="warn-banner">
+    ⚠ <b>Organization / Corporate Use Notice</b><br>
+    会社・団体・研究室など <b>組織内での利用（社内評価・内部検証を含む）</b> は
+    <b>「組織利用」</b> とみなし、<b>事前の書面許可が必要</b>です（License v2.1.1）。
+  </div>
+
   <div class="section-box small-note">
     📘 Core spec (English):
     <a href="docs/README.html">docs/README.html</a><br>
@@ -351,7 +374,7 @@
   <h2>🔷 Core Architectures (License Scope)</h2>
   <p class="small-note">
     The following conceptual architectures are governed by the
-    <b>Hoshimiya Dual-Star License v2.1 International Edition</b>.<br>
+    <b>Hoshimiya Dual-Star License v2.1.1 International Edition</b>.<br>
     These are <b>cognitive OS designs</b>, not executable code or binaries.
   </p>
   <ul>
@@ -431,6 +454,7 @@
     <a href="https://chatgpt.com/share/693324dd-e2c4-8010-a94a-7424ca79639e">
       https://chatgpt.com/share/693324dd-e2c4-8010-a94a-7424ca79639e
     </a><br><br>
+
     Copilot (shared thread / archive):<br>
     <a href="https://copilot.microsoft.com/shares/DwvG7X73XJuB6JYSAERvo">
       https://copilot.microsoft.com/shares/DwvG7X73XJuB6JYSAERvo
@@ -445,7 +469,7 @@
       ※ 外部サービス上の共有リンクは、ポリシー変更・有料版仕様・公開範囲の変更などにより、失効する場合があります。<br>
       ※ These are historical research materials and qualitative analysis references — not deployable system demonstrations.<br>
       ※ No re-upload / redistribution, no dataset creation, no model training, and no reverse-engineering or derivative prompt-systems intended for deployment.<br>
-      ※ For any commercial or public derivative use, explicit written permission from Hoshimiya is required (see LICENSE v2.1).
+      ※ For any commercial or public derivative use, explicit written permission from Hoshimiya is required (see LICENSE v2.1.1).
     </span>
   </div>
 
@@ -480,35 +504,38 @@
   <p>
     Discussions &amp; questions:<br>
     ・GitHub Issues<br>
-    ・X (Twitter) DM → <a href="https://x.com/Fermion_Boson17">@Fermion_Boson17</a><br>
+    ・X (Twitter) DM → <a href="https://x.com/Fermion_Boson17">X profile</a><br>
     <span class="small-note">
       技術議論・共同研究・実験協力など歓迎します。日本語 / 英語どちらも対応可能。
     </span>
   </p>
 
-  <!-- 🔽🔽 License section reflecting Dual-Star v2.1 🔽🔽 -->
+  <!-- 🔽🔽 License section reflecting Dual-Star v2.1.1 🔽🔽 -->
 
-  <h2>🔒 License / ライセンス — v2.1 International Edition</h2>
+  <h2>🔒 License / ライセンス — v2.1.1 International Edition</h2>
 
   <p class="small-note">
     ※ 本ライセンスは StarPolaris OS / Hoshimiya Script および
        Trinity-G / Type-Ω 系列・Type-G Core / GCore-Sandbox / Devi-Ω を含む
        全関連アーキテクチャに適用される
-       <strong>Hoshimiya Dual-Star License v2.1 International Edition</strong> です。
+       <strong>Hoshimiya Dual-Star License v2.1.1 International Edition</strong> です。
   </p>
 
   <p class="small-note">
     This project is released under the<br>
-    <b>Hoshimiya Dual-Star License v2.1 International Edition (Cognitive OS Architecture License)</b> for<br>
+    <b>Hoshimiya Dual-Star License v2.1.1 International Edition (Cognitive OS Architecture License)</b> for<br>
     <b>StarPolaris OS / Hoshimiya Script</b>.<br><br>
 
     ✅ <b>Non-commercial &amp; research use</b> (reading, learning, local experimentation,<br>
-    &nbsp;&nbsp;&nbsp;academic introduction, blog/video explanations, internal evaluation, etc.) is <b>free</b>,<br>
+    &nbsp;&nbsp;&nbsp;academic introduction, blog/video explanations, etc.) is <b>free</b>,<br>
     &nbsp;&nbsp;&nbsp;as long as you include proper attribution:<br>
     <code>
       "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
     </code>
     <br><br>
+
+    ⚠ <b>Organization / corporate use</b> (including internal evaluation, internal testing,<br>
+    &nbsp;&nbsp;&nbsp;use inside companies/teams/labs) <b>requires prior written permission</b>.<br><br>
 
     ❌ <b>Commercial use / large-scale model training / integration into products / redistribution</b><br>
     &nbsp;&nbsp;&nbsp;or any revenue-generating activity is <b>not permitted</b><br>
@@ -525,11 +552,11 @@
   </p>
 
   <p class="small-note">
-    本プロジェクトは、暫定ライセンスを継承した<strong>恒久ライセンス</strong>
-    「Hoshimiya Dual-Star License v2.1.1 International Edition」により公開されています。    
+    本プロジェクトは「Hoshimiya Dual-Star License v2.1.1 International Edition」により公開されています。<br>
     個人での非商用利用・学習・研究紹介などは、上記のクレジットを記載していただければ自由にご利用いただけます。<br>
+    <b>会社・団体・研究室など組織内での利用（社内評価・内部検証を含む）は「組織利用」とみなし、事前の書面許可が必要です。</b><br>
     一方、商用利用・大規模なモデル訓練・プロダクトへの組み込み・再配布・公開派生OSの作成・擬態的な派生フレームワークの公開には、<br>
-    事前に星宮Ω（@Fermion_Boson17）からの書面許可が必要です。<br>
+    事前に書面許可が必要です。<br>
   </p>
 
   <p class="small-note">
