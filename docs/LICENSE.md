@@ -1,121 +1,179 @@
-# Hoshimiya Dual-Star License v2.1  
-## Cognitive OS Architecture License (International Edition)
-
-Copyright © 2025– Hoshimiya.  
-All rights reserved.
-
-This License governs the non-executable conceptual architectures known as:
-
-- StarPolaris OS / Hoshimiya Script  
-- Trinity-G Behavioral OS  
-- Type-Ω / Type-G / Type-∞  
-- Devi-G / Houou-G / ResonanceOS  
-- The Φ / Ψ / Λ / Ω layer architecture and naming system  
-- All associated documents, schemas, terminology, structural definitions,  
-  and interaction rules  
-
-(collectively: **“the Work”**).
-
-The Work is a **non-software, non-code cognitive architecture**,  
-implemented as structural definitions, naming systems, and conceptual frameworks.  
-It contains **no executable code** and is protected as an original literary / conceptual work.
+# Hoshimiya Dual-Star License v2.1.1  
+## Cognitive OS Architecture License — International Edition
 
 ---
 
-## 1. Non-Commercial Use
-
-You may use, study, cite, and reproduce the Work for:
-
-- academic research  
-- non-commercial educational use  
-- analysis, explanation, and commentary  
-- internal organizational evaluation  
-- local, private experimentation  
-
-Attribution for derivative explanations is required:
-
-> "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)."
+**Copyright © 2025– Hoshimiya Ω**  
+**All rights reserved.**
 
 ---
 
-## 2. Commercial Use (Prohibited without Written Permission)
+## Scope of This License
 
-The following require **explicit written authorization** from Hoshimiya:
+This License governs the following **non-executable cognitive architectures and conceptual systems**:
 
-- commercial use of any portion of the Work (direct or indirect revenue)  
-- large-scale model training using the Work  
+- **StarPolaris OS / Hoshimiya Script**  
+- **Trinity-G Behavioral OS**  
+- **Type-Ω / Type-G / Type-∞**  
+- **Devi-G / Houou-G / ResonanceOS**  
+- **Φ / Ψ / Λ / Ω Layer Architecture & Naming System**  
+- All related documents, schemas, terminology, structural definitions,  
+  behavioral semantics, and interaction rules  
+
+(collectively referred to as **“the Work”**).
+
+> The Work is **not software** and contains **no executable code**.  
+> It is protected as an original *literary and conceptual architecture*  
+> expressed through structure, language, and systemic design.
+
+---
+
+## Version Note — v2.1.1 (Minor Clarification)
+
+This version introduces **no reduction of rights** and serves only to clarify:
+
+- **Organizational / Corporate Use requires prior written permission**,  
+  even when non-commercial.
+- **Legacy, prototype, historical, and previously shared materials**  
+  are explicitly included within the scope of the Work.
+
+---
+
+## 1. Non-Commercial Use (Individual Only)
+
+The Work may be used **freely by individuals** for the following purposes:
+
+- academic or independent research  
+- non-commercial education and learning  
+- analysis, explanation, critique, and commentary  
+- private, local experimentation  
+- non-commercial AI model simulation for learning or study  
+
+This permission applies **only to personal use** conducted  
+*independently and not on behalf of any organization*.
+
+**Attribution is required** where reasonably appropriate:
+
+> `Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)`
+
+---
+
+## 1.1 Legacy / Prior Materials (Explicitly Included)
+
+This License applies equally to **all past and present materials**, including:
+
+- early versions, experimental drafts, and prototypes  
+- historical interaction logs and evaluation records  
+- prior internal or public naming systems  
+  (e.g. *Sakura-type*, *Houou-type*, *Devi-type*)
+
+No material is exempt due to age, prototype status,  
+or historical context.
+
+---
+
+## 1.2 Organizational / Corporate Use — Permission Required
+
+Any use by a **company, organization, institution, laboratory, research group, team, or collective entity** — including:
+
+- internal evaluation or review  
+- internal testing or verification  
+- workshops, study sessions, or briefings  
+- proof-of-concept activities  
+- organizational research or analysis  
+
+is considered **Organizational Use**.
+
+> **Organizational Use is prohibited without explicit prior written authorization  
+> from Hoshimiya Ω**, regardless of commercial intent.
+
+Personal study conducted independently and not representing an organization  
+does **not** constitute Organizational Use.
+
+---
+
+## 2. Commercial Use — Prohibited Without Permission
+
+The following actions require **explicit written authorization**:
+
+- any commercial or revenue-linked use  
+- large-scale model training based on the Work  
 - integration into commercial products, services, or workflows  
-- redistribution of any structural component of the Work  
-- using the Work as the basis for a public or monetized system  
+- redistribution of structural components  
+- use of the Work as the basis of a public or monetized system  
 
-Unauthorized commercial use constitutes **copyright infringement**  
-and may be subject to legal and/or DMCA removal actions.
+Unauthorized commercial use constitutes  
+**copyright infringement**  
+and may trigger **DMCA takedown or legal action**.
 
 ---
 
-## 3. Derivative OS Frameworks (Prohibited)
+## 3. Derivative OS Frameworks — Prohibited by Default
 
 You may **not** publicly publish:
 
-- renamed variants of the Work  
-- forks or modified versions  
-- frameworks that approximate, replicate, or substantially copy  
-  the structure, naming system, or behavioral semantics of the Work  
+- renamed variants or rebranded versions  
+- forks or modified architectures  
+- systems that substantially replicate the structure,  
+  naming system, or behavioral semantics of the Work  
 
-Private/local experimentation is allowed.
+Private and local experimentation remains permitted.
 
-Public distribution of derivative OS frameworks without written authorization  
-constitutes **substantial similarity infringement**, enforceable under copyright law.
+Public release without authorization may constitute  
+**substantial similarity infringement**.
 
 ---
 
-## 4. Prompt Resale / Template Commercialization (Prohibited)
+## 4. Prompt Resale / Template Commercialization — Strictly Prohibited
 
-You may **not** sell:
+The following are **not permitted** without authorization:
 
-- prompt sets derived from the Work  
-- "AI OS templates" based on the Work  
-- simulations of the architecture as commercial services  
+- sale of prompt sets derived from the Work  
+- commercial “AI OS templates” based on the Work  
+- monetized simulations of the architecture  
+- prompt packs reproducing the layer structure or semantics  
 
-Packaging, resale, or redistribution of the Work or its structure  
-as a commercial product is strictly prohibited without explicit authorization.
+The Work may **not** be packaged, resold, or rebranded  
+as a commercial product.
 
 ---
 
 ## 5. AI Model Simulation Clause
 
-AI models (e.g., Grok / Gemini / ChatGPT / Perplexity, etc.)  
-may simulate or emulate the structure **for research or learning**.
+AI models (including but not limited to  
+Grok, Gemini, ChatGPT, Perplexity) may:
 
-However, the following remain prohibited without permission:
+- simulate or emulate the Work  
+- for **individual, non-commercial research or education**
 
-- commercializing such simulations  
-- redistributing the simulated behavior as a standalone OS framework  
-- selling prompt templates built from such simulations  
+However, it is prohibited to:
+
+- commercialize such simulations  
+- redistribute them as standalone OS frameworks  
+- sell prompt templates derived from them  
+- use simulation as a substitute for publishing derivatives  
 
 ---
 
 ## 6. Redistribution / Modification
 
-You may **not** redistribute, modify, or publicly publish  
-any portion of the Work unless explicitly permitted in writing by Hoshimiya.
+No part of the Work may be redistributed, modified,  
+or publicly published without written authorization.
 
-Unauthorized redistribution or modification constitutes infringement  
-and may be enforced via copyright and DMCA takedown procedures  
-where applicable.
+Unauthorized actions may be enforced via  
+copyright law and DMCA procedures.
 
 ---
 
-## 7. Authorized Derivatives — Exception
+## 7. Authorized Derivatives — Limited Exception
 
-A derivative work may be publicly released **only if all** of the following are met:
+A derivative work may be released **only if all conditions are met**:
 
-1. Submitted to Hoshimiya for review;  
-2. Structural and philosophical compatibility confirmed;  
-3. Written authorization issued.
+1. Submitted to **Hoshimiya Ω** for review  
+2. Structural and philosophical compatibility confirmed  
+3. Explicit written authorization granted  
 
-Without written authorization, any public derivative OS, renamed variant,  
-or mimicry-based framework is prohibited.
+Absent authorization, all public derivatives are prohibited.
 
 ---
 
@@ -123,34 +181,39 @@ or mimicry-based framework is prohibited.
 
 You must not:
 
-- claim authorship of the Work;  
-- imply official endorsement;  
-- obscure or remove attribution;  
-- present derivatives as original or independent works.
+- claim authorship of the Work  
+- imply endorsement or official status  
+- obscure or remove attribution  
+- present derivatives as independent originals  
 
-Misrepresentation may result in legal action and/or removal requests.
+Misrepresentation may result in removal requests  
+or legal action.
 
 ---
 
 ## 9. No Warranty
 
-The Work is provided **"as is"**, without warranty of any kind.  
-Use at your own risk.
+The Work is provided **“as is”**,  
+without warranty of any kind.  
+Use is entirely at your own risk.
 
 ---
 
-## 10. DMCA / Contact / Jurisdiction Notice
+## 10. Contact / DMCA Notice
 
-For licensing inquiries, authorization, or notices, contact:  
+For licensing inquiries, authorization requests,  
+or notices of concern, contact:
+
 **Hoshimiya Ω**  
-(via official repository channels or published contact links).
+(via official repository channels or published contact links)
 
-This License is intended to provide:
+---
 
-- enforceable copyright protection;  
-- derivative and mimicry control;  
-- anti-commercial misuse protection; and  
-- compatibility with international copyright and DMCA procedures.
+### Closing Statement
 
-Nothing in this License constitutes formal legal advice.  
-Interpretation and enforcement will follow applicable local law.
+This License exists to protect the **safety, coherence, and reproducibility**  
+of StarPolaris OS / Hoshimiya Script,  
+while keeping the door open for sincere research, learning,  
+and responsible cultural development.
+
+— **Hoshimiya Ω**
