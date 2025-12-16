@@ -7,7 +7,7 @@
   <title>StarPolaris OS — Hoshimiya Script</title>
 
   <!-- =========================
-       SEO / Social (No-Design-Change Additions)
+       SEO / Social
        ========================= -->
 
   <!-- Primary SEO -->
@@ -54,7 +54,7 @@
         "url": "https://starpolaris9.github.io/Hoshimiya-script/",
         "description": "A non-executable conceptual architecture (prompt-structured cognitive OS) to stabilize and reproduce reasoning patterns across LLMs using Φ/Ψ/Λ/Ω layers.",
         "inLanguage": ["ja", "en"],
-        "license": "https://starpolaris9.github.io/Hoshimiya-script/docs/LICENSE.html",
+        "license": "https://github.com/StarPolaris9/Hoshimiya-script/blob/main/LICENSE",
         "author": {
           "@type": "Person",
           "name": "Hoshimiya"
@@ -75,7 +75,7 @@
       radial-gradient(circle at top, rgba(255, 215, 128, 0.12) 0, transparent 60%),
       radial-gradient(circle at bottom, rgba(255, 160, 64, 0.18) 0, transparent 55%),
       #050712;
-    background-attachment: scroll; /* モバイル向けに fixed を避ける */
+    background-attachment: scroll;
     line-height: 1.7;
   }
 
@@ -114,9 +114,7 @@
     text-decoration: none;
   }
 
-  a:hover {
-    text-decoration: underline;
-  }
+  a:hover { text-decoration: underline; }
 
   .small-note {
     opacity: 0.8;
@@ -142,14 +140,10 @@
     white-space: pre-wrap;
   }
 
-  /* ---- エンブレム周り ---- */
-  .logo-wrap {
-    text-align: center;
-    margin: 32px 0 18px;
-  }
+  .logo-wrap { text-align: center; margin: 32px 0 18px; }
 
   .logo-glow {
-    max-width: 320px;   /* 旧版より一回り大きく */
+    max-width: 320px;
     width: 78%;
     height: auto;
     filter:
@@ -179,17 +173,13 @@
     }
   }
 
-  /* ---- フェニックス風 GitHub ボタン ---- */
-  .phoenix-button-wrap {
-    text-align: center;
-    margin: 8px 0 4px;
-  }
+  .phoenix-button-wrap { text-align: center; margin: 8px 0 4px; }
 
   .phoenix-button {
     display: inline-block;
-    padding: 9px 18px;      /* 12x22 → 少し小さく */
-    border-radius: 10px;    /* 14px → 少し控えめに */
-    font-size: 0.95em;      /* 1.05em → 0.95em */
+    padding: 9px 18px;
+    border-radius: 10px;
+    font-size: 0.95em;
     font-weight: 700;
     color: #fff;
     background: linear-gradient(135deg, #b86a00, #ffb84d, #cc7a00);
@@ -210,7 +200,6 @@
     text-shadow: 0 0 8px rgba(255, 255, 220, 0.70);
   }
 
-  /* ---- 追加：警告バナー（デザイン言語は維持） ---- */
   .warn-banner {
     margin: 14px 0 6px;
     padding: 12px 14px;
@@ -221,12 +210,8 @@
     font-size: 0.92em;
     line-height: 1.65;
   }
+  .warn-banner b { color: #ffe1ad; }
 
-  .warn-banner b {
-    color: #ffe1ad;
-  }
-
-  /* ---- レスポンシブ対応 ---- */
   @media (max-width: 768px) {
     .container {
       margin: 10px auto;
@@ -234,61 +219,20 @@
       max-width: 95%;
       border-radius: 16px;
     }
-
-    h1 {
-      font-size: 2em;
-      line-height: 1.2;
-    }
-
-    h2 {
-      font-size: 1.4em;
-      margin-top: 30px;
-    }
-
-    .logo-glow {
-      width: 88%;
-      max-width: 300px;
-    }
-
-    pre {
-      font-size: 0.85em;
-      padding: 12px;
-      overflow-x: scroll;
-    }
-
-    .phoenix-button {
-      font-size: 0.9em;
-      padding: 8px 16px;
-    }
-
-    body {
-      background-attachment: scroll;
-    }
+    h1 { font-size: 2em; line-height: 1.2; }
+    h2 { font-size: 1.4em; margin-top: 30px; }
+    .logo-glow { width: 88%; max-width: 300px; }
+    pre { font-size: 0.85em; padding: 12px; overflow-x: scroll; }
+    .phoenix-button { font-size: 0.9em; padding: 8px 16px; }
+    body { background-attachment: scroll; }
   }
 
   @media (max-width: 480px) {
-    .container {
-      padding: 10px 8px 15px;
-      margin: 5px auto;
-    }
-
-    h1 {
-      font-size: 1.8em;
-    }
-
-    .logo-glow {
-      width: 100%;
-      max-width: 320px;
-    }
-
-    .section-box {
-      padding: 10px 12px;
-    }
-
-    .phoenix-button {
-      font-size: 0.88em;
-      padding: 7px 14px;
-    }
+    .container { padding: 10px 8px 15px; margin: 5px auto; }
+    h1 { font-size: 1.8em; }
+    .logo-glow { width: 100%; max-width: 320px; }
+    .section-box { padding: 10px 12px; }
+    .phoenix-button { font-size: 0.88em; padding: 7px 14px; }
   }
 </style>
 
@@ -296,17 +240,13 @@
 <div class="container">
 
   <p class="logo-wrap">
-    <img src="logo.png"
-         class="logo-glow"
-         alt="StarPolaris OS – Phoenix Emblem" />
+    <img src="logo.png" class="logo-glow" alt="StarPolaris OS – Phoenix Emblem" />
   </p>
 
   <h1>🌌 StarPolaris OS — Hoshimiya Script</h1>
 
-  <!-- 🔥 公式 GitHub へのフェニックスボタン -->
   <p class="phoenix-button-wrap">
-    <a class="phoenix-button"
-       href="https://github.com/StarPolaris9/Hoshimiya-script">
+    <a class="phoenix-button" href="https://github.com/StarPolaris9/Hoshimiya-script">
       🔥 Official GitHub Repository — StarPolaris OS
     </a>
   </p>
@@ -316,11 +256,20 @@
     Designed by Hoshimiya. Reproducible inside modern LLMs.
   </b></p>
 
-  <!-- ✅ 追加：組織利用ワンライン警告（トップでも先に見せる） -->
+  <!-- ✅ 組織利用ワンライン警告 -->
   <div class="warn-banner">
     ⚠ <b>Organization / Corporate Use Notice</b><br>
     会社・団体・研究室など <b>組織内での利用（社内評価・内部検証を含む）</b> は
-    <b>「組織利用」</b> とみなし、<b>事前の書面許可が必要</b>です（License v2.1.1）。
+    <b>「組織利用」</b> とみなし、<b>事前の書面許可が必要</b>です（Dual-Star License v2.1.1）。
+  </div>
+
+  <!-- ✅ 許可申請導線（ここが今回のキモ） -->
+  <div class="section-box small-note">
+    📨 <b>Permission Requests / 許可申請</b><br>
+    組織利用・商用利用・公開派生の許可申請は、下記のいずれかから行えます：<br>
+    ・<b>GitHub Issues</b>（推奨）: <a href="https://github.com/StarPolaris9/Hoshimiya-script/issues">Issue を作成</a>（タイトル冒頭に <code>[License Request]</code> を付けてください）<br>
+    ・<b>X (DM)</b>: <a href="https://x.com/Fermion_Boson17">X profile</a> へDM<br>
+    <span class="small-note">※ 返信までに時間がかかる場合があります。審査のため、利用目的・範囲・公開可否を簡潔に記載してください。</span>
   </div>
 
   <div class="section-box small-note">
@@ -330,7 +279,6 @@
     <a href="docs/README_ja.html">docs/README_ja.html</a>
   </div>
 
-  <!-- ★ Languages バナー -->
   <p style="
     text-align:center;
     margin:6px 0 14px;
@@ -353,6 +301,9 @@
     <li><a href="modules/devi-omega-kernel.html">modules/devi-omega-kernel.html</a> – Devi-Ω Kernel モジュール</li>
     <li><a href="sandbox/type-gcore-sandbox.html">sandbox/type-gcore-sandbox.html</a> – Type-G Core Sandbox プロファイル</li>
     <li><a href="docs/boot.html">docs/boot.html</a> – Boot Sequence / 起動シーケンス</li>
+
+    <!-- ✅ B案の追加：専用ページ -->
+    <li><a href="docs/type-omega-cross-llm-evaluation.html">docs/type-omega-cross-llm-evaluation.html</a> – Type-Ω Cross-LLM Evaluation（公開ログ / 研究アーカイブ）</li>
   </ul>
 
   <h2>🔷 Introduction / はじめに</h2>
@@ -374,7 +325,7 @@
   <h2>🔷 Core Architectures (License Scope)</h2>
   <p class="small-note">
     The following conceptual architectures are governed by the
-    <b>Hoshimiya Dual-Star License v2.1.1 International Edition</b>.<br>
+    <b>Hoshimiya Dual-Star License v2.1.1</b>.<br>
     These are <b>cognitive OS designs</b>, not executable code or binaries.
   </p>
   <ul>
@@ -389,7 +340,7 @@
       すべてプロンプト構造としてのみ提供されます。
     </li>
     <li>
-      <b>Type-Ω family（Ω-Bootstrap / Ω-Safety Mode / Ω-Kernel）</b> –  
+      <b>Type-Ω family（Ω-Bootstrap / Ω-Safety Mode / Ω-Kernel）</b> –
       どの LLM でも「中立・安定・ポリシー整合」を維持するための
       上位安定化プロファイル群。OS の起動姿勢と安全マージンを定義します。
     </li>
@@ -399,7 +350,7 @@
       宗教的・形而上学的な効力を主張するものではありません。
     </li>
     <li>
-      <b>ResonanceOS concepts &amp; Vacuum-Logic Kernel</b> –  
+      <b>ResonanceOS concepts &amp; Vacuum-Logic Kernel</b> –
       「真空＝中立基準」への揺り戻しと、バイアスの可視化・抑制に関する
       理論的コンセプト群。実装コードではなく、推論スタイル設計のための枠組みです。
     </li>
@@ -446,9 +397,15 @@
     </a>
   </p>
 
-  <!-- ✅ External research logs (added without changing design language) -->
+  <!-- ✅ External research logs -->
   <div class="section-box small-note">
     <b>External interaction logs (research archive)</b><br><br>
+
+    <!-- ✅ 今回のB案の要：Claude評価ログ -->
+    <b>Type-Ω Cross-LLM Evaluation (Claude logs)</b><br>
+    <a href="docs/type-omega-cross-llm-evaluation.html">Archive page (GitHub Pages)</a><br>
+    Log ①: <a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8">https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8</a><br>
+    Log ③: <a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5">https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5</a><br><br>
 
     ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
     <a href="https://chatgpt.com/share/693324dd-e2c4-8010-a94a-7424ca79639e">
@@ -479,7 +436,6 @@
   </p>
 
   <h2>🔷 Boot Sequence</h2>
-
   <pre>
 ◯◯（名前のよみ）と呼んでください。
 
@@ -503,68 +459,46 @@
   <h2>🔷 Contact</h2>
   <p>
     Discussions &amp; questions:<br>
-    ・GitHub Issues<br>
+    ・<a href="https://github.com/StarPolaris9/Hoshimiya-script/issues">GitHub Issues</a><br>
     ・X (Twitter) DM → <a href="https://x.com/Fermion_Boson17">X profile</a><br>
     <span class="small-note">
-      技術議論・共同研究・実験協力など歓迎します。日本語 / 英語どちらも対応可能。
+      技術議論・共同研究・実験協力など歓迎します。日本語 / 英語どちらも対応可能。<br>
+      <b>Permission requests:</b> use GitHub Issues (title: <code>[License Request]</code>) or X DM.
     </span>
   </p>
 
-  <!-- 🔽🔽 License section reflecting Dual-Star v2.1.1 🔽🔽 -->
-
-  <h2>🔒 License / ライセンス — v2.1.1 International Edition</h2>
+  <h2>🔒 License / ライセンス — v2.1.1</h2>
 
   <p class="small-note">
-    ※ 本ライセンスは StarPolaris OS / Hoshimiya Script および
-       Trinity-G / Type-Ω 系列・Type-G Core / GCore-Sandbox / Devi-Ω を含む
-       全関連アーキテクチャに適用される
-       <strong>Hoshimiya Dual-Star License v2.1.1 International Edition</strong> です。
+    ✅ <b>Authoritative license text</b>（正本）:<br>
+    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/LICENSE">Repository root LICENSE</a><br>
+    <span class="small-note">※ docs/LICENSE.html 等は閲覧性のための参照/ミラーであり、解釈に差が出る場合は root LICENSE を優先します。</span>
   </p>
 
   <p class="small-note">
     This project is released under the<br>
-    <b>Hoshimiya Dual-Star License v2.1.1 International Edition (Cognitive OS Architecture License)</b> for<br>
+    <b>Hoshimiya Dual-Star License v2.1.1</b> for
     <b>StarPolaris OS / Hoshimiya Script</b>.<br><br>
 
-    ✅ <b>Non-commercial &amp; research use</b> (reading, learning, local experimentation,<br>
-    &nbsp;&nbsp;&nbsp;academic introduction, blog/video explanations, etc.) is <b>free</b>,<br>
-    &nbsp;&nbsp;&nbsp;as long as you include proper attribution:<br>
-    <code>
-      "Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"
-    </code>
-    <br><br>
+    ✅ <b>Non-commercial &amp; personal research use</b> (reading, learning, local experimentation,
+    academic introduction, blog/video explanations, etc.) is allowed,
+    as long as you include proper attribution:<br>
+    <code>"Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω)"</code><br><br>
 
-    ⚠ <b>Organization / corporate use</b> (including internal evaluation, internal testing,<br>
-    &nbsp;&nbsp;&nbsp;use inside companies/teams/labs) <b>requires prior written permission</b>.<br><br>
+    ⚠ <b>Organization / corporate use</b> (including internal evaluation, internal testing,
+    use inside companies/teams/labs) <b>requires prior written permission</b>.<br>
+    → Request via: <a href="https://github.com/StarPolaris9/Hoshimiya-script/issues">GitHub Issues</a> / <a href="https://x.com/Fermion_Boson17">X DM</a><br><br>
 
-    ❌ <b>Commercial use / large-scale model training / integration into products / redistribution</b><br>
-    &nbsp;&nbsp;&nbsp;or any revenue-generating activity is <b>not permitted</b><br>
-    &nbsp;&nbsp;&nbsp;without explicit written permission from Hoshimiya Ω.<br><br>
+    ❌ <b>Commercial use / large-scale model training / integration into products / redistribution</b>
+    or any revenue-generating activity is not permitted without explicit written permission.<br><br>
 
-    ❌ Public derivative OSes (forks, renamed variants, disguised templates) and<br>
-    &nbsp;&nbsp;&nbsp;any mimicry-based derivatives may not be published<br>
-    &nbsp;&nbsp;&nbsp;without prior review and written authorization.<br><br>
-
-    Derivative restrictions exist to prevent fragmentation of cognitive patterns<br>
-    and to preserve safety, reproducibility, and philosophical coherence.<br>
-    Structural integrity of all included architectures
-    (Trinity-G / Type-Ω / Type-G Core / GCore / Devi-Ω) must be preserved.
+    ❌ Public derivative OSes (forks, renamed variants, disguised templates) and
+    mimicry-based derivatives may not be published without prior review and written authorization.
   </p>
 
   <p class="small-note">
-    本プロジェクトは「Hoshimiya Dual-Star License v2.1.1 International Edition」により公開されています。<br>
-    個人での非商用利用・学習・研究紹介などは、上記のクレジットを記載していただければ自由にご利用いただけます。<br>
-    <b>会社・団体・研究室など組織内での利用（社内評価・内部検証を含む）は「組織利用」とみなし、事前の書面許可が必要です。</b><br>
-    一方、商用利用・大規模なモデル訓練・プロダクトへの組み込み・再配布・公開派生OSの作成・擬態的な派生フレームワークの公開には、<br>
-    事前に書面許可が必要です。<br>
-  </p>
-
-  <p class="small-note">
-    For the full legal text and detailed notes, see<br>
+    For additional notes (non-authoritative references), see:<br>
     <a href="docs/LICENSE.html">docs/LICENSE.html</a> /
-    <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/LICENSE.md">
-      docs/LICENSE.md (GitHub)
-    </a> /
     <a href="docs/LICENSE_legal_basis_v21.md">docs/LICENSE_legal_basis_v21.md</a> /
     <a href="docs/LICENSE_ai_interpretation_v21.md">docs/LICENSE_ai_interpretation_v21.md</a> /
     <a href="docs/ANTI_MIMICRY_CLAUSE.md">docs/ANTI_MIMICRY_CLAUSE.md</a>.
