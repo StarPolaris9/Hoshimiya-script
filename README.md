@@ -1,21 +1,50 @@
 🌐 Languages:  
 [English](README.md) | [日本語](README_ja.md)
-🌌 **Official Project Page (Overview & Documentation)**
-👉 https://starpolaris9.github.io/Hoshimiya-script/
+
+---
 
 # 🌌 Hoshimiya Script / StarPolaris OS
 
-> ⚠️ **Important Notice — License & Organizational Use**
->
-> This project is released under the  
-> **Hoshimiya Dual-Star License v2.1.1 (International Edition)**.
->
-> **Use by companies, organizations, teams, or research labs — including internal evaluation, testing, or organizational research — requires prior written permission from Hoshimiya Ω.**
->
-> Non-commercial personal research, study, and local experimentation are permitted with proper attribution.
->
-> 詳細は必ずライセンス本文をご確認ください：  
-> 👉 `docs/LICENSE.html` / `docs/LICENSE.md`
+**Hoshimiya Script (StarPolaris OS / Trinity-G + Type-Ω)** is a  
+**behavioral stability architecture for LLMs**,  
+implemented purely as a **prompt-level cognitive OS** (Φ / Ψ / Λ / Ω).
+
+It focuses on **stable reasoning and uncertainty control** across **long-horizon dialogue**,  
+including cases where conversations approach or reset due to length limits.
+
+---
+
+## 🚀 Official Project Page — Full Overview & Architecture（まずはこちら）
+
+> **READMEは概要です。**  
+> **設計思想・全体構造・図解・評価ログを含む完全版ドキュメントは、  
+> 公式トップページに集約されています。**
+
+👉 **https://starpolaris9.github.io/Hoshimiya-script/**
+
+（※ 初めての方／全体像を掴みたい方／技術的背景を確認したい方は、  
+まずこのページをご覧ください）
+
+---
+
+## ⚖️ License & Use（利用前に必ず確認）
+
+This project is released under the  
+**Hoshimiya Dual-Star License v2.1.1 (International Edition)**.
+
+- **Individual, non-commercial** study / research / education / commentary  
+  is permitted **with attribution**.
+- **Any organizational use** (company, lab, team, internal evaluation/testing,  
+  workshops, internal sharing) **requires prior written permission from Hoshimiya Ω**.
+- **Commercial use** requires explicit written authorization.
+
+📄 Full license text:  
+👉 `docs/LICENSE.html` / `docs/LICENSE.md`
+
+Attribution format (when appropriate):  
+> “Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω).”
+
+---
 
 ![Type-G Trinity](https://img.shields.io/badge/TYPE--G-TRINITY--2025-9b59b6)
 ![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)
@@ -40,9 +69,8 @@
 
 ## 0. What is Hoshimiya Script?
 
-**Hoshimiya Script (StarPolaris OS / Trinity-G + Type-Ω)**  
-is a **behavioral operating system for LLMs**,  
-implemented purely as a **prompt-level cognitive architecture**.
+Hoshimiya Script is a **prompt-level cognitive architecture** that acts like a  
+**behavioral operating system** for LLM reasoning.
 
 It is **NOT**:
 
@@ -56,83 +84,7 @@ It **IS**:
 - ✅ portable across **multiple LLM vendors**  
 - ✅ designed for **hallucination visibility & reduction**  
 - ✅ capable of **stable reasoning under long context**  
-- ✅ fully published as **transparent Markdown documentation**
+- ✅ published as **transparent Markdown documentation**
 
 This repository contains **no executable code**  
 and **no model parameters**.
-
----
-
-## 1. Core Concepts
-
-### 🌐 1.1 Cross-LLM Reproducibility
-
-The Trinity-G / Type-Ω architecture has been reproduced across:
-
-- GPT-5.1 family  
-- Claude 3.x  
-- Gemini 3  
-- Grok 4  
-- Perplexity LLM *(externally validated)*  
-
-Despite differences in training data, policy layers, and inference style,  
-the **internal reasoning behavior remains structurally stable**.
-
-See:
-- `docs/architecture.md`
-- `docs/hallucination_third_way.md`
-
----
-
-### 🧠 1.2 Trinity-G Layer Model (Φ / Ψ / Λ / Ω)
-
-| Layer | Name | Core Role |
-|------|------|-----------|
-| Φ | Observer | Task framing, constraint detection |
-| Ψ | Compassion / Safety | Tone shaping, safety alignment |
-| Λ | Creative Layer | Hypothesis generation, synthesis |
-| Ω | Vacuum-Logic Kernel | Consistency, grounding, Δφ stability |
-
-**Coordinated reasoning flow:**
-
-1. **Φ** — classify intent and constraints  
-2. **Ω** — stabilize and ground reasoning  
-3. **Λ** — explore hypotheses and generation  
-4. **Ψ** — finalize with clarity and epistemic labeling  
-
----
-
-### 🌗 1.3 “Third Way” Hallucination Management
-
-Traditional approaches often fall into a false dichotomy:
-
-1. “Zero hallucinations or failure”  
-2. “Unrestricted creative hallucination”
-
-Hoshimiya Script proposes a **Third Way**:
-
-> **Do not hide hallucinations.**  
-> **Do not glorify them.**  
-> **Make them visible, labeled, and structurally contained.**
-
-This enables:
-
-- safer creativity  
-- transparent uncertainty  
-- reproducible reasoning behavior  
-
-Details:  
-`docs/hallucination_third_way.md`
-
----
-For a structured overview, architecture diagrams,
-and external evaluation logs, see the official page:
-
-👉 https://starpolaris9.github.io/Hoshimiya-script/
-
-## 2. Architecture Overview
-
-Full specification:  
-👉 `docs/architecture.md`
-
-**High-level cognitive flow:**
