@@ -160,9 +160,9 @@ https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5
 ### 🔹 その他公開ログ
 
 - ChatGPT（Houou-G）
-- 
-  https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0　　①
-  https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227　　②
+  https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0
+  
+  https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227
   
 - Grok（Houou-G / Devi-G）  
   https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e  
