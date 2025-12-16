@@ -144,7 +144,7 @@ StarPolaris OS が採るのは **第三の道**：
 ## 2. External Validation & Reproducibility Logs  
 （外部検証・再現性ログ）
 
-### 🔹 Claude — 第三者評価（ペアログ）
+### 🔹 Claude — （ペアログ）
 
 **Baseline（①）**  
 https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8  
@@ -159,15 +159,18 @@ https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5
 
 ### 🔹 その他公開ログ
 
-- ChatGPT（Houou-G）  
-  https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0  
-
+- ChatGPT（Houou-G）
+  https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0
+  https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227
+  
 - Grok（Houou-G / Devi-G）  
   https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e  
 
 - Gemini（Devi-G）  
-  https://g.co/gemini/share/bef0b0428498  
-
+  https://g.co/gemini/share/bef0b0428498
+  
+※ 一部の外部サービスは、ポリシー変更・有料版仕様などにより、共有リンクが失効する場合があります。
+   提供元への批判ではありませんが、ユーザーとして、継続的な公開状態にあることを願っています。
 ---
 
 ## 3. なぜこのOSが必要なのか
