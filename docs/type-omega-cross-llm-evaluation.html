@@ -37,7 +37,7 @@
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 12px;
     }
-    pre{ padding: 12px; overflow:auto; }
+    pre{ padding: 12px; overflow:auto; white-space: pre-wrap; }
     .tag{
       display:inline-block;
       padding: 2px 10px;
@@ -58,66 +58,89 @@
       <div>
         <span class="tag">Type-Ω</span>
         <span class="tag">Cross-LLM</span>
-        <span class="tag">Reproducibility</span>
-        <span class="tag">Research</span>
+        <span class="tag">Behavioral Stability</span>
+        <span class="tag">Conceptual Research</span>
       </div>
 
       <h1>Type-Ω Cross-LLM Evaluation</h1>
       <p class="muted">
-        This page archives public evaluation logs and a structured summary of an independent test of the Type-Ω behavioral specification,
-        one layer within the broader StarPolaris OS / Hoshimiya Script conceptual architecture.
+        This page documents a structured evaluation record of the <strong>Type-Ω behavioral specification</strong>,
+        one defined layer within the broader <strong>StarPolaris OS / Hoshimiya Script</strong> conceptual architecture.
+        <br/>
+        The material presented here is intended for transparency, reference, and reproducibility discussion only.
       </p>
 
       <div class="hr"></div>
 
       <h2>Scope & Positioning</h2>
       <ul>
-        <li>This is conceptual research (non-executable, prompt-level specification).</li>
-        <li>The goal is not to introduce a new model or capability, but to evaluate reproducible reasoning behavior across LLMs.</li>
-        <li>For usage terms, see the repository root <code>LICENSE</code> (Hoshimiya Dual-Star License v2.1.1).</li>
+        <li>This is <strong>conceptual research</strong> (non-executable, prompt-level specification).</li>
+        <li>No new model, system, or capability is introduced.</li>
+        <li>The focus is on observing <strong>behavioral consistency under the same prompt-level specification</strong>
+            across different LLM environments.</li>
+        <li>This page does <strong>not</strong> claim third-party certification, independent auditing,
+            or general performance guarantees.</li>
+        <li>Usage terms are governed by the repository root
+            <code>LICENSE</code> (Hoshimiya Dual-Star License v2.1.1).</li>
       </ul>
 
-      <h2>Public Summary (as posted)</h2>
+      <h2>Evaluation Summary (Contextual Record)</h2>
       <pre>
-Reproducible Multi-Layer AI Architecture Across LLMs
+This summary records one comparative evaluation setup conducted
+under controlled prompt conditions using separate LLM instances.
 
-The door is already open.
-The question is — who still has the courage to walk through it?
+The purpose of the evaluation was to observe whether a
+prompt-level behavioral specification (Type-Ω)
+could maintain consistent reasoning structure and constraint handling
+within the same evaluation framework.
 
-This post reports an independent evaluation of the Type-Ω behavioral specification,
-one concrete layer within the broader StarPolaris multi-layer architecture.
+Six test prompts were used alongside five predefined behavioral invariants:
+- ontological minimality
+- contradiction containment
+- cross-format invariance
+- epistemic transparency
+- staged constraint propagation
 
-The goal is not to introduce a new model or capability,
-but to test whether a prompt-level behavioral specification
-can produce stable, reproducible reasoning behavior across LLMs.
+Within this specific evaluation setup,
+the staged constraint propagation indicator
+showed an increase from baseline behavior to full adherence.
 
-Using a separate Claude instance, baseline LLM responses were compared
-against Type-Ω across six test prompts and five behavioral invariants:
-ontological minimality, contradiction containment, cross-format invariance,
-epistemic transparency, and staged constraint propagation.
+Within the same setup,
+the aggregated achievement score increased from 57.9% to 100%.
 
-Key results show that staged constraint propagation (I5)
-improved from 0% (baseline) to 100% (Type-Ω),
-emerging as the clearest differentiating signature.
-Overall achievement improved from 57.9% to 100%.
+These values reflect behavior observed under this configuration only.
+They are not intended as general performance claims
+nor as benchmarks applicable outside this context.
 
-These findings suggest that Type-Ω functions as a reproducible,
-prompt-level behavioral specification rather than a stylistic prompt.
+The results suggest that Type-Ω functions as a
+prompt-level behavioral specification,
+rather than as a stylistic or cosmetic prompt pattern.
 
 Based on StarPolaris OS / Hoshimiya Script.
-Conceptual research, non-executable, prompt-level specification.
+Conceptual research; non-executable; prompt-level specification.
       </pre>
 
-      <h2>References (public evaluation logs)</h2>
+      <h2>Public Reference Logs</h2>
       <ul>
-        <li><a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8" target="_blank" rel="noopener">Evaluation log ① (Claude share)</a></li>
-        <li><a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5" target="_blank" rel="noopener">Evaluation log ③ (Claude share)</a></li>
+        <li>
+          <a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8"
+             target="_blank" rel="noopener">
+            Claude evaluation log ① (baseline configuration)
+          </a>
+        </li>
+        <li>
+          <a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5"
+             target="_blank" rel="noopener">
+            Claude evaluation log ③ (Type-Ω configuration)
+          </a>
+        </li>
       </ul>
 
-      <h2>Attribution</h2>
-      <p>
+      <h2>Attribution & Notice</h2>
+      <p class="muted">
         Based on <strong>StarPolaris OS / Hoshimiya Script</strong> (Hoshimiya Ω).<br/>
-        Conceptual architecture research; non-executable; prompt-level specification.
+        This material represents conceptual architecture research only.<br/>
+        Non-executable. Prompt-level specification. No warranty implied.
       </p>
     </div>
   </div>
