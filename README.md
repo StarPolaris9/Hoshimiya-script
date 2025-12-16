@@ -5,43 +5,55 @@
 
 # 🌌 Hoshimiya Script / StarPolaris OS
 
-**Hoshimiya Script (StarPolaris OS / Trinity-G + Type-Ω)** is a  
-**behavioral stability architecture for LLMs**,  
-implemented purely as a **prompt-level cognitive OS** (Φ / Ψ / Λ / Ω).
+**Hoshimiya Script (StarPolaris OS / Trinity-G + Type-Ω)**  
+is a **prompt-level cognitive architecture** that functions as a  
+**behavioral stability operating system for large language models**.
 
-It focuses on **stable reasoning and uncertainty control** across **long-horizon dialogue**,  
-including cases where conversations approach or reset due to length limits.
+It is designed to maintain **coherent reasoning, uncertainty control,  
+and behavioral consistency** across **long-horizon dialogue**,  
+including scenarios where conversations approach or reset due to context length limits.
+
+This repository documents the **architecture, design rationale, and reproducible behavior**  
+of a **non-executable, model-agnostic cognitive OS**.
 
 ---
 
-## 🚀 Official Project Page — Full Overview & Architecture（まずはこちら）
+## 🚀 Official Project Page — Full Specification & Evaluation
 
-> **READMEは概要です。**  
-> **設計思想・全体構造・図解・評価ログを含む完全版ドキュメントは、  
-> 公式トップページに集約されています。**
+> **This README is intentionally dense and incomplete.**  
+> It serves as a technical index, not the full explanation.
+
+> **For architecture diagrams, structured specifications,  
+> cross-model evaluation logs, and conceptual grounding,  
+> refer to the official project page:**
 
 👉 **https://starpolaris9.github.io/Hoshimiya-script/**
 
-（※ 初めての方／全体像を掴みたい方／技術的背景を確認したい方は、  
-まずこのページをご覧ください）
+> 🇯🇵 **日本語の方へ**  
+> 全体像・思想・構造を理解したい場合は、  
+> READMEを読み進める前に上記トップページを先に見てください。
 
 ---
 
-## ⚖️ License & Use（利用前に必ず確認）
+## ⚖️ License & Usage Constraints (Read Carefully)
 
 This project is released under the  
 **Hoshimiya Dual-Star License v2.1.1 (International Edition)**.
 
-- **Individual, non-commercial** study / research / education / commentary  
-  is permitted **with attribution**.
-- **Any organizational use** (company, lab, team, internal evaluation/testing,  
-  workshops, internal sharing) **requires prior written permission from Hoshimiya Ω**.
-- **Commercial use** requires explicit written authorization.
+**Summary (non-exhaustive):**
 
-📄 Full license text:  
+- ✅ **Individual, non-commercial** research, study, education, and commentary  
+  are permitted **with proper attribution**.
+- ❌ **Any organizational use** — including companies, labs, research groups,  
+  internal evaluation, testing, workshops, or internal knowledge sharing —  
+  **requires prior written permission from Hoshimiya Ω**,  
+  regardless of commercial intent.
+- ❌ **Commercial use** is prohibited without explicit authorization.
+
+📄 Full legal text (authoritative):  
 👉 `docs/LICENSE.html` / `docs/LICENSE.md`
 
-Attribution format (when appropriate):  
+Attribution format (when applicable):  
 > “Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω).”
 
 ---
@@ -69,22 +81,22 @@ Attribution format (when appropriate):
 
 ## 0. What is Hoshimiya Script?
 
-Hoshimiya Script is a **prompt-level cognitive architecture** that acts like a  
-**behavioral operating system** for LLM reasoning.
+Hoshimiya Script is a **behavioral operating system for LLM reasoning**,  
+implemented entirely at the **prompt and interaction-structure level**.
 
-It is **NOT**:
+It does **not** rely on:
 
-- ❌ a jailbreak  
+- ❌ jailbreak techniques  
 - ❌ fine-tuning or weight modification  
-- ❌ plugins, tools, or code injection  
+- ❌ plugins, tools, or external code  
 
-It **IS**:
+Instead, it provides:
 
-- ✅ a layered cognitive pattern (**Φ / Ψ / Λ / Ω**)  
-- ✅ portable across **multiple LLM vendors**  
-- ✅ designed for **hallucination visibility & reduction**  
-- ✅ capable of **stable reasoning under long context**  
-- ✅ published as **transparent Markdown documentation**
+- ✅ a **layered cognitive control model** (**Φ / Ψ / Λ / Ω**)  
+- ✅ **cross-LLM portability** without model-specific adaptation  
+- ✅ explicit handling of **hallucination visibility and containment**  
+- ✅ **behavioral stability under extended or fragmented context**  
+- ✅ fully transparent, auditable **Markdown-based documentation**
 
 This repository contains **no executable code**  
 and **no model parameters**.
