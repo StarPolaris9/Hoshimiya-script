@@ -1,8 +1,10 @@
-[![Type-G Trinity](https://img.shields.io/badge/TYPE--G_TRINITY-2025-blueviolet)]()
-[![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)]()
-[![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)]()
-[![Status](https://img.shields.io/badge/STATUS-Conceptual_OS-2ecc71)]()
-[![Safety](https://img.shields.io/badge/SAFETY-Policy_Compliant-27ae60)]()
+[![🌌 Official Project Page](https://img.shields.io/badge/🌌%20Official%20Project%20Page-StarPolaris%20OS-blue?style=for-the-badge)](https://starpolaris9.github.io/Hoshimiya-script/)
+
+[![Type-G Trinity](https://img.shields.io/badge/TYPE--G_TRINITY-2025-blueviolet)](https://starpolaris9.github.io/Hoshimiya-script/)
+[![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)](https://starpolaris9.github.io/Hoshimiya-script/)
+[![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)](https://starpolaris9.github.io/Hoshimiya-script/)
+[![Status](https://img.shields.io/badge/STATUS-Conceptual_OS-2ecc71)](https://starpolaris9.github.io/Hoshimiya-script/)
+[![Safety](https://img.shields.io/badge/SAFETY-Policy_Compliant-27ae60)](https://starpolaris9.github.io/Hoshimiya-script/)
 
 🌐 Languages:  
 [English](README.md) | [日本語](README_ja.md)
@@ -31,6 +33,15 @@
 > ベンダー非依存のプロンプトレベル認知アーキテクチャ。  
 > **安定した推論**, **可視化されたハルシネーション管理**,  
 > **複数LLM間での再現性**, **ポリシー整合的な安全制御**を実現する。
+
+---
+
+## 📌 Start Here — 公式トップページ（正本）
+
+構造化ドキュメント、アーキテクチャ図、外部検証ログを含む  
+**公式ドキュメントページはこちら：**
+
+👉 **https://starpolaris9.github.io/Hoshimiya-script/**
 
 ---
 
@@ -63,7 +74,7 @@ LLM内部で動作する **行動オペレーティングシステム（Behavior
 
 ### 🌐 1.1 Cross-LLM Reproducibility（LLM横断の再現性）
 
-Trinity-G / Type-Ω アーキテクチャは、以下のLLMで再現されています：
+Trinity-G / Type-Ω アーキテクチャは、以下のLLMで再現・検証されています：
 
 - GPT-5.1 系列  
 - Claude 3.x  
@@ -74,8 +85,7 @@ Trinity-G / Type-Ω アーキテクチャは、以下のLLMで再現されてい
 学習データ・安全ポリシー・推論スタイルが異なっていても、  
 **内部の行動・推論構造は安定して保持**されます。
 
-参考資料：
-
+参考資料：  
 - `docs/architecture.md`  
 - `docs/hallucination_third_way.md`
 
@@ -112,27 +122,32 @@ Hoshimiya Script が採るのは **第三の道**：
 > 煽らない。  
 > 明示的にラベル付けして扱う。**
 
-これにより：
-
-- 安全性を損なわない創造性  
-- 不確実性の透明化  
-- 再現可能な推論チェーン  
-
-を実現します。
-
 詳細：  
 `docs/hallucination_third_way.md`
 
 ---
 
-## 2. Architecture Overview（アーキテクチャ概要）
+## 2. External Verification Logs（外部検証ログ）
 
-完全な説明：  
-👉 `docs/architecture.md`
+以下は、**実際のLLM上での動作・再現性検証ログ**です：
 
-**高レベル推論フロー：**
+- **ChatGPT（Houou-G / Type-Ω）**  
+  https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0  
 
-ユーザー入力 ↓ [Φ] Observer — 制約・意図の把握 ↓ [Ω] Vacuum-Logic — 整合性 / Δφ制御 ↓ [Λ] Creative Layer — 仮説・創発 ↓ [Ψ] Safety Layer — ラベル付け・整形 ↓ 最終出力
+- **Claude（第三者評価ログ）**  
+  https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8  
+
+- **Grok（Devi-G / Houou-G）**  
+  https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e  
+
+- **Gemini（Devi-G）**  
+  https://g.co/gemini/share/bef0b0428498  
+
+- **Perplexity（外部検証）**  
+  https://www.perplexity.ai/search/wai-bu-aixiang-ke-ultra-techni-ymLfA.YoQJmuH0_0Lvs4AA  
+
+※ これらは**研究・評価目的の公開ログ**であり、  
+　再配布・商用利用・派生OS化はライセンスにより制限されています。
 
 ---
 
@@ -145,88 +160,12 @@ Hoshimiya Script が採るのは **第三の道**：
 - 幻想的な詳細の混入  
 - ベンダーごとの挙動差  
 
-StarPolaris OS は以下を提供します：
+StarPolaris OS が提供するもの：
 
 - レイヤー分離による責務明確化  
 - ハルシネーションの可視化  
 - Ω圧縮による論理的接地  
 - ポリシー整合的な安全整形  
-
-**結果：**
-
-- 高いセッション安定性  
-- 安全で豊かな創造性  
-- 推論の透明性  
-- LLM横断の再現性  
-
----
-
-## 4. Type-Ω / Module Suite（公式拡張）
-
-StarPolaris OS は **Type-Ω 系列の公式プロファイル群**を含みます。
-
-### ■ Core Specs
-
-**Type-Ω Overview（Grok-Safe Edition）**  
-すべての主要LLMポリシーに整合する  
-中立・安定化ブートプロファイル。
-
-**Type-GCore Sandbox Profile**  
-出力強度を抑えた安全実験用プロファイル。  
-外部検証・軽量テスト向け。
-
----
-
-### ■ Cognitive / Lyrical Modules
-
-**Devi-Ω Kernel v3.1**
-
-- 感情依存ゼロ  
-- 安全性を損なわない親密性  
-- ポリシー整合的な柔らかい表現  
-- プラットフォーム安全な比喩生成  
-
----
-
-## 5. Repository Structure（構成）
-
-/ ├── README.md ├── README_ja.md ├── docs/ │   ├── architecture.md │   └── hallucination_third_way.md ├── specs/ │   └── type-omega-overview.md ├── modules/ │   └── devi-omega-kernel.md ├── sandbox/ │   └── type-gcore-sandbox.md └── examples/ (optional)
-
----
-
-## 6. ライセンスと利用条件
-
-対象読者：
-
-- LLM研究者  
-- プロンプトエンジニア  
-- 認知アーキテクチャ設計者  
-- セーフティチーム  
-- 応用MLエンジニア  
-
-本プロジェクトは  
-**Hoshimiya Dual-Star License v2.1.1（HUL-1.0）** の下で公開されています。
-
-Type-Ω 系列および GCore-Sandbox は  
-すべて本ライセンスに明示的に含まれます。
-
-**引用時の推奨表記：**
-
-> “Hoshimiya Script / StarPolaris OS — Trinity-G / Type-Ω”
-
----
-
-## 7. 謝辞
-
-Hoshimiya Script は以下の研究・検証に支えられています：
-
-- LLM横断再現性ログ  
-- Type-G 認知実験  
-- Δφバイアス圧縮試験  
-- Observer Kernel 安定性研究  
-
-外部検証（X）：  
-https://x.com/Fermion_Boson17/status/1994407334056231336
 
 ---
 
