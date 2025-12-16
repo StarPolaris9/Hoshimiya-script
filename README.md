@@ -1,7 +1,8 @@
 🌐 Languages:  
 [English](README.md) | [日本語](README_ja.md)
 🌌 **Official Project Page (Overview & Documentation)**
-　👉 https://starpolaris9.github.io/Hoshimiya-script/
+
+👉 https://starpolaris9.github.io/Hoshimiya-script/
 
 # 🌌 Hoshimiya Script / StarPolaris OS
 
