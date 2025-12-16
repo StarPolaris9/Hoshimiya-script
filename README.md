@@ -1,102 +1,150 @@
-🌐 Languages:  
+🌐 Languages  
 [English](README.md) | [日本語](README_ja.md)
 
 ---
 
 # 🌌 Hoshimiya Script / StarPolaris OS
 
-**Hoshimiya Script (StarPolaris OS / Trinity-G + Type-Ω)**  
-is a **prompt-level cognitive architecture** that functions as a  
-**behavioral stability operating system for large language models**.
+**Hoshimiya Script (StarPolaris OS)** is a  
+**prompt-level behavioral stability architecture for LLMs**.
 
-It is designed to maintain **coherent reasoning, uncertainty control,  
-and behavioral consistency** across **long-horizon dialogue**,  
-including scenarios where conversations approach or reset due to context length limits.
+It is designed to **maintain coherent reasoning behavior across long conversational horizons**,  
+including cases where conversations approach, hit, or reset due to context length limits.
 
-This repository documents the **architecture, design rationale, and reproducible behavior**  
-of a **non-executable, model-agnostic cognitive OS**.
-
----
-
-## 🚀 Official Project Page — Full Specification & Evaluation
-
-> **This README is intentionally dense and incomplete.**  
-> It serves as a technical index, not the full explanation.
-
-> **For architecture diagrams, structured specifications,  
-> cross-model evaluation logs, and conceptual grounding,  
-> refer to the official project page:**
-
-👉 **https://starpolaris9.github.io/Hoshimiya-script/**
-
-> 🇯🇵 **日本語の方へ**  
-> 全体像・思想・構造を理解したい場合は、  
-> READMEを読み進める前に上記トップページを先に見てください。
+This is **not a tool, plugin, or model**.  
+It is a **non-executable cognitive OS**, implemented purely through structured prompts  
+using a multi-layer architecture: **Φ / Ψ / Λ / Ω**.
 
 ---
 
-## ⚖️ License & Usage Constraints (Read Carefully)
+## 📌 Start Here — Official Project Page
+
+If you want the **full picture**, do **not** start by reading files.
+
+👉 **Official Overview & Documentation**  
+🔗 https://starpolaris9.github.io/Hoshimiya-script/
+
+The official page contains:
+- the complete architectural overview  
+- design philosophy and layer semantics  
+- hallucination control (“Third Way”)  
+- external evaluation logs and cross-LLM observations  
+
+**This repository acts as the entry index.  
+The project itself lives on the official page.**
+
+---
+
+## 🧭 What This Is (and Is Not)
+
+### This is **NOT**:
+- ❌ a jailbreak  
+- ❌ fine-tuning or weight modification  
+- ❌ plugins, tools, agents, or code injection  
+- ❌ a persona or character prompt  
+
+### This **IS**:
+- ✅ a **behavioral stability architecture**  
+- ✅ portable across **multiple LLM vendors**  
+- ✅ focused on **hallucination visibility & containment**  
+- ✅ resilient under **long-horizon dialogue**  
+- ✅ fully transparent and **documented in Markdown**  
+
+This repository contains **no executable code**  
+and **no model parameters**.
+
+---
+
+## 🧠 Core Architectural Idea (Minimal)
+
+StarPolaris OS structures reasoning behavior through four cooperative layers:
+
+- **Φ — Observer**  
+  Task framing, constraint detection, oscillation damping  
+
+- **Ψ — Compassion / Safety**  
+  Tone regulation, safety alignment, interpretation smoothing  
+
+- **Λ — Creative Integration**  
+  Hypothesis generation, synthesis, controlled expansion  
+
+- **Ω — Vacuum Logic Kernel**  
+  Neutral re-anchoring, contradiction containment, bias reduction  
+
+The system does **not preserve memory**.  
+It preserves **behavioral alignment**.
+
+---
+
+## 🌐 Cross-LLM Observations
+
+The same architectural pattern has been observed across:
+
+- GPT-5.1 family  
+- Claude 3.x  
+- Gemini 3  
+- Grok 4  
+- Perplexity LLM *(externally referenced)*  
+
+Despite differences in training, policies, and decoding strategies,  
+**behavioral stability remains structurally consistent**  
+when the architecture is applied correctly.
+
+This suggests the system functions as a  
+**prompt-level behavioral specification**, not a stylistic trick.
+
+---
+
+## ⚖️ License & Use (Read Before Use)
 
 This project is released under the  
 **Hoshimiya Dual-Star License v2.1.1 (International Edition)**.
 
-**Summary (non-exhaustive):**
+### In short:
+- ✅ **Individual, non-commercial** study, research, education, and commentary  
+  are permitted **with attribution**.
+- ⚠ **Any organizational use** (companies, labs, teams, internal evaluation/testing)  
+  **requires prior written permission from Hoshimiya Ω**.
+- ❌ **Commercial use** requires explicit written authorization.
 
-- ✅ **Individual, non-commercial** research, study, education, and commentary  
-  are permitted **with proper attribution**.
-- ❌ **Any organizational use** — including companies, labs, research groups,  
-  internal evaluation, testing, workshops, or internal knowledge sharing —  
-  **requires prior written permission from Hoshimiya Ω**,  
-  regardless of commercial intent.
-- ❌ **Commercial use** is prohibited without explicit authorization.
-
-📄 Full legal text (authoritative):  
-👉 `docs/LICENSE.html` / `docs/LICENSE.md`
-
-Attribution format (when applicable):  
+**Attribution format (when appropriate):**
 > “Based on StarPolaris OS / Hoshimiya Script (Hoshimiya Ω).”
 
----
-
-![Type-G Trinity](https://img.shields.io/badge/TYPE--G-TRINITY--2025-9b59b6)
-![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)
-![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)
-![Status](https://img.shields.io/badge/STATUS-CONCEPTUAL%20OS-2ecc71)
-![Safety](https://img.shields.io/badge/SAFETY-POLICY%20COMPLIANT-27ae60)
+📄 Full license text:  
+- `docs/LICENSE.html`  
+- `docs/LICENSE.md`
 
 ---
 
-<div align="center">
+## 🇯🇵 日本語の方へ（重要）
 
-![StarPolaris](https://img.shields.io/badge/StarPolaris-TypeG_Ω_Trinity_2025-blueviolet?style=for-the-badge)
-![LLMs](https://img.shields.io/badge/LLM-GPT_5.1・Claude・Gemini・Grok・Perplexity-111827?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Conceptual_OS-23b06d?style=for-the-badge)
-![Safety](https://img.shields.io/badge/Safety-Policy_Compliant-25eaa2?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/StarPolaris9/Hoshimiya-script?color=blueviolet&style=for-the-badge)
-![License](https://img.shields.io/github/license/StarPolaris9/Hoshimiya-script?color=brightgreen&style=for-the-badge)
+この README は **入口専用** です。  
+設計思想・全体像・検証ログを理解するには  
+**必ず公式トップページをご覧ください。**
 
-</div>
+👉 **公式ページ（全体解説・図解・評価ログ）**  
+🔗 https://starpolaris9.github.io/Hoshimiya-script/
+
+※ 本プロジェクトは「実行コード」や「ツール」ではありません。  
+※ 組織・企業・研究室での利用（社内評価含む）は  
+　**事前の書面許可が必要**です（ライセンス参照）。
 
 ---
 
-## 0. What is Hoshimiya Script?
+## 🔍 Where to Go Next
 
-Hoshimiya Script is a **behavioral operating system for LLM reasoning**,  
-implemented entirely at the **prompt and interaction-structure level**.
+- 📘 Official Overview  
+  https://starpolaris9.github.io/Hoshimiya-script/
 
-It does **not** rely on:
+- 🧱 Architecture  
+  `docs/architecture.md`
 
-- ❌ jailbreak techniques  
-- ❌ fine-tuning or weight modification  
-- ❌ plugins, tools, or external code  
+- 🌗 Hallucination Control (“Third Way”)  
+  `docs/hallucination_third_way.md`
 
-Instead, it provides:
+---
 
-- ✅ a **layered cognitive control model** (**Φ / Ψ / Λ / Ω**)  
-- ✅ **cross-LLM portability** without model-specific adaptation  
-- ✅ explicit handling of **hallucination visibility and containment**  
-- ✅ **behavioral stability under extended or fragmented context**  
-- ✅ fully transparent, auditable **Markdown-based documentation**
+**StarPolaris OS is not about prompts.  
+It is about behavioral stability.**
 
-This repository contains **no executable code**  
-and **no model parameters**.
+— Hoshimiya Ω
