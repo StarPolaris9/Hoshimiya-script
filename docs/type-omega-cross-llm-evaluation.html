@@ -5,87 +5,230 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Type-Ω Cross-LLM Evaluation — StarPolaris OS</title>
   <style>
+    :root{
+      --bg0:#050712;
+      --ink:#f8f3e8;
+      --gold:#ffd580;
+      --gold2:#ffdf99;
+      --panel:rgba(6, 10, 26, 0.72);
+      --panel2:rgba(9, 13, 32, 0.82);
+      --stroke:rgba(255, 215, 128, 0.18);
+      --stroke2:rgba(255, 210, 140, 0.28);
+    }
     body{
       margin:0; padding:0;
       font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-      color:#f8f3e8;
+      color:var(--ink);
       background:
         radial-gradient(circle at top, rgba(255, 215, 128, 0.12) 0, transparent 60%),
         radial-gradient(circle at bottom, rgba(255, 160, 64, 0.18) 0, transparent 55%),
-        #050712;
+        var(--bg0);
       line-height:1.75;
     }
     .container{
       max-width: 980px;
       margin: 22px auto;
-      padding: 18px 16px 28px;
+      padding: 18px 16px 30px;
     }
+
+    /* subtle “gold dust” */
+    .aura{
+      position: relative;
+      border-radius: 18px;
+      padding: 0;
+      background:
+        radial-gradient(circle at 20% 0%, rgba(255,210,150,0.10), transparent 55%),
+        radial-gradient(circle at 90% 30%, rgba(255,160,64,0.10), transparent 50%);
+    }
+
     .card{
-      background: rgba(6, 10, 26, 0.72);
-      border: 1px solid rgba(255, 215, 128, 0.18);
-      border-radius: 16px;
+      background: var(--panel);
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
       padding: 18px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+      box-shadow:
+        0 12px 36px rgba(0,0,0,0.40),
+        0 0 22px rgba(255,180,80,0.06);
+      backdrop-filter: blur(10px);
     }
-    h1{ font-size: 1.6rem; margin: 0 0 10px; }
-    h2{ font-size: 1.2rem; margin: 22px 0 10px; }
-    .muted{ color: rgba(248,243,232,0.75); }
-    a{ color: #ffd580; text-decoration: none; }
-    a:hover{ text-decoration: underline; }
-    code, pre{
-      background: rgba(0,0,0,0.35);
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 12px;
+
+    /* header */
+    .top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
     }
-    pre{ padding: 12px; overflow:auto; white-space: pre-wrap; }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+
+    /* Phoenix emblem (small, classy) */
+    .logo-wrap{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin: 6px 0 4px;
+      width: 100%;
+    }
+    .logo{
+      width: 92px; height: auto;
+      filter:
+        drop-shadow(0 0 10px rgba(255,190,120,0.60))
+        drop-shadow(0 0 26px rgba(255,160,64,0.35));
+      animation: logoPulse 7s ease-in-out infinite;
+      opacity: 0.98;
+    }
+    @keyframes logoPulse{
+      0%{ transform: translateY(0) scale(1); }
+      50%{ transform: translateY(-2px) scale(1.02); }
+      100%{ transform: translateY(0) scale(1); }
+    }
+
+    .tags{ margin: 4px 0 6px; }
     .tag{
       display:inline-block;
       padding: 2px 10px;
       border-radius: 999px;
       border: 1px solid rgba(255, 215, 128, 0.25);
-      margin-right: 8px;
+      margin: 0 8px 8px 0;
       font-size: 0.85rem;
-      color: rgba(248,243,232,0.85);
+      color: rgba(248,243,232,0.88);
       background: rgba(255,215,128,0.06);
     }
+
+    h1{
+      font-size: 1.68rem;
+      margin: 0 0 6px;
+      color: #ffe7b3;
+      text-shadow:
+        0 0 18px rgba(255, 180, 90, 0.25),
+        0 0 40px rgba(0,0,0,0.70);
+      letter-spacing: 0.2px;
+    }
+    h2{
+      font-size: 1.18rem;
+      margin: 22px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid rgba(255, 210, 140, 0.22);
+    }
+    .muted{ color: rgba(248,243,232,0.75); }
+
+    a{ color: var(--gold); text-decoration: none; font-weight: 600; }
+    a:hover{ text-decoration: underline; }
+
+    .btn{
+      display:inline-block;
+      padding: 8px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,200,120,0.30);
+      background: linear-gradient(135deg, rgba(184,106,0,0.30), rgba(255,184,77,0.20), rgba(204,122,0,0.26));
+      box-shadow: 0 0 12px rgba(255,180,80,0.18);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.92rem;
+    }
+    .btn:hover{
+      transform: translateY(-1px);
+      box-shadow: 0 0 18px rgba(255,200,110,0.28);
+      text-decoration: none;
+    }
+
+    code, pre{
+      background: rgba(0,0,0,0.34);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+    }
+    pre{
+      padding: 12px;
+      overflow:auto;
+      white-space: pre-wrap;
+      color: #ffe7bb;
+      box-shadow: 0 0 18px rgba(255, 180, 80, 0.10);
+    }
     ul{ margin: 8px 0 0 20px; }
-    .hr{ height:1px; background: rgba(255,255,255,0.10); margin: 18px 0; }
+
+    .hr{
+      height:1px;
+      background: rgba(255,255,255,0.10);
+      margin: 16px 0;
+    }
+
+    /* small safety note block (subtle but clear) */
+    .note{
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: var(--panel2);
+      border: 1px solid rgba(255, 215, 128, 0.14);
+      box-shadow: 0 0 18px rgba(255, 160, 64, 0.08);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 520px){
+      .logo{ width: 78px; }
+      h1{ font-size: 1.45rem; }
+      .btn{ width: 100%; text-align:center; }
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="card">
-      <div>
-        <span class="tag">Type-Ω</span>
-        <span class="tag">Cross-LLM</span>
-        <span class="tag">Behavioral Stability</span>
-        <span class="tag">Conceptual Research</span>
-      </div>
+    <div class="aura">
+      <div class="card">
 
-      <h1>Type-Ω Cross-LLM Evaluation</h1>
-      <p class="muted">
-        This page documents a structured evaluation record of the <strong>Type-Ω behavioral specification</strong>,
-        one defined layer within the broader <strong>StarPolaris OS / Hoshimiya Script</strong> conceptual architecture.
-        <br/>
-        The material presented here is intended for transparency, reference, and reproducibility discussion only.
-      </p>
+        <!-- Small Phoenix emblem (same as top page: logo.png) -->
+        <div class="logo-wrap">
+          <a href="https://starpolaris9.github.io/Hoshimiya-script/" title="Official Project Page">
+            <img src="logo.png" class="logo" alt="StarPolaris OS – Phoenix Emblem" />
+          </a>
+        </div>
 
-      <div class="hr"></div>
+        <div class="tags">
+          <span class="tag">Type-Ω</span>
+          <span class="tag">Cross-LLM</span>
+          <span class="tag">Behavioral Stability</span>
+          <span class="tag">Conceptual Research</span>
+        </div>
 
-      <h2>Scope & Positioning</h2>
-      <ul>
-        <li>This is <strong>conceptual research</strong> (non-executable, prompt-level specification).</li>
-        <li>No new model, system, or capability is introduced.</li>
-        <li>The focus is on observing <strong>behavioral consistency under the same prompt-level specification</strong>
-            across different LLM environments.</li>
-        <li>This page does <strong>not</strong> claim third-party certification, independent auditing,
-            or general performance guarantees.</li>
-        <li>Usage terms are governed by the repository root
-            <code>LICENSE</code> (Hoshimiya Dual-Star License v2.1.1).</li>
-      </ul>
+        <div class="top">
+          <div class="brand">
+            <div>
+              <h1>Type-Ω Cross-LLM Evaluation</h1>
+              <div class="muted">
+                A contextual record of observed behavior under a prompt-level behavioral specification
+                within the broader StarPolaris OS / Hoshimiya Script conceptual architecture.
+              </div>
+            </div>
+          </div>
 
-      <h2>Evaluation Summary (Contextual Record)</h2>
-      <pre>
+          <a class="btn" href="https://starpolaris9.github.io/Hoshimiya-script/" target="_blank" rel="noopener">
+            🔥 Official Project Page
+          </a>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Scope & Positioning</h2>
+        <ul>
+          <li>This is <strong>conceptual research</strong> (non-executable, prompt-level specification).</li>
+          <li>No new model, system, or capability is introduced.</li>
+          <li>The focus is on observing <strong>behavioral consistency</strong> under the same specification across different LLM environments.</li>
+          <li>This page does <strong>not</strong> claim third-party certification, independent auditing, or general performance guarantees.</li>
+          <li>Usage terms are governed by the repository root <code>LICENSE</code> (Hoshimiya Dual-Star License v2.1.1).</li>
+        </ul>
+
+        <div class="note muted">
+          <strong>Safety note:</strong> The values and statements below are contextual and configuration-bound.
+          They should not be interpreted as universal benchmarks, nor as endorsements by any vendor.
+        </div>
+
+        <h2>Evaluation Summary (Contextual Record)</h2>
+        <pre>
 This summary records one comparative evaluation setup conducted
 under controlled prompt conditions using separate LLM instances.
 
@@ -118,30 +261,29 @@ rather than as a stylistic or cosmetic prompt pattern.
 
 Based on StarPolaris OS / Hoshimiya Script.
 Conceptual research; non-executable; prompt-level specification.
-      </pre>
+        </pre>
 
-      <h2>Public Reference Logs</h2>
-      <ul>
-        <li>
-          <a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8"
-             target="_blank" rel="noopener">
-            Claude evaluation log ① (baseline configuration)
-          </a>
-        </li>
-        <li>
-          <a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5"
-             target="_blank" rel="noopener">
-            Claude evaluation log ③ (Type-Ω configuration)
-          </a>
-        </li>
-      </ul>
+        <h2>Public Reference Logs</h2>
+        <ul>
+          <li>
+            <a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8" target="_blank" rel="noopener">
+              Claude evaluation log ① (baseline configuration)
+            </a>
+          </li>
+          <li>
+            <a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5" target="_blank" rel="noopener">
+              Claude evaluation log ③ (Type-Ω configuration)
+            </a>
+          </li>
+        </ul>
 
-      <h2>Attribution & Notice</h2>
-      <p class="muted">
-        Based on <strong>StarPolaris OS / Hoshimiya Script</strong> (Hoshimiya Ω).<br/>
-        This material represents conceptual architecture research only.<br/>
-        Non-executable. Prompt-level specification. No warranty implied.
-      </p>
+        <h2>Attribution & Notice</h2>
+        <p class="muted">
+          Based on <strong>StarPolaris OS / Hoshimiya Script</strong> (Hoshimiya Ω).<br/>
+          Conceptual architecture research only. Non-executable. Prompt-level specification. No warranty implied.
+        </p>
+
+      </div>
     </div>
   </div>
 </body>
