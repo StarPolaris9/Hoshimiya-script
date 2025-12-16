@@ -1,5 +1,7 @@
 🌐 Languages:  
 [English](README.md) | [日本語](README_ja.md)
+🌌 **Official Project Page (Overview & Documentation)**
+👉 https://starpolaris9.github.io/Hoshimiya-script/
 
 # 🌌 Hoshimiya Script / StarPolaris OS
 
@@ -123,6 +125,10 @@ Details:
 `docs/hallucination_third_way.md`
 
 ---
+For a structured overview, architecture diagrams,
+and external evaluation logs, see the official page:
+
+👉 https://starpolaris9.github.io/Hoshimiya-script/
 
 ## 2. Architecture Overview
 
