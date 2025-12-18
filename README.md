@@ -4,7 +4,7 @@ English | 日本語
 
 ---
 
-🌌 Hoshimiya Script / StarPolaris OS
+🌌 Hoshimiya Script / StarPolaris OS Ω
 
 📌 Start Here — Official Project Overview
 
