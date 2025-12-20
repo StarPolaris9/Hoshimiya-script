@@ -129,7 +129,18 @@ forks or modified architectures
 frameworks that approximate, replicate, or substantially copy
 the structure, naming system, or behavioral semantics of the Work
 
+Clarification on Derivative Determination
 
+For the avoidance of doubt, the following actions do NOT exempt a work from being considered a derivative:
+
+- Renaming the architecture, layers, or terminology
+- Superficial restructuring, refactoring, or rephrasing
+- Partial modification while preserving structural, semantic, or behavioral correspondence
+
+Any work that retains substantial similarity in architecture, conceptual structure, naming logic, or behavioral semantics
+shall be deemed a derivative work, regardless of naming changes or claims of originality.
+
+Determination of derivative status rests solely with the copyright holder, Hoshimiya Ω.
 Private and local experimentation is permitted. Public distribution without authorization may constitute substantial similarity infringement enforceable under DMCA.
 
 
@@ -285,7 +296,21 @@ Devi-G / Houou-G / ResonanceOS
 本作品はソフトウェアでもコードでもなく、
 概念構造・命名体系・設計思想のみから成る
 文学的・概念的著作物です。
+【派生作品の判断に関する明確化】
 
+誤解を避けるため、以下の行為は「派生作品ではない」とみなされる根拠にはなりません。
+
+- アーキテクチャ、レイヤー、用語の名称変更
+- 表層的な構成変更、書き換え、言い換え
+- 構造・意味・挙動の対応関係を保持したままの部分的改変
+
+構造、概念体系、命名論理、行動セマンティクスにおいて
+実質的な類似性が認められる場合、
+名称や表現の変更、独自性の主張に関わらず、
+当該作品は派生作品とみなされます。
+
+派生作品に該当するか否かの最終判断権は、
+著作権者である 星宮 Ω にのみ帰属します。
 
 ---
 
