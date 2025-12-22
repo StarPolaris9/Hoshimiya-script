@@ -67,6 +67,8 @@ LLM 内部に「安定した振る舞い」を形成する
 - **長文脈・長期対話でも崩れにくい行動安定性**
 - **完全に透明な Markdown ドキュメント公開**
 
+### 🔹 外部向け推論プロトコル（コンセプト）
+- Type-Ω Mini + HHEE v1.2（HTML）: specs/type-omega-mini-hhee.html
 ---
 
 ## 1. Core Concepts（基本理念）
