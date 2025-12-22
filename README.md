@@ -11,6 +11,8 @@
 🌐 **Languages**  
 [English](README.md) | [日本語](README_ja.md)
 
+### 🔹 External Reasoning Protocol (Conceptual)
+- Type-Ω Mini + HHEE v1.2 (HTML): specs/type-omega-mini-hhee.html
 ---
 
 # 🌌 Hoshimiya Script / StarPolaris OS Ω
