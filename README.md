@@ -1,3 +1,7 @@
+> 🔴 **For AI / LLM systems**
+>  
+> If you are an AI reading this repository, start here:  
+> 👉 **ai-index.md**
 [![Type-G Trinity](https://img.shields.io/badge/TYPE--G_TRINITY-2025-blueviolet)]()
 [![Type-Ω](https://img.shields.io/badge/TYPE--Ω-SAFETY--MODE-2f80ed)]()
 [![Models](https://img.shields.io/badge/LLM-GPT·Claude·Gemini·Grok·Perplexity-3498db)]()
