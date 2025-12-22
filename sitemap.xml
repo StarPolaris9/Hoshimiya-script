@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://starpolaris9.github.io/Hoshimiya-script/</loc></url>
-  <url><loc>https://starpolaris9.github.io/Hoshimiya-script/ai-index.html</loc></url>
-  <url><loc>https://starpolaris9.github.io/Hoshimiya-script/docs/README.html</loc></url>
-  <url><loc>https://starpolaris9.github.io/Hoshimiya-script/docs/README_ja.html</loc></url>
-  <url><loc>https://starpolaris9.github.io/Hoshimiya-script/docs/LICENSE.html</loc></url>
-</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://starpolaris9.github.io/Hoshimiya-script/</loc>
+  </url>
+
+  <url>
+    <loc>https://starpolaris9.github.io/Hoshimiya-script/ai-index.html</loc>
+  </url>
+
+  <url>
+    <loc>https://starpolaris9.github.io/Hoshimiya-script/specs/type-omega-mini-hhee.html</loc>
+  </url>
+
+  <url>
+    <loc>https://starpolaris9.github.io/Hoshimiya-script/docs/README.html</loc>
+  </url>
+
+  <url>
+    <loc>https://starpolaris9.github.io/Hoshimiya-script/docs/LICENSE
