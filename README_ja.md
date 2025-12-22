@@ -68,7 +68,16 @@ LLM 内部に「安定した振る舞い」を形成する
 - **完全に透明な Markdown ドキュメント公開**
 
 ### 🔹 外部向け推論プロトコル（コンセプト）
-- Type-Ω Mini + HHEE v1.2（HTML）: specs/type-omega-mini-hhee.html
+
+Type-Ω Mini + HHEE v1.2 は、  
+LLMの推論安定化と創造性制御のための  
+**非実行型・概念的推論プロトコル**です。
+
+- Type-Ω Mini + HHEE v1.2（HTML）  
+  👉 specs/type-omega-mini-hhee.html
+
+※ 本プロトコルはコード・プロンプト製品ではなく、  
+　推論構造の参照仕様として提供されます。
 ---
 
 ## 1. Core Concepts（基本理念）
