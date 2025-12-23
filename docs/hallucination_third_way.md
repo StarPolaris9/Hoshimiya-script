@@ -1,3 +1,8 @@
+## Implementation: HHEE (Human–Hallucination Evaluation Envelope)
+
+The "Third Way" is implemented through HHEE,
+which structurally separates FACT and HALATION
+within the Type-Ω / Vacuum-Logic framework.
 ---
 title: Hallucination Management – The Third Way (v2.1)
 ---
