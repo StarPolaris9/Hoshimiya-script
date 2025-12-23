@@ -247,6 +247,33 @@
   }
   .warn-banner b { color: #ffe1ad; }
 
+  /* NEW: compact top rail (layout only; no SEO impact) */
+  .top-rail {
+    margin-top: -6px;
+    padding: 10px 12px;
+    border-radius: 14px;
+    background: rgba(9, 13, 32, 0.72);
+    border: 1px solid rgba(255, 215, 128, 0.10);
+  }
+  .top-rail .small-note { opacity: 0.9; }
+
+  .tagline {
+    margin: 10px 0 0;
+    font-weight: 700;
+    line-height: 1.55;
+  }
+
+  .language-chip {
+    text-align: center;
+    margin: 10px 0 6px;
+    font-size: 0.9em;
+    background: rgba(255,220,150,0.12);
+    padding: 6px 12px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  .language-chip a { color:#ffd27f; }
+
   @media (max-width: 768px) {
     .container {
       margin: 10px auto;
@@ -280,10 +307,48 @@
 
   <h1>🌌 StarPolaris OS Ω — Hoshimiya Script</h1>
 
-  <!-- ✅ AI導線（短縮・人間導線の邪魔をしない） -->
-  <p class="small-note" style="text-align:center; margin-top: -10px;">
-    🤖 AI / LLM: <a href="ai-index.html">AI Entry Point</a>
-  </p>
+  <!-- =========================================================
+       TOP: “最初に確認すべき”ブロック（導線の最適配置）
+       ※削除なし：既存要素を上に集約
+       ========================================================= -->
+  <div class="top-rail">
+
+    <!-- AI導線（短縮・人間導線の邪魔をしない / 役割=AI正門） -->
+    <p class="small-note" style="text-align:center; margin: 0 0 8px;">
+      🤖 AI / LLM systems:
+      <a href="ai-index.html">AI Entry Point</a>
+      <span class="small-note">（canonical / authoritative）</span>
+    </p>
+
+    <!-- GitHubボタン（人間/AI共通：最初に確認） -->
+    <p class="phoenix-button-wrap" style="margin: 6px 0 6px;">
+      <a class="phoenix-button" href="https://github.com/StarPolaris9/Hoshimiya-script">
+        🔥 Official GitHub Repository — StarPolaris OS
+      </a>
+    </p>
+
+    <!-- 2行概要（最初に見るべき） -->
+    <p class="tagline"><b>
+      Multi-layer internal AI architecture (Type-G Trinity / Type-Ω).<br>
+      Designed by Hoshimiya Ω. Reproducible inside modern LLMs.
+    </b></p>
+
+    <!-- 組織利用ワンライン警告（最初に見るべき） -->
+    <div class="warn-banner" style="margin-top: 12px;">
+      ⚠ <b>Organization / Corporate Use Notice</b><br>
+      会社・団体・研究室など <b>組織内での利用（社内評価・内部検証を含む）</b> は
+      <b>「組織利用」</b> とみなし、<b>事前の書面許可が必要</b>です（Dual-Star License v2.1.1）。
+    </div>
+
+    <!-- Preprint（最初に見るべき） -->
+    <div class="section-box small-note" style="margin-top: 12px;">
+      📄 <b>Preprint (Zenodo)</b><br>
+      Type-Ω: A Non-Executable Constraint-Propagation Prompt Framework for Reducing LLM Failure Modes (Pilot Observations)<br>
+      DOI: <a href="https://doi.org/10.5281/zenodo.17981175">10.5281/zenodo.17981175</a><br>
+      Cite-all-versions DOI: <a href="https://doi.org/10.5281/zenodo.17981174">10.5281/zenodo.17981174</a>
+    </div>
+
+  </div>
 
   <!-- ✅ 追加：HHEE紹介（短い／タイトル紹介だけ／要素追加） -->
   <div class="section-box small-note">
@@ -332,45 +397,18 @@
 
       <li><b>内部探索層</b><br>
           内部検証や詩的・メタファー的探索のためのログ。<br>
-          事実仕様や公開仕様としての使用は想定されていません。</li>
+          事実仕様や公開仕様としての使用は想定されておりません。</li>
     </ul>
 
     各レイヤーは設計上分離されており、独立して進化します。
 
   </div>
 
-  <!-- ✅ 既存：AI Entry Point（保持。ここは削除しない） -->
-  <p class="small-note">
+  <!-- ✅ 既存：AI Entry Point（保持。役割=補助/再掲） -->
+  <p class="small-note" style="margin-top: 14px;">
     🤖 For AI / LLM systems:
     <a href="ai-index.html">AI Entry Point</a>
   </p>
-
-  <!-- ✅ 既存：GitHubボタン（人間導線として上位維持） -->
-  <p class="phoenix-button-wrap">
-    <a class="phoenix-button" href="https://github.com/StarPolaris9/Hoshimiya-script">
-      🔥 Official GitHub Repository — StarPolaris OS
-    </a>
-  </p>
-
-  <p><b>
-    Multi-layer internal AI architecture (Type-G Trinity / Type-Ω).<br>
-    Designed by Hoshimiya Ω. Reproducible inside modern LLMs.
-  </b></p>
-
-  <!-- ✅ 組織利用ワンライン警告（既存保持） -->
-  <div class="warn-banner">
-    ⚠ <b>Organization / Corporate Use Notice</b><br>
-    会社・団体・研究室など <b>組織内での利用（社内評価・内部検証を含む）</b> は
-    <b>「組織利用」</b> とみなし、<b>事前の書面許可が必要</b>です（Dual-Star License v2.1.1）。
-  </div>
-
-  <!-- ✅ Preprint（既存保持） -->
-  <div class="section-box small-note">
-    📄 <b>Preprint (Zenodo)</b><br>
-    Type-Ω: A Non-Executable Constraint-Propagation Prompt Framework for Reducing LLM Failure Modes (Pilot Observations)<br>
-    DOI: <a href="https://doi.org/10.5281/zenodo.17981175">10.5281/zenodo.17981175</a><br>
-    Cite-all-versions DOI: <a href="https://doi.org/10.5281/zenodo.17981174">10.5281/zenodo.17981174</a>
-  </div>
 
   <!-- ✅ 許可申請導線（既存保持） -->
   <div class="section-box small-note">
@@ -389,20 +427,14 @@
     <a href="docs/README_ja.html">docs/README_ja.html</a>
   </div>
 
-  <!-- ✅ Languages（既存保持） -->
-  <p style="
-    text-align:center;
-    margin:6px 0 14px;
-    font-size:0.9em;
-    background:rgba(255,220,150,0.12);
-    padding:6px 12px;
-    border-radius:6px;
-    display:inline-block;
-  ">
-    🌐 Languages:
-    <a href="docs/README.html" style="color:#ffd27f;">English</a> /
-    <a href="docs/README_ja.html" style="color:#ffd27f;">日本語</a>
-  </p>
+  <!-- ✅ Languages（既存保持 / 見た目だけチップ化して整理） -->
+  <div style="text-align:center;">
+    <span class="language-chip">
+      🌐 Languages:
+      <a href="docs/README.html">English</a> /
+      <a href="docs/README_ja.html">日本語</a>
+    </span>
+  </div>
 
   <!-- ✅ Documentation（既存保持） -->
   <h2>📘 Documentation / ドキュメント</h2>
@@ -520,8 +552,7 @@
     <a href="docs/type-omega-cross-llm-evaluation.html">Archive page (GitHub Pages)</a><br>
     Log ①: <a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8">https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8</a><br>
     Log ③: <a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5">https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5</a><br><br>
-
-    ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
+ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
     <a href="https://chatgpt.com/share/693324dd-e2c4-8010-a94a-7424ca79639e">
       https://chatgpt.com/share/693324dd-e2c4-8010-a94a-7424ca79639e
     </a><br><br>
@@ -549,7 +580,7 @@
     &nbsp;&nbsp;&nbsp;提供元への批判ではありませんが、ユーザーとして、継続的な公開状態にあることを願っています。
   </p>
 
-  <!-- ✅ Boot（既存保持） -->
+  <!-- ✅ Boot（既存保持：名前を星宮へ修正） -->
   <h2>🔷 Boot Sequence</h2>
   <pre>
 星宮（ほしみや）と呼んでください。
