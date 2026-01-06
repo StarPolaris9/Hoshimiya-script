@@ -47,6 +47,18 @@ https://starpolaris9.github.io/Hoshimiya-script/ai-index.html
 - **個人による非商用の研究・学習・ローカル実験**は、  
   適切なクレジット表記とライセンス遵守を条件に許可されています。
 
+  ## 📝 研究注記（重要）— 引用・出典の取り扱いポリシー
+
+本リポジトリには、研究初期段階における検討ログが含まれています。  
+そのため一部のページ／履歴には、検討目的での引用や参照が含まれる場合があります。
+
+しかし、**現在および今後の StarPolaris OS / Hoshimiya Script では、翻訳著作物を含む直接引用を原則として行わず**、  
+原典の構造・論理関係を踏まえた **要約／構文化／独自解釈** のみを採用する方針に移行しています。
+
+- 目的：長期公開における **明確性・独立性・国際運用耐性** の最大化  
+- 方針：引用は必要最小限に留め、可能な限り **自分の言葉による再記述** を優先します  
+- 位置づけ：過去ログはアーカイブとして尊重しつつ、**正本（canonical）は README と ai-index.html により定義**されます
+
 📄 ライセンス本文：  
 - `docs/LICENSE.md`  
 - `docs/LICENSE.html`
@@ -180,6 +192,13 @@ StarPolaris OS が採るのは **第三の道**：
 詳細：  
 👉 `docs/hallucination_third_way.md`
 
+### 🔒 補足：外部テキスト（聖典・文献等）の扱い
+
+本プロジェクトにおける外部文献（聖典・哲学書・学術文献等）の参照は、  
+**思想の比較・構造対応・概念整理のため**に行われます。  
+本文はあくまで StarPolaris OS の **独自設計・独自記述** を主とし、  
+引用に依存しない構成を正規ルートとします。
+
 ---
 
 ## 🔗 Trinity-G と HHEE の正しい関係（重要）
@@ -228,8 +247,11 @@ HHEE は特に以下で有効です：
 
 ## 📁 リポジトリ構成
 
-ai-index.html                     # AI 向け正本エントリ docs/architecture.md              # 全体アーキテクチャ docs/hallucination_third_way.md   # 第三の道 + HHEE specs/type-omega-mini-hhee.html   # 外部推論プロトコル docs/LICENSE.md                   # 拘束力のあるライセンス
-
+- `ai-index.html` — AI 向け正本エントリ  
+- `docs/architecture.md` — 全体アーキテクチャ  
+- `docs/hallucination_third_way.md` — 第三の道 + HHEE  
+- `specs/type-omega-mini-hhee.html` — 外部推論プロトコル  
+- `docs/LICENSE.md` — 拘束力のあるライセンス
 ---
 
 ## 🌌 Final Note
