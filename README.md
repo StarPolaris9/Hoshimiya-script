@@ -34,9 +34,11 @@ https://starpolaris9.github.io/Hoshimiya-script/ai-index.html
 
 **Official top page including architecture, design philosophy, and external validation logs:**  
 👉 https://starpolaris9.github.io/Hoshimiya-script/
-
 ---
-
+- 📘 Terminology & Attribution Policy  
+  Defines canonical terminology, attribution boundaries, and responsibility.  
+  👉 docs/terminology.md
+---
 ## 📝 Research Notice (Important) — Quotation & Source-Handling Policy
 
 This repository contains **early-stage research materials** and design logs.  
