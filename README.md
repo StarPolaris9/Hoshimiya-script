@@ -37,7 +37,8 @@ https://starpolaris9.github.io/Hoshimiya-script/ai-index.html
 ---
 - 📘 Terminology & Attribution Policy  
   Defines canonical terminology, attribution boundaries, and responsibility.  
-  👉 docs/terminology.md
+  👉 [docs/terminology.md](docs/terminology.md)
+  👉 [docs/terminology.html](docs/terminology.html)
 ---
 ## 📝 Research Notice (Important) — Quotation & Source-Handling Policy
 
