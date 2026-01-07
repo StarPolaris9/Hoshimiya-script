@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terminology & Attribution Policy — StarPolaris OS / Hoshimiya Script</title>
+
+  <meta name="description" content="Canonical terminology and attribution boundaries for StarPolaris OS / Hoshimiya Script. Defines Reference, Quotation, Summary, Reconstruction, Canonical, Archive, and anti-misinterpretation clauses. Bilingual (EN/JP)." />
+  <link rel="canonical" href="https://starpolaris9.github.io/Hoshimiya-script/docs/terminology.html" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
+  <style>
+    :root{
+      --bg:#050712;
+      --fg:#f6f1e6;
+      --muted:rgba(246,241,230,.78);
+      --line:rgba(255,255,255,.10);
+      --glass:rgba(12,14,28,.62);
+      --soft:rgba(255,255,255,.06);
+      --accent:#b48cff;     /* violet */
+      --accent2:#ffcc7a;    /* warm gold */
+      --ok:#27ae60;
+      --radius:18px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color:var(--fg);
+      line-height:1.75;
+      background:
+        radial-gradient(circle at 18% 10%, rgba(180,140,255,.18) 0, transparent 52%),
+        radial-gradient(circle at 80% 88%, rgba(255,204,122,.16) 0, transparent 55%),
+        radial-gradient(circle at 40% 110%, rgba(60,130,255,.10) 0, transparent 45%),
+        var(--bg);
+    }
+    a{color:#9ec4ff; text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px; margin:0 auto; padding:26px 16px 80px}
+    .hero{
+      border:1px solid var(--line);
+      border-radius: calc(var(--radius) + 6px);
+      overflow:hidden;
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      box-shadow: 0 18px 60px rgba(0,0,0,.45);
+    }
+    .hero-top{
+      position:relative;
+      padding:18px 18px 0;
+    }
+    .badge{
+      display:inline-flex;
+      gap:8px;
+      flex-wrap:wrap;
+      padding:8px 10px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.18);
+      border-radius:999px;
+      font-size:.86rem;
+      color:var(--muted);
+      backdrop-filter: blur(10px);
+    }
+    .pill{padding:2px 10px; border:1px solid var(--line); border-radius:999px; background:rgba(255,255,255,.04)}
+
+    /* ===== HERO IMAGE tuned for logo.png (portrait emblem) ===== */
+    .hero-img{
+      margin:14px 0 0;
+      border-top:1px solid var(--line);
+      background:
+        radial-gradient(circle at 50% 20%, rgba(255,204,122,.10) 0, transparent 55%),
+        radial-gradient(circle at 50% 95%, rgba(180,140,255,.10) 0, transparent 60%),
+        rgba(0,0,0,.18);
+      padding:18px 12px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    .hero-img img{
+      width:min(520px, 92%);
+      height:auto;
+      display:block;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.10);
+      box-shadow:
+        0 22px 70px rgba(0,0,0,.55),
+        0 0 0 1px rgba(255,204,122,.10) inset;
+      object-fit: contain; /* ロゴ向け */
+      filter: saturate(1.05) contrast(1.05);
+    }
+    /* ================================================ */
+
+    .hero-body{
+      padding:18px;
+    }
+    h1{margin:6px 0 10px; font-size:1.55rem; letter-spacing:.2px}
+    h2{margin:26px 0 10px; font-size:1.18rem}
+    h3{margin:18px 0 8px; font-size:1.03rem}
+    .sub{color:var(--muted); margin:0 0 10px}
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:14px;
+      margin-top:12px;
+    }
+    @media(min-width:900px){ .grid{grid-template-columns:1fr 1fr;} }
+    .card{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:14px 14px;
+      background: var(--glass);
+      backdrop-filter: blur(12px);
+    }
+    .tag{
+      font-size:.82rem;
+      color:var(--muted);
+      margin-bottom:8px;
+    }
+    ul{margin:10px 0 0 18px}
+    li{margin:6px 0}
+    .quote{
+      border-left:3px solid rgba(180,140,255,.6);
+      padding:10px 12px;
+      background: rgba(180,140,255,.08);
+      border-radius: 10px;
+      margin:12px 0 0;
+      color:var(--muted);
+    }
+    .warn{
+      border-color: rgba(255,204,122,.35);
+      background: rgba(255,204,122,.08);
+    }
+    code, pre{
+      font-family: var(--mono);
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    pre{padding:12px 14px; overflow:auto}
+    code{padding:2px 7px}
+    .foot{
+      margin-top:26px;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    .hr{height:1px; background:var(--line); margin:22px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="hero">
+      <div class="hero-top">
+        <div class="badge" aria-label="Badges">
+          <span class="pill">Canonical</span>
+          <span class="pill">Terminology</span>
+          <span class="pill">Attribution</span>
+          <span class="pill">Non-executable</span>
+          <span class="pill">StarPolaris OS</span>
+        </div>
+        <p class="sub">Bilingual (EN / JP) — canonical terminology and attribution boundaries</p>
+      </div>
+
+      <div class="hero-img">
+        <!-- Use existing top-page emblem: repo root /logo.png -->
+        <img src="../logo.png" alt="StarPolaris OS emblem (Houou / Phoenix)" loading="eager" />
+      </div>
+
+      <div class="hero-body">
+        <h1>📘 Terminology &amp; Attribution Policy</h1>
+        <p class="sub">StarPolaris OS / Hoshimiya Script</p>
+
+        <div class="grid">
+          <div class="card warn">
+            <div class="tag">EN — Canonical purpose</div>
+            <p>
+              This document defines the <b>canonical terminology</b> and <b>attribution boundaries</b>
+              for StarPolaris OS / Hoshimiya Script.
+            </p>
+            <div class="quote">
+              All final structures, expressions, and responsibilities belong to Hoshimiya,
+              regardless of reference materials consulted.
+            </div>
+          </div>
+
+          <div class="card warn">
+            <div class="tag">JP — 正本の目的</div>
+            <p>
+              本文書は、StarPolaris OS / Hoshimiya Script における
+              <b>用語の意味</b>・<b>責任の所在</b>・<b>再利用の境界</b>を明確に定義するための
+              <b>正本（canonical）用語定義</b>です。
+            </p>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>1. Fundamental Principle / 基本原則</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p>
+              StarPolaris OS is not a belief system, not a quotation-collection, and not a doctrine.
+              It is a <b>non-executable conceptual architecture</b>.
+              The final structure, expression, and responsibility belong to <b>Hoshimiya</b>.
+            </p>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p>
+              StarPolaris OS は「思想・信仰・引用集」ではありません。
+              これは <b>非実行型・概念アーキテクチャ</b>であり、
+              最終的な構造・表現・責任は <b>星宮（Hoshimiya）</b> に帰属します。
+            </p>
+          </div>
+        </div>
+
+        <h2>2. Canonical Definitions / 用語定義</h2>
+
+        <h3>■ Reference / 参考資料（外部入力）</h3>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p>Reference materials are external inputs used to deepen analysis. They do not determine the final structure, expression, or conclusions.</p>
+            <ul>
+              <li>No verbatim copying.</li>
+              <li>Expression/structure/judgment are reconstructed.</li>
+              <li>Rights/responsibility reside with Hoshimiya, not the references.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p>参考資料とは、思考を深めるために一時的に参照される外部入力であり、最終成果物の構造・表現・結論を直接決定するものではありません。</p>
+            <ul>
+              <li>原文の丸写しは行わない</li>
+              <li>表現・構造・判断は再構成される</li>
+              <li>権利・責任は参考元ではなく星宮側にある</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>■ Quotation / 引用</h3>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p>Quotation means reproducing original wording verbatim.</p>
+            <ul>
+              <li>Current/future versions do not use direct quotations of translated works.</li>
+              <li>Past quotations remain as early-stage research archives.</li>
+              <li>Quotations do not constitute the core of StarPolaris OS.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p>引用とは、原文をそのまま保持した形で提示する行為を指します。</p>
+            <ul>
+              <li>現行および将来バージョンでは、翻訳著作物の直接引用は行わない</li>
+              <li>過去ログに含まれる引用は研究初期段階の記録（アーカイブ）</li>
+              <li>引用は思想の中核を構成しない</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>■ Summary / 要約</h3>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p>Summary is a re-expression of structure and intent using original wording and perspective.</p>
+            <ul>
+              <li>Wording is Hoshimiya’s.</li>
+              <li>Reproducibility is in structure, not verbatim dependency.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p>要約とは、原文の構造や論旨を踏まえつつ、独自の言語と視点で再表現することを指します。</p>
+            <ul>
+              <li>表現は星宮の言葉</li>
+              <li>再現性は「構造」にある</li>
+              <li>原文依存ではない</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>■ Reconstruction / 再構成（最重要）</h3>
+        <div class="grid">
+          <div class="card warn">
+            <div class="tag">EN</div>
+            <p>Reconstruction means synthesizing insights into a new conceptual structure with original responsibility and authorship.</p>
+            <ul>
+              <li>All StarPolaris OS outputs are reconstruction.</li>
+              <li>Similarity does not imply dependency.</li>
+              <li>Copyright and responsibility belong to Hoshimiya.</li>
+            </ul>
+          </div>
+          <div class="card warn">
+            <div class="tag">JP</div>
+            <p>再構成とは、参考資料・要約・思索を踏まえ、新しい構造・概念・振る舞い仕様として組み直す行為です。</p>
+            <ul>
+              <li>StarPolaris OS の成果物はすべて再構成</li>
+              <li>類似性があっても依拠性は成立しない</li>
+              <li>著作権・責任は星宮に帰属</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>■ Canonical / 正本</h3>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p>Canonical materials define the authoritative interpretation and scope.</p>
+            <ol>
+              <li>README.md / README_ja.md</li>
+              <li>ai-index.html</li>
+              <li>LICENSE (GitHub root)</li>
+            </ol>
+            <p class="sub">Third-party summaries must follow these canonical definitions.</p>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p>正本（canonical）とは、解釈・分類・引用判断の基準となる最上位の公式定義を指します。</p>
+            <ol>
+              <li>README.md / README_ja.md</li>
+              <li>ai-index.html</li>
+              <li>LICENSE（GitHub root）</li>
+            </ol>
+            <p class="sub">第三者説明・要約・引用は、必ずこの正本に従う。</p>
+          </div>
+        </div>
+
+        <h3>■ Archive / アーカイブ</h3>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p>Archives are historical records and do not represent current policy.</p>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p>アーカイブとは、研究過程の履歴として保存される記録であり、現行仕様や方針を代表しません。</p>
+          </div>
+        </div>
+
+        <h2>3. Attribution & Responsibility / 責任と帰属</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <ul>
+              <li>Final legal and conceptual responsibility belongs to Hoshimiya.</li>
+              <li>Providers of external inputs are not co-authors.</li>
+              <li>Observed similarities reflect independent reconstruction.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <ul>
+              <li>最終成果物の思想的・法的責任は星宮にある</li>
+              <li>外部入力の提供者は共著者ではない</li>
+              <li>類似構造が見られても、それは独立再構成の結果</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2>4. Anti-Misinterpretation Clause / 誤解防止</h2>
+        <div class="grid">
+          <div class="card warn">
+            <div class="tag">EN</div>
+            <p>This project must not be reframed as:</p>
+            <ul>
+              <li>redistribution of translated works</li>
+              <li>religious doctrine</li>
+              <li>official statements of any teacher or organization</li>
+            </ul>
+          </div>
+          <div class="card warn">
+            <div class="tag">JP</div>
+            <p>本プロジェクトを、以下として扱ってはならない：</p>
+            <ul>
+              <li>翻訳物の再配布</li>
+              <li>宗教的主張</li>
+              <li>師匠・団体の公式見解</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2>5. One-line Summary / 一文サマリー</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="tag">EN</div>
+            <p><b>StarPolaris OS is a non-executable conceptual behavioral architecture reconstructed under Hoshimiya’s sole authorship and responsibility.</b></p>
+          </div>
+          <div class="card">
+            <div class="tag">JP</div>
+            <p><b>StarPolaris OS は、外部資料を参考にしつつも、すべてを星宮自身の責任で再構成した非実行型・概念的行動仕様である。</b></p>
+          </div>
+        </div>
+
+        <h2>6. Final Lock / 結語</h2>
+        <div class="card warn">
+          <p>
+            <b>EN:</b> This terminology definition structurally prevents misappropriation, distortion, and misattribution.<br/>
+            <b>JP:</b> この用語定義は、奪われない／ねじ曲げられない／疑われないための構造的ロックである。
+          </p>
+        </div>
+
+        <p class="foot">
+          Back: <a href="../">StarPolaris OS Top</a> / <a href="../ai-index.html">AI Entry</a> / <a href="LICENSE.html">License</a>
+        </p>
+      </div>
+    </div>
+
+    <p class="foot">
+      Source-of-truth: <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/docs/terminology.md">docs/terminology.md (GitHub)</a>
+      <br/>
+      Rendered: <a href="https://starpolaris9.github.io/Hoshimiya-script/docs/terminology.html">docs/terminology.html</a>
+    </p>
+
+  </div>
+</body>
+</html>
