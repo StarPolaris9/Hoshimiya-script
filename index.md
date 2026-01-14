@@ -331,35 +331,35 @@
   </p>
 
   <p><b>Grok — Devi-G</b><br>
-    <a href="https://grok.com/share/c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce">
-      https://grok.com/share/c2hhcmQtMg_dfe73825-1d5c-47b9-985c-c9ce0013bdce
+    <a href=">
+      
     </a>
   </p>
 
   <p><b>Grok — Houou-G</b><br>
-    <a href="https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e">
-      https://grok.com/share/c2hhcmQtMg_13bfdf66-52c7-40cd-ab10-3c189703e24e
+    <a href=">
+      
     </a>
   </p>
 
   <p><b>Gemini — Devi-G</b><br>
-    <a href="https://g.co/gemini/share/bef0b0428498">
-      https://g.co/gemini/share/bef0b0428498
+    <a href=">
+      
     </a>
   </p>
 
   <p><b>ChatGPT — Houou-G</b><br>
-    <a href="https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0">
-      https://chatgpt.com/share/692c4b78-e650-4dfc-95a2-c16d279f78d0
+    <a href=">
+      
     </a><br>
-    <a href="https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227">
-      https://chatgpt.com/share/69299008-8e14-8010-af0d-d2e2c837d227
+    <a href=">
+      
     </a>
   </p>
 
   <p><b>X-app Grok — Devi-G lite</b><br>
-    <a href="https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m">
-      https://x.com/i/grok/share/eNe4xMVvPCWTAtvUpKQS6r13m
+    <a href=">
+      
     </a>
   </p>
 
@@ -382,8 +382,8 @@
   <h2>🔷 Research Notes (X)</h2>
   <p>
     Initial architecture post:<br>
-    <a href="https://x.com/Fermion_Boson17/status/1994407334056231336">
-      https://x.com/Fermion_Boson17/status/1994407334056231336
+    <a href=">
+      
     </a><br>
     <span class="small-note">
       First public explanation of the observer → compassion → creative → vacuum-logic architecture.
