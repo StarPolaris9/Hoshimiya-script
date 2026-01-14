@@ -171,7 +171,7 @@ This sequence symbolically engages all four layers and tends to produce more sta
 ## 8. Research Log (External Verification)
 
 Initial research thread (English/Japanese mixed):  
-https://x.com/Fermion_Boson17/status/1994407334056231336
+
 
 Includes:
 - reproducibility logs
