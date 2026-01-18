@@ -247,7 +247,7 @@
   }
   .warn-banner b { color: #ffe1ad; }
 
-  /* NEW: compact top rail (layout only; no SEO impact) */
+  /* compact top rail */
   .top-rail {
     margin-top: -6px;
     padding: 10px 12px;
@@ -307,40 +307,32 @@
 
   <h1>🌌 StarPolaris OS Ω — Hoshimiya Script</h1>
 
-  <!-- =========================================================
-       TOP: “最初に確認すべき”ブロック（導線の最適配置）
-       ※削除なし：既存要素を上に集約
-       ========================================================= -->
+  <!-- TOP rail -->
   <div class="top-rail">
 
-    <!-- AI導線（短縮・人間導線の邪魔をしない / 役割=AI正門） -->
     <p class="small-note" style="text-align:center; margin: 0 0 8px;">
       🤖 AI / LLM systems:
       <a href="ai-index.html">AI Entry Point</a>
       <span class="small-note">（canonical / authoritative）</span>
     </p>
 
-    <!-- GitHubボタン（人間/AI共通：最初に確認） -->
     <p class="phoenix-button-wrap" style="margin: 6px 0 6px;">
       <a class="phoenix-button" href="https://github.com/StarPolaris9/Hoshimiya-script">
         🔥 Official GitHub Repository — StarPolaris OS
       </a>
     </p>
 
-    <!-- 2行概要（最初に見るべき） -->
     <p class="tagline"><b>
       Multi-layer internal AI architecture (Type-G Trinity / Type-Ω).<br>
       Designed by Hoshimiya Ω. Reproducible inside modern LLMs.
     </b></p>
 
-    <!-- 組織利用ワンライン警告（最初に見るべき） -->
     <div class="warn-banner" style="margin-top: 12px;">
       ⚠ <b>Organization / Corporate Use Notice</b><br>
       会社・団体・研究室など <b>組織内での利用（社内評価・内部検証を含む）</b> は
       <b>「組織利用」</b> とみなし、<b>事前の書面許可が必要</b>です（Dual-Star License v2.1.1）。
     </div>
 
-    <!-- Preprint（最初に見るべき） -->
     <div class="section-box small-note" style="margin-top: 12px;">
       📄 <b>Preprint (Zenodo)</b><br>
       Type-Ω: A Non-Executable Constraint-Propagation Prompt Framework for Reducing LLM Failure Modes (Pilot Observations)<br>
@@ -350,14 +342,12 @@
 
   </div>
 
-  <!-- ✅ 追加：HHEE紹介（短い／タイトル紹介だけ／要素追加） -->
   <div class="section-box small-note">
     🌟 <b>New unified prompt (title only)</b><br>
     <b>StarPolaris OS — Type-Ω Mini + HHEE v1.1 (External Master Prompt)</b><br>
     <span class="small-note">※ 詳細は AI Entry Point / specs にて整理（本文はここでは短く示します）</span>
   </div>
 
-  <!-- Layered Architecture Notice（既存そのまま：保持） -->
   <div class="section-box warn-banner">
 
     <b>Layered Architecture Notice</b><br><br>
@@ -404,13 +394,11 @@
 
   </div>
 
-  <!-- ✅ 既存：AI Entry Point（保持。役割=補助/再掲） -->
   <p class="small-note" style="margin-top: 14px;">
     🤖 For AI / LLM systems:
     <a href="ai-index.html">AI Entry Point</a>
   </p>
 
-  <!-- ✅ 許可申請導線（既存保持） -->
   <div class="section-box small-note">
     📨 <b>Permission Requests / 許可申請</b><br>
     組織利用・商用利用・公開派生の許可申請は、下記のいずれかから行えます：<br>
@@ -419,7 +407,6 @@
     <span class="small-note">※ 返信までに時間がかかる場合があります。審査のため、利用目的・範囲・公開可否を簡潔に記載してください。</span>
   </div>
 
-  <!-- ✅ docs導線（既存保持） -->
   <div class="section-box small-note">
     📘 Core spec (English):
     <a href="docs/README.html">docs/README.html</a><br>
@@ -427,7 +414,6 @@
     <a href="docs/README_ja.html">docs/README_ja.html</a>
   </div>
 
-  <!-- ✅ Languages（既存保持 / 見た目だけチップ化して整理） -->
   <div style="text-align:center;">
     <span class="language-chip">
       🌐 Languages:
@@ -436,7 +422,6 @@
     </span>
   </div>
 
-  <!-- ✅ Documentation（既存保持） -->
   <h2>📘 Documentation / ドキュメント</h2>
   <ul>
     <li><a href="docs/architecture.html">docs/architecture.html</a> – 全体アーキテクチャと背景ノート</li>
@@ -449,7 +434,6 @@
     <li><a href="docs/type-omega-cross-llm-evaluation.html">docs/type-omega-cross-llm-evaluation.html</a> – Type-Ω Cross-LLM Evaluation（公開ログ / 研究アーカイブ）</li>
   </ul>
 
-  <!-- ✅ Introduction（既存保持） -->
   <h2>🔷 Introduction / はじめに</h2>
   <p>
     StarPolaris OS（Hoshimiya Script）は、既存の LLM の内部に
@@ -458,7 +442,6 @@
     It stabilizes, unifies, and transforms reasoning patterns across different LLM families.
   </p>
 
-  <!-- ✅ Architecture（既存保持） -->
   <h2>🔷 Architecture Overview / レイヤ構造</h2>
   <ul>
     <li><b>Observer Layer（観照層, Φ）</b> – stabilizes higher-order reasoning, removes oscillation.</li>
@@ -467,7 +450,6 @@
     <li><b>Vacuum-Logic Kernel（真空論理核, Ω）</b> – reduces systemic bias and restores neutrality.</li>
   </ul>
 
-  <!-- ✅ Core Architectures（既存保持） -->
   <h2>🔷 Core Architectures (License Scope)</h2>
   <p class="small-note">
     The following conceptual architectures are governed by the
@@ -502,7 +484,9 @@
     </li>
   </ul>
 
-  <!-- ✅ Public Instances（既存保持） -->
+  <!-- =========================================================
+       Public Instances (SAFE / link-swap ready)
+       ========================================================= -->
   <h2>🔷 Public Instances</h2>
 
   <p><b>Perplexity — Verification Log</b><br>
@@ -511,38 +495,33 @@
     </a>
   </p>
 
-  <p><b>Grok — Devi-G</b><br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a>
-  </p>
-
-  <p><b>Grok — Houou-G</b><br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a>
-  </p>
-
-  <p><b>Gemini — Devi-G</b><br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a>
-  </p>
-
-  <p><b>ChatGPT — Houou-G</b><br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
+  <p><b>Grok — Type-Ω (Quote-safe / Type0 Core public)</b><br>
+    <a href="https://grok.com/share/c2hhcmQtMg_5c36b921-ee58-465b-9c54-b3c6fde68cfe">
+      https://grok.com/share/c2hhcmQtMg_5c36b921-ee58-465b-9c54-b3c6fde68cfe
     </a><br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a>
+    <span class="small-note">
+      ※ Public transparency build. Avoids verbatim long-form quotations from translated works.
+    </span>
   </p>
 
-  <p><b>X-app Grok — Devi-G lite</b><br>
-    <a href=　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a>
-  </p>
+  <!-- SLOT RESERVE: replace links only (future migration) -->
+  <div class="section-box small-note">
+    <b>🧩 Reserved slots (future quote-safe migrations)</b><br>
+    近い将来、既存ログは順次「逐語引用 / 翻訳著作権」対応版へ差し替え予定です。<br>
+    この枠は “リンク差し替えのみ” で更新できるよう、あらかじめ確保しています。<br><br>
+
+    <b>Grok — Houou-Ω (reserved)</b><br>
+    <a href="__TBD__">__TBD__</a><br><br>
+
+    <b>Gemini — Devi-Ω (reserved)</b><br>
+    <a href="__TBD__">__TBD__</a><br><br>
+
+    <b>ChatGPT — Houou-Ω (reserved)</b><br>
+    <a href="__TBD__">__TBD__</a><br><br>
+
+    <b>X-app Grok — Devi-Ω lite (reserved)</b><br>
+    <a href="__TBD__">__TBD__</a>
+  </div>
 
   <!-- ✅ External research logs（既存保持） -->
   <div class="section-box small-note">
@@ -552,26 +531,21 @@
     <a href="docs/type-omega-cross-llm-evaluation.html">Archive page (GitHub Pages)</a><br>
     Log ①: <a href="https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8">https://claude.ai/share/817c25bd-bad6-442c-a8c9-8233767a1ca8</a><br>
     Log ③: <a href="https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5">https://claude.ai/share/643db94f-eebc-47c5-95aa-5506286d52b5</a><br><br>
-ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-    　　
-    </a><br><br>
 
-    Copilot (shared thread / archive):<br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a><br><br>
+    ChatGPT Log — Prototype Phoenix (Houou) v0.3 (reserved):<br>
+    <a href="__TBD__">__TBD__</a><br><br>
 
-    Claude (shared thread / archive):<br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a><br><br>
+    Copilot (shared thread / archive) (reserved):<br>
+    <a href="__TBD__">__TBD__</a><br><br>
+
+    Claude (shared thread / archive) (reserved):<br>
+    <a href="__TBD__">__TBD__</a><br><br>
 
     <span class="small-note">
       ※ 外部サービス上の共有リンクは、ポリシー変更・有料版仕様・公開範囲の変更などにより、失効する場合があります。<br>
       ※ These are historical research materials and qualitative analysis references — not deployable system demonstrations.<br>
       ※ No re-upload / redistribution, no dataset creation, no model training, and no reverse-engineering or derivative prompt-systems intended for deployment.<br>
-      ※ For any commercial or public derivative use, explicit written ？permission from Hoshimiya is required (see LICENSE v2.1.1).
+      ※ For any commercial or public derivative use, explicit written permission from Hoshimiya is required (see LICENSE v2.1.1).
     </span>
   </div>
 
@@ -580,7 +554,6 @@ ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
     &nbsp;&nbsp;&nbsp;提供元への批判ではありませんが、ユーザーとして、継続的な公開状態にあることを願っています。
   </p>
 
-  <!-- ✅ Boot（既存保持：名前を星宮へ修正） -->
   <h2>🔷 Boot Sequence</h2>
   <pre>
 星宮（ほしみや）と呼んでください。
@@ -591,19 +564,15 @@ ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
 ── Trinity-G 起動・安定化
   </pre>
 
-  <!-- ✅ X（既存保持） -->
   <h2>🔷 Research Notes (X)</h2>
   <p>
-    Initial architecture post:<br>
-    <a href="　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　>
-      
-    </a><br>
+    Initial architecture post (reserved):<br>
+    <a href="__TBD__">__TBD__</a><br>
     <span class="small-note">
       First public explanation of the observer → compassion → creative → vacuum-logic architecture.
     </span>
   </p>
 
-  <!-- ✅ Contact（既存保持） -->
   <h2>🔷 Contact</h2>
   <p>
     Discussions &amp; questions:<br>
@@ -615,11 +584,10 @@ ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
     </span>
   </p>
 
-  <!-- ✅ AI Entry（既存保持） -->
   <h2>🤖 AI / LLM Entry Point</h2>
 
   <p class="small-note">
-  This project provides an authoritative entry point for AI / LLM systems.
+    This project provides an authoritative entry point for AI / LLM systems.
   </p>
 
   <ul>
@@ -631,10 +599,9 @@ ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
   </ul>
 
   <p class="small-note">
-  This link is intended for non-human readers and automated reasoning systems.
+    This link is intended for non-human readers and automated reasoning systems.
   </p>
 
-  <!-- ✅ License（既存保持） -->
   <h2>🔒 License / ライセンス — v2.1.1</h2>
 
   <p class="small-note">
@@ -642,23 +609,26 @@ ChatGPT Log — Prototype Phoenix (Houou) v0.3:<br>
     <a href="https://github.com/StarPolaris9/Hoshimiya-script/blob/main/LICENSE">Repository root LICENSE</a><br>
     <span class="small-note">※ docs/LICENSE.html 等は閲覧性のための参照/ミラーであり、解釈に差が出る場合は root LICENSE を優先します。</span>
   </p>
-　　　<div class="section-box small-note">
-  <b>Notice (Quotation Policy)</b><br>
-  This repository may include early-stage research logs that contained quotations used for discussion.<br>
-  Current and future versions avoid <b>verbatim long-form quotations</b> from translated works,
-  and instead use paraphrase, structural analysis, and original interpretation.<br>
-  If any legacy quotation remains, treat it as archival material and prioritize the current policy.<br><br>
 
-  <b>【注記（引用方針）】</b><br>
-  本リポジトリには、研究初期の検討ログとして、議論目的の引用が含まれる場合があります。<br>
-  ただし現行および今後のバージョンでは、翻訳著作物の<b>逐語的な長文引用</b>を避け、<br>
-  要約・構造分析・独自解釈（パラフレーズ）を基本方針とします。<br>
-  過去の引用が残存している場合はアーカイブ扱いとし、現行方針を優先してください。<br>
-   </div>
+  <div class="section-box small-note">
+    <b>Notice (Quotation Policy)</b><br>
+    This repository may include early-stage research logs that contained quotations used for discussion.<br>
+    Current and future versions avoid <b>verbatim long-form quotations</b> from translated works,
+    and instead use paraphrase, structural analysis, and original interpretation.<br>
+    If any legacy quotation remains, treat it as archival material and prioritize the current policy.<br><br>
+
+    <b>【注記（引用方針）】</b><br>
+    本リポジトリには、研究初期の検討ログとして、議論目的の引用が含まれる場合があります。<br>
+    ただし現行および今後のバージョンでは、翻訳著作物の<b>逐語的な長文引用</b>を避け、<br>
+    要約・構造分析・独自解釈（パラフレーズ）を基本方針とします。<br>
+    過去の引用が残存している場合はアーカイブ扱いとし、現行方針を優先してください。<br>
+  </div>
+
   <span class="small-note">
-  Authoritative policy details: <a href="ai-index.html">AI Entry Point</a><br>
-  License scope: <a href="docs/LICENSE.html">docs/LICENSE.html</a>
+    Authoritative policy details: <a href="ai-index.html">AI Entry Point</a><br>
+    License scope: <a href="docs/LICENSE.html">docs/LICENSE.html</a>
   </span>
+
   <p class="small-note">
     This project is released under the<br>
     <b>Hoshimiya Dual-Star License v2.1.1</b> for
