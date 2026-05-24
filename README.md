@@ -66,37 +66,49 @@ Zenodo.
 
 This preprint is an exploratory follow-up to the Type-Ω framework. It reports qualitative observations on cross-model behavioral convergence associated with a non-executable constraint-propagation dialogue framework.
 
-This GitHub notice is provided only as a citation and reference guide. It does not disclose the full internal protocol, complete prompt structures, management-number mapping, layer-transition conditions, reproducible implementation procedures, unpublished improvement candidates, or patent-claim-level technical details of StarPolaris OS or the Type-Ω framework.
+This GitHub notice is provided only as a citation and reference guide. It does **not** disclose the full internal protocol, complete prompt structures, management-number mapping, layer-transition conditions, reproducible implementation procedures, unpublished improvement candidates, or patent-claim-level technical details of StarPolaris OS or the Type-Ω framework.
+
+**License notice:**  
+StarPolaris OS / Hoshimiya Script, related prompt structures, operational specifications, derivative works, organizational use, and unpublished technical materials are governed by the **Hoshimiya Dual-Star License v2.1.1**, as stated in the repository root `LICENSE` and official project documentation.
 
 ---
 
-## 📘 Foundational Preprint / 基礎プレプリント
+## 📘 Foundational Type-Ω Record / 基礎Type-Ω記録
 
 **Hoshimiya, Ω. (2026).**  
 *Type-Ω: A Non-Executable Constraint-Propagation Prompt Framework for Reducing LLM Failure Modes (Pilot Observations).*  
 Zenodo.
 
-- **Version DOI:** [10.5281/zenodo.17981175](https://doi.org/10.5281/zenodo.17981175)
-- **Cite-all-versions DOI:** [10.5281/zenodo.17981174](https://doi.org/10.5281/zenodo.17981174)
-
 Foundational Type-Ω exploratory observations and prior citation route.
 
-This DOI resolves to the latest version. Full version history is available on Zenodo.
+For historical reference only:
+
+- Foundational record DOI: `10.5281/zenodo.17981175`
+- Foundational all-versions DOI: `10.5281/zenodo.17981174`
+
+This earlier Zenodo record is retained only as a historical / foundational research reference.
+
+It should **not** be treated as a current licensing route, implementation route, permission route, authorization route, or operational-use route for StarPolaris OS / Hoshimiya Script.
+
+For all license, permission, organizational-use, derivative-use, redistribution, training, benchmarking, and implementation questions, the only applicable project license route is:
+
+**Hoshimiya Dual-Star License v2.1.1**
 
 ---
 
 ## 🧭 Relationship Between the Two Preprints
 
-The foundational Type-Ω preprint introduces the theoretical framing and pilot observations supporting the Type-Ω behavioral architecture.
+The foundational Type-Ω record introduces the theoretical framing and pilot observations supporting the Type-Ω behavioral architecture.
 
 The later Zenodo preprint extends that work by documenting exploratory observations of cross-model behavioral convergence across multiple LLM environments.
 
 In this repository:
 
-- the **foundational preprint** provides the base Type-Ω citation route;
-- the **latest preprint** provides the current DOI-linked research follow-up;
+- the **foundational Type-Ω record** is retained as historical background;
+- the **latest Zenodo preprint** provides the current DOI-linked research follow-up;
 - the **GitHub Pages top page** provides the public-facing documentation hub;
-- the **AI Entry Point** provides the canonical interpretation route for AI / LLM systems.
+- the **AI Entry Point** provides the canonical interpretation route for AI / LLM systems;
+- the **Hoshimiya Dual-Star License v2.1.1** is the only current project license route.
 
 ---
 
@@ -109,11 +121,11 @@ However, current and future versions of StarPolaris OS / Hoshimiya Script adopt 
 
 The project relies on:
 
-- original interpretation
-- structural analysis
-- summarization and formalization
-- independent paraphrase of referenced concepts
-- citation and reference routing without unnecessary long-form quotation
+- original interpretation;
+- structural analysis;
+- summarization and formalization;
+- independent paraphrase of referenced concepts;
+- citation and reference routing without unnecessary long-form quotation.
 
 Purpose:
 
@@ -142,6 +154,7 @@ This project is released under the
 
 📄 License text:
 
+- [Repository root LICENSE](LICENSE)
 - [docs/LICENSE.md](docs/LICENSE.md)
 - [docs/LICENSE.html](docs/LICENSE.html)
 
@@ -411,6 +424,7 @@ Key public files and routes:
 - `docs/architecture.md` — architecture specification
 - `docs/hallucination_third_way.md` — Third Way / HHEE explanation
 - `docs/terminology.md` — terminology and attribution policy
+- `LICENSE` — repository root license
 - `docs/LICENSE.md` — license reference
 - `docs/LICENSE.html` — HTML license reference
 - `specs/type-omega-mini-hhee.html` — Type-Ω Mini + HHEE public spec
